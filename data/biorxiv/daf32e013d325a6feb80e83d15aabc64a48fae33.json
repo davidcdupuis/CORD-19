@@ -1,0 +1,2395 @@
+{
+    "source": "biorxiv",
+    "id": "daf32e013d325a6feb80e83d15aabc64a48fae33",
+    "url": "https://biorxiv.org/content/10.1101/003889v1.full",
+    "title": "Spatial epidemiology of networked metapopulation: An overview",
+    "authors": [
+        "Lin Wang",
+        "Xiang Li"
+    ],
+    "sections": {
+        "Abstract": "An emerging disease is one infectious epidemic caused by a newly transmissible pathogen, which has either appeared for the first time or already existed in human populations, having the capacity to increase rapidly in incidence as well as geographic range. Adapting to human immune system, emerging diseases may trigger large-scale pandemic spreading, such as the transnational spreading of SARS, the global outbreak of A(H1N1), and the recent potential invasion of avian influenza A(H7N9). To study the dynamics mediating the transmission of emerging diseases, spatial epidemiology of networked metapopulation provides a valuable modeling framework, which takes spatially distributed factors into consideration. This review elaborates the latest progresses on the spatial metapopulation dynamics, discusses empirical and theoretical findings that verify the validity of networked metapopulations, and the application in evaluating the effectiveness of disease intervention strategies as well.\n",
+        "1 Introduction": "The term metapopulation was coined by Levins [1] in 1969 to describe a population dynamics model of insect pests in farmlands, yet the perspective has been broadly applied to study the effect of spatially distributed factors on evolutionary dynamics [2], including genetic drift, pattern formation, extinction and recolonization, etc. The development of metapopulation theory, in conjunction with the fast development of complex networks theory, lead to the innovative application of the networked metapopulation in modeling large-scale spatial transmission of emerging diseases. This interdisciplinary research field has attracted much attention by the scientific communities from diverse disciplines, such as public health, mathematical biology, statistical physics, information science, sociology, and complexity science. New insights are contributed to understanding the spatial dynamics of epidemic spreading, which provides valuable support to public healthcare.\nThis review presents a survey of recent advances in the emergent discipline of networked metapopulation epidemiology, which is organized as follows. Section 2 introduces some preliminaries of the compartment model, network epidemiology, and networked metapopulation, and also elucidates their relevance. Section 3 specifies the validity of networked metapopulation. Section 4 focuses on the recent progresses on metapopulation dynamics. The application in evaluating the performance of intervention strategies is presented in Section 5, and some outlooks are provided at last.\n",
+        "2 Dynamical models of infectious diseases: From single population to networked metapopulation": "To study the phenomena of epidemic spreading in human society, a variety of dynamical models have been proposed [3,4]. The compartment model is one of the simplest yet basic epidemic models, which was first introduced by Bernoulli [5] in the 18th century. Assuming that a population of individuals is mixed homogeneously, this model organizes the persons into different compartments (states), according to their health status, e.g., susceptible (denoted by S, those healthy ones who may acquire the infection), infectious (I, those infected ones who are contagious), and recovered (R, those who are recovered from the disease). Within each compartment, all individuals are identical. The transitions between different compartments depend on the specific transition rates. For example, the transmission rate \u03b2 represents the infection probability for a susceptible individual that encounters an infectious person, and the recovery rate \u03bc represents the probability with which an infectious individual is recovered.\nIf the disease could not endow recovered persons with a long lasting immunity but infect them again, e.g., seasonal flu, asthma, gonorrhoea, the related epidemic reactions are well described by the so called SIS model; otherwise, if recovered people become immune permanently to the disease, e.g., pandemic influenza, pertussis, smallpox, the epidemic dynamics can be characterized by the SIR model properly. Figures 1(a)-(b) illustrate the relevant compartment transitions in the SIS and SIR models, respectively. The dynamical evolution of these models can be simply delineated by ordinary differential equations [3].\n(Color online) Schematic illustrations of the SIS (a) and the SIR (b) compartment models, where \u03b2, \u03bc denote the transmission rate and the recovery rate, respectively.\nOne key parameter characterizing the severity of a disease is the basic reproductive number, R0, which identifies the expected number of infected individuals generated by introducing an infectious carrier into an entire susceptible population. This parameter signifies the epidemic threshold applied for predicting whether or not an infectious disease will prevail. Typically, given a \u201cwell-mixed\u201d population, R0 = \u03b2/\u03bc. If R0 < 1, the disease dies out quickly, which implies that the population remains at the disease-free state.\nDue to the ubiquity of complex systems in modern society, the study of complex networks becomes prosperous [6\u20139]. The Internet and human friendship networks are just a few examples that can be regarded as systems comprised of a large number of connected dynamical units. The most intuitive approach of modeling such complex systems is to treat them as networks, where nodes represent component units and edges represent connectivity. Importantly, empirical findings have unraveled the presence of universal features in most socio-technical networks, e.g., small-world [10], scale-free (SF) [11], which inspires extensive studies towards a better understanding about the impact of population infrastructures (network connectivity) on dynamical processes [12\u201315], including robustness [16,17], synchronization [18\u201320], consensus [21\u201324], control [25\u201328], evolutionary game [29\u201336], traffic routing [37\u201339], selforganized criticality [40\u201343], etc.\nAssuming that interactive individuals are mixed homogeneously, the aforementioned epidemic compartment model neglects the significance of population connectivity. Such simplification can hardly solve new puzzles emerged in the present networking society. For example, why is it extremely difficult to eradicate computer viruses from the Internet or the World Wide Web, and why do those viruses have an unusual long lifetime [44]? Similar matters have been observed in diverse systems, ranging from the web of human sexual relations to vaccination campaigns [4]. One key factor inducing such problems is the scale-free property of the networked systems, which causes a serious trouble that the threshold of disease outbreak vanishes [45]. Within complex networks, the basic reproductive number is , with CV identifying the coefficient of variation of the degree distribution (degree represents the number of edges k per node) [46]. For large networks taking on a scalefree heterogeneous topology, R0 is always larger than 1 no matter how small the transmission rate may be, due to the infinite variance of the degree distribution.\nThis meaningful finding has motivated the research of network epidemiology, which concerns particularly the spreading of epidemics in human social networks [4,14,47]. Many subsequent works investigated extensively the epidemic threshold on networks with special topological features, such as degree correlations [48], small world [49], community [50], edge length [51], and K-core [52]. [53,54] demonstrated that the vanishing epidemic threshold of the SIS model derives from the active behavior of the largest hub, which acts as a self-sustained source of the infection. Such disastrous effect of highly connected hubs can also be observed in reality, such as the presence of core groups in the propagation of sexually transmitted diseases, and the appearance of the patient zero that induces the dissemination of human immunodeficiency virus (HIV). Considering that the threshold condition generally predicts the final state of the epidemic evolution, Li and Wang [49] studied the relaxation behavior of epidemic spreading before reaching a final disease-free or endemic phase.\nAlthough the performance of public healthcare systems has been improved prominently to weaken the threat of emerging diseases, it is impossible to entail a world free of infectious pathogens [55]. From the beginning of this new century, we have already witnessed several cases of the large-scale geographic transmission of pandemics. In 2003, through the international airline network, the SARS coronavirus (SARS-CoV) was rapidly transmitted from Hong Kong to more than 30 countries [56,57]. Several years later, in 2009, the A(H1N1) swept across the world through public transportation networks again: With only 3 to 4 months, it had spread over about 200 countries [58\u201361]. Recent potential invasion of avian influenza A(H7N9) poses a new challenge [62\u201365]. It seems that the widespread risk of emerging diseases is higher than before.\nThis urgent circumstance stems from the changes of human social ecology in population distribution as well as human mobility patterns [66,67]. Crowded metropolises resulting from the urbanization process induce people\u2019s frequent contacts, and the fast development of massive transportation (e.g., civil aviation) generates a nonlocal pattern of human mobility, sharply reducing the time of travel as well as the distance between populous cities.\nIt is not convincing to describe the large-scale spatial pandemic spreading by directly following the routine of network epidemiology, since the network perspective still concerns the epidemic outbreak in a single population, despite considering the connectivity structure among hosts. This can hardly capture the key features of spatial transmission of infectious diseases: epidemics prevails inside separate locations such as cities, each of which can be regarded as a population, and is transmitted among populations through the travel of infected individuals.\nSpatial distribution of populations and human mobility among connected locations are the pivotal elements mediating the transmission of pandemic diseases. To introduce spatially distributed factors into modeling substrates, it is intuitive to generalize the network model by defining each node as a subpopulation that has a specific location, in which a population of individuals interplays according to the compartment rule. People are also permitted to transfer among subpopulations through mobility networks. This individualnetwork frame organizes the entire system into networked populations, leading to an important class of model in modern epidemiology, namely, the networked metapopulation. Figure 2 illustrates the basic modeling structure.\n(Color online) Illustration of the individual-network frame of the networked metapopulation model. a The model is composed of a network of subpopulations. The disease transmission among subpopulations stems from the mobility of infected individuals. b Each subpopulation refers to a location, in which a population of individuals interplays according to the compartment rule (e.g., SIR) that induces local disease outbreaks. Individuals are transferred among subpopulations via mobility networks.\n",
+        "3 Validity of networked metapopulation": "Aside from the above conceptual descriptions, it is also essential to verify the validity of the model from theoretical as well as empirical perspectives.\nDeveloping a probabilistic metapopulation with the consideration of long-range human migrations via a worldwide aviation network composed of 500 largest airports, Hufnagel et al. [68] first demonstrated the feasibility of forecasting the real-world transmission of SARS through computational approaches. To study the spatiotemporal patterns of the transmission process, Colizza et al. [69] defined a statistical measure based on the information entropy, which quantifies the disorder level encoded in the evolution profiles of disease prevalence. Comparing the pandemic spreading on a data-driven networked metapopulation with that on random reshuffled models providing null hypotheses, the authors unveiled the presence of a high-level heterogeneity in the geographic transmission of epidemics.\nTo assess the predictability of metapopulation models, one typical approach focuses on the coincident extent between the simulation results and the realistic surveillance reports for each contaminated region, which is an arduous task due to the sophisticated calibration of parameters as well as the unavoidable noise presented in the surveillance process. Concerning the logistical feasibility of the model, one can resort to an alternative simple means of inspecting the evolution of related scaling laws [70], which is relevant to critical transition patterns. The scaling theory concerns the functional relations describing the data collapsing onto a power-law curve, and the relations of the critical-point exponents [71].\nThe Zipf\u2019s law and the Heaps\u2019 law are two representative scaling laws that usually emerge together in various complex systems, however, their joint emergence has hardly been clarified [72]. Using the data of laboratory confirmed cases of SARS, H5N1, and A(H1N1) to analyze the joint emergence of these two scalings in the evolution process of large-scale geographic transmissions, Wang et al. [70] unraveled a universal feature that the Zipf\u2019s law and the Heaps\u2019 law are naturally shaped to coexist at the initial stage of an outbreak, while a crossover comes with their incoherence later before reaching a stable state, where the Heaps\u2019 law still presents with the wane of the strict Zipf\u2019s law. With the census populations and domestic air transportation data of the United States (US) [73,74], a data-driven metapopulation network model on the US country level is developed to analyze the evolution patterns of scaling emergence. In contrast with a random reshuffled model with a homogeneous structure, the data-driven heterogeneous metapopulation successfully reproduced the scaling transitions observed in the real-world pandemics. This demonstrates that the high-level heterogeneity of infrastructure plays a key role in characterizing the spatial transmission of infectious diseases, which also provides a new insight to clarifying the interdependence between the Zipf\u2019s and Heaps\u2019 scaling laws.\nWithin each subpopulation, the individuals are mixed homogeneously, according to the coarse-grained approximation of the metapopulation framework. Interestingly, this assumption can be supported by recent empirical studies on the intra-urban human mobility. The analysis of the data generated by the mobile phone or GPS shows that human movement in the urban scale (e.g., inside a city) generally has an exponential or binomial trip-length distribution [75\u201379]. Although this does not simply mean that short-range human mobility is random, the related dynamical feature is similar with that of the Boltzmann gas, if the relevance among individuals is so weak as to be negligible [76,80,81]. Accordingly, the homogeneous mixing (within each subpopulation) assumption is adopted to ease the computation.\nMore promisingly, full-scales computational models become increasingly popular, due to the continuous increase of computer power as well as the fast technical developments of data collection and processing [82\u201384]. In some cases, the real-time forecast of pandemic spreading is becoming reality [85]. Technical details for the estimation and validation of a large number of parameters in these models are beyond the interest of this review. Next section focuses on the recent theoretical progress of metapopulation dynamics.\n",
+        "4 Two scales of dynamics: Recent progress": "As stated in Section 2, the networked metapopulation model is constructed with the individual-network frame, where the individuals are organized into social units (e.g., villages, towns, cities) defined as subpopulations, which are connected by transportation networks that identify the mobility routes. The disease prevails inside each subpopulation due to interpersonal contacts, and is transmitted among subpopulations through the mobility of infected individuals. Typically, the model is comprised of two scales of dynamics: (i) disease invasion among different subpopulations; (ii) disease reaction within each subpopulation. Recent progresses on these two aspects are specified here.\nThe substrate of metapopulation depends on the spatial structure of social environment, such as transport infrastructures and mobility patterns. The lack of fine-grained data capturing structural features of human mobility systems leads to the traditional application of random graphs or regular lattices, which assumes homogeneous infrastructures for the mobility substrates. To generalize metapopulation models with network approaches, the first attempt was contributed by Rvachev and Longini [86], in which 52 major cities worldwide in that epoch were connected through an intercity aviation transportation network. They applied this mathematical model to simulate the global spread of the 1968\u20131969 Hong Kong (H3N2) flu.\nSubsequently, comparing the effect of non-local human anomalous diffusion with that of the ordinary diffusion behavior, Brockmann et al. unraveled that long-range human mobility and interactions generate novel irregular spreading patterns without an apparent wavefront [87]. Such complex dynamical features require a mathematical description of fractional diffusion equations, and they are also well captured by the networked metapopulations. Colizza et al. [69] developed a global stochastic metapopulation model in, using the data of worldwide scheduled flights and census populations to establish a complete worldwide air transportation network (more than 3000 airports). They studied the predictability and the reliability of the pandemic forecast with respect to the intrinsic stochasticity, and declared that the topological heterogeneity reduces the predictability, whereas the high-level heterogeneity of traffic flows improves the pandemic predictability.\nAs illustrated by Fig. 3 a, air traffic network acts as a major channel serving human long-range travels, which mediates the pandemic transmission on a large geographic scale. The epidemic dynamics occurred under this scenario is well characterized by the reaction-diffusion processes [88], which are also widely applied to model phenomena as diverse as genetic drift, chemical reactions, and population evolution [2].\n(Color online) Air transportation network (a) vs. commuting network (b) of the US. Long-range airlines dominate the air transportation network, whereas the commuting routes are much geographically localized.\nFrom a theoretical viewpoint, it is significant to analyze the epidemic threshold, which is instructive for the assessment of the disease transmissibility as well as the outbreak potential. Such information is also important to regulate the implementation of intervention strategies. Based on the empirical evidences that the topology of various socio-technical networks including the airline network presents a high-level heterogeneity, Colizza et al. [88] studied the effect of general heterogeneous networks, demonstrating that the epidemic threshold is significantly decreased with the augmentation of topological fluctuations. Considering that the theory developed in Colizza et al. [88] is based on the simplification that individual diffusion rate per subpopulation is inversely proportional to the degree of subpopulations, Col-izza and Vespignani [89] generalized the study by introducing more realistic diffusion rules, such as the traffic- and the population-dependent patterns. Importantly, using the approach of branching process, Colizza and Vespignani [89] proposed a global invasion threshold, R*, which distinguishes the lower bound condition for transmitting the infections to downstream unaffected subpopulations. The formula of R* can be summarized as , which combines the epidemiology factors \u03b5 (R0, \u03bc) with the diffusion properties of mobility networks . For large networks with a high-level topological heterogeneity, the mobility item  diverges, , thus R* is always larger than unity, which leads to a decreased epidemic threshold. Based on the observation that human beings usually do not perform random walks, yet have specific travel destinations, Tang et al. [90] addressed the effect of objective traveling behavior which enlarges the final morbidity.\nThe above studies mainly concern the influence of human random diffusion, usually defining the mobility scheme as a Markovian memoryless diffusive process [91]. Recent empirical findings on human mobility have shown the crucial role of commuting mobility in human daily transportation, which is reflected by the individual recurrent movement between frequently visited locations such as household, school, and workplace [92\u201395]. Fig. 3b visualizes the US commuting network with the census data on commuting trips between counties [96]. Evidently, the structural features are different between the commuting network and the air transportation network.\nIt might be infeasible to analyze the non-Markovian properties of human commuting with previous reaction-diffusion theory. In this regard, Balcan and Vespignani [91] extended the metapopulation framework by considering the impact of human recurrent commuting, which assumes that individuals remember their subpopulations of residence, with a constraint that commuters staying at their destination subpopulations cannot continue moving to other places but return to the residences with a certain rate. The approach of timescale separation is applied to perform theoretical analysis, since in reality the number of frequent commuters only accounts for a small fraction of local populations. This leads to a mean-field description of stationary populations distribution. Generalizing the theory of branching process, Balcan and Vespignani [97] obtained the global invasion threshold for the reaction-commuting networked metapopulation systems, which establishes a new threshold relevant to the typical visiting duration of commuters. With a high return rate, the sojourn time (i.e., length of stay) of infected commuters might be too short to transmit the infection to susceptibles in adjacent unaffected subpopulations.\nTo study the dynamical differences between the reaction-commuting and the reaction-diffusion processes, Belik et al. [98] analyzed their respective traveling wave solutions on the one dimensional lattice. As the diffusion rate increases, spatially constrained human commuting generates a saturated threshold of the wave front velocity, whereas the reaction-diffusion model has an unbounded front velocity threshold. Such distinction implies that the estimation of transmission speed might be overestimated under the reaction-diffusion framework. Besides, they have also found that the characteristic sojourn time spent by commuters induces a novel epidemic threshold. Since airline traffic and ground commuting networks both serve human routine transportation, Balcan et al. [94] developed a multiscale networked metapopulation model, where the commuting networks in about 30 countries were embedded into the worldwide long-range air transportation network. The introduction of short-range commuting mobility enhances the synchronization of epidemic evolution profiles for subpopulations in close geographical proximity.\nHuman beings are intelligent. Their risk perception and adaptive abilities promote the active response to epidemic outbreaks, which might in turn alter the disease propagation [99\u2013101]. Many works [102\u2013111] have investigated the effect of disease-behavior mutual feedback on compartment models as well as network epidemiology, and recent research topics also begin the generalization to deal with human behavior of mobility response. For example, [112,113] analyzed the impact of self-initiated mobility on the invasion threshold, showing a counterintuitive phenomenon that the mobility change of avoiding infected locations with high prevalences enhances the disease spreading to the entire system.\nThe above studies focus on understanding the influence of inter-subpopulation human mobility patterns, generally assuming that the individuals behave identically in each subpopulation. However, the diversity of individual behaviors in different subpopulations also affects the pandemic spreading.\nAlthough it is well-known that human contacts have crucial impact on the spatiotemporal dynamics of infectious diseases in a population [3], previous works assumed that individual contact patterns are identical among all subpopulations. Since the basic reproductive number, R0, is equivalent to the same constant in all subpopulations, it is predictable that the epidemic attack rates as well as evolution profiles in different areas are similar, as one can clearly observe in [114].\nAt the intra-subpopulation scale, aside from the empirical support from the data analysis of intra-urban human mobility (see Section 3), the feasibility of the \u201cwell-mixed\u201d contacts assumption is also consistent with the recent findings on interactive patterns of human contact. For example, diverse digital instruments, e.g., wireless sensors [115], active Radio Frequency Identification (RFID) devices [116,117], and WiFi [118\u2013120] (we resort to the WiFi technology in our social experiments, due to its ubiquity in urban areas), have been deployed in realistic social circumstances to collect the data of human close proximity contacts [121]. The data analyses have unveiled an unexpected feature that the squared coefficient of variance is quite small for the distribution of the number of distinct persons each individual encounters per day [115\u2013119], which implies the presence of a characteristic contact rate within each subpopulation.\nNote that the characteristic contact rate might vary evidently in different subpopulations. As illustrated by empirical studies [122,123], in reality, location-specific factors are the potential drivers resulting in a substantial variation of disease incidences between populations. Inspired by this finding, Wang et al. [124,125] introduced two categories of location-specific human contact patterns into a phenomenological reaction-commuting metapopulation model. A simple destination-driven scenario is considered first, where individual contact features are determined by the visited locations. Since the residence and the destination can be distinguished by the commuting mobility, an origin-driven scenario is also introduced, where the contacts of individuals are relevant to their subpopulations of residence. Figures 4(a)-(b) illustrate the modeling structures of these two scenarios.\n(Color online) Effect of location-specific human contact patterns. a\u2013b illustrate the structure of the phenomenological metapopulation model used in [124], where the reaction-commuting processes couple two typical subpopulations x,y. In the destination-driven scenario (a), individual characteristic contact rates (cx,cy) depend on the visited locations, while in the origin-driven scenario (b), the contacts of individuals correlate to their subpopulations of residence. c\u2013d present the phase diagrams of the global  under these two scenarios, respectively. The white dashed curve in each panel shows the global threshold  obtained through the NGM analysis. From Ref. [124].\nIn these cases, it is infeasible to analyze the invasion threshold through the theory of branching process, since the prerequisite of identical basic reproductive number in all subpopulations is invalid. Instead, the next generation matrix (NGM) approach [126] can be applied to analyze the global outbreak threshold  here. Due to the mixing of individuals with heterogeneous contact capacities in each subpopulation, which is analogous to the effect induced by annealed heterogeneous networks [45], the addressed location-specific contact patterns reduce the epidemic threshold significantly, and thus favor disease outbreaks in contrast to the traditional homogeneous cases. Figs. 4 c\u2013d show the phase diagrams of the global  under these two types of contact patterns, respectively. Interestingly, the variance of disease prevalence under the destination-driven scenario has a monotonic dependence on the characteristic contact rates, whereas under the origin-driven scenario, counterintuitively, the increase of contact rates weakens the disease prevalence in some parametric ranges. This topic was also extended to study the metapopulation network, which unraveled a new problem of disease localization, i.e., the epidemic might be localized on a finite number of highly connected hubs.\nOther types of human behavioral diversity have also been considered recently. Motivated by the evidence that the diversity of travel habits or trip durations might yield heterogeneity in the sojourn time spent at destinations, Poletto et al. [127] studied the impact of large fluctuations of visiting durations on the epidemic threshold, finding that the positively-correlated and the negatively-correlated degree-based staying durations lead to distinct invasion paths to global outbreaks. Based on the observation that the specific curing (recovery) condition depends on the available medical resources supplied by local health sectors, Shen et al. [128] studied the effect of degree-dependent curing rates, which demonstrates that an optimal intervention performance with the largest epidemic threshold is obtained by designing the heterogeneous distribution of curing rates as a superlinear mode. Since the epidemic spreading is also relevant to casual contacts during public gatherings, Cao etal. [129] introduced the rendezvous effect into a bipartite metapopulation network, and showed that the rendezvous-induced transmission accelerates the pandemic outbreaks.\n",
+        "5 Performance of intervention strategies": "The study of metapopulation model not only expands our knowledge on the dynamics of spatial epidemic spreading, but also manifests the power in evaluating the performance of intervention strategies. For example, although the strategy of travel ban is usually deployed during a pandemic outbreak in reality, it is unclear whether the effectiveness is excellent enough in limiting the pandemic spreading. Counterintuitively, recent studies have unraveled the limited utility of travel restrictions: Even if the worldwide air traffic is decreased to an unprecedented low level, e.g., less than 10 %, the disease landing to unaffected regions is only postponed several weeks [130\u2013133]; the contribution to reducing the morbity is also quite limited [130,131,134]. Such findings are consistent with the aforementioned fact that the global invasion threshold is decreased significantly by the presence of the high-level topological heterogeneity.\nIt thus becomes urgent to study the controllability of intra-subpopulation measures, such as the usage of vaccine or antiviral drugs, and the implementation of community-based interventions, which are typical containment strategies suggested by the World Health Organization (WHO) [55]. To estimate and also to improve the performance of disease response plans on decreasing the morbidity, large-scale computational simulations have been performed extensively to study various types of pharmaceutical interventions [4,14,56,57,60,68,134\u2013139], which aid in identifying the targeted-groups and guiding the deployment of limited resources.\nDespite technical difficulties, it is probable to analyze the delaying effect of different strategies. With the theory of renewal process, Wang et al. [140] developed a general mathematical framework to deal with the scenario of minimum metapopulation, where two typical subpopulations are connected by the travel flows. This is a rational approximation of the initial stage of an outbreak. It is shown that with a short response time, the intra-subpopulation measures perform much better than that of the inter-subpopulation travel restrictions. However, this advantage is weakened considerably as the response time increases.\nRecent clinical evidences obtained from the real-world pandemic campaigns have uncovered new problems on the prompt response with pharmaceutical interventions. For example, there presents an unavoidable delay of 4\u20136 months for developing the proper vaccine against a particular pandemic virus [141\u2013143]; and an extensive usage of antiviral drugs might induce the prevalence of antiviral resistance [144\u2013146]. Therefore, it is crucial to thoroughly examine the effectiveness of community-based interventions by using the models of networked metapopulation, which deserves more efforts in near future.\n",
+        "6 Conclusions & outlooks": "Networked metapopulation contributes an ideal epidemic modeling platform, which promotes our understanding on the dynamics of large-scale geographic transmission of emergent diseases. The models have the potential to be applied in the real-time numerical pandemic forecast, and are also very useful in evaluating the effectiveness of disease response strategies.\nRecently, the good, the bad and the ugly facts of the Big Data have triggered extensive debates around the world. The interdisciplinary research of metapopulation epidemiology establishes a paradigm for the study of data science, since one remarkable progress in this field is the innovative usage of fine-grained data in verifying key assumptions and in establishing model substrates. Technical developments in the data collection, processing and analysis not only offer key insights into the dynamical properties of human mobility infrastructures as well as human behavioral diversity, but also raise new questions referring to their influences on the spatial transmission of emerging infectious diseases. Such methodology can be applied to study diverse types of contagion phenomena, including the spreading of computer viruses, information, innovations, emotion, behavior, crisis, culture, etc.\nAt the end of discussions, some open questions still deserve to be addressed. The development of the sophisticated computational techniques and the consideration of detailed human/population dynamics are quite important for the research of spatial epidemiology. However, it is also crucial to understand the fundamental principals governing the complex contagion phenomena [147]. In this regard, an interesting question poses itself, namely, whether it is possible to define a unified mathematical framework that can characterize different kinds of spatial dynamics models of emerging diseases.\nIt is also probable to generalize present theoretical results to deal with reverse problems, such as the identification of infection sources [147\u2013149], possible mobility networks [150], and disease invasion process. Such inference problems are valuable to establish an optimal response plan for tracing and preventing the pandemics.\n",
+        "Acknowledgements": "We appreciate the two anonymous referees for their valuable comments. We are grateful to the instructive discussions with Guanrong Chen, Joseph T. Wu, Shlomo Havlin, Ming Tang, Daqing Li, Xiaoyong Yan, Zhen Wang, Jianbo Wang, Lang Cao, Xun Li. We thank Yan Zhang for the help of preparing the figures. We acknowledge the support from the National Basic Research Program (2010CB731403), the National Natural Science Foundation (61273223), the Research Fund for the Doctoral Program of Higher Education (20120071110029) of China, and the Hong Kong Research Grants Council under the GRF Grant CityU 1109/12. LW also acknowledges the partial support by Fudan University Excellent Doctoral Research Program (985 Project).\n"
+    },
+    "tables": [],
+    "figures": [
+        {
+            "label": "Fig. 1",
+            "description": "(Color online) Schematic illustrations of the SIS (a) and the SIR (b) compartment models, where \u03b2, \u03bc denote the transmission rate and the recovery rate, respectively.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2014/06/04/003889/F1.medium.gif"
+        },
+        {
+            "label": "Fig. 2",
+            "description": "(Color online) Illustration of the individual-network frame of the networked metapopulation model. a The model is composed of a network of subpopulations. The disease transmission among subpopulations stems from the mobility of infected individuals. b Each subpopulation refers to a location, in which a population of individuals interplays according to the compartment rule (e.g., SIR) that induces local disease outbreaks. Individuals are transferred among subpopulations via mobility networks.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2014/06/04/003889/F2.medium.gif"
+        },
+        {
+            "label": "Fig. 3",
+            "description": "(Color online) Air transportation network (a) vs. commuting network (b) of the US. Long-range airlines dominate the air transportation network, whereas the commuting routes are much geographically localized.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2014/06/04/003889/F3.medium.gif"
+        },
+        {
+            "label": "Fig. 4",
+            "description": "(Color online) Effect of location-specific human contact patterns. a\u2013b illustrate the structure of the phenomenological metapopulation model used in [124], where the reaction-commuting processes couple two typical subpopulations x,y. In the destination-driven scenario (a), individual characteristic contact rates (cx,cy) depend on the visited locations, while in the origin-driven scenario (b), the contacts of individuals correlate to their subpopulations of residence. c\u2013d present the phase diagrams of the global  under these two scenarios, respectively. The white dashed curve in each panel shows the global threshold  obtained through the NGM analysis. From Ref. [124].\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2014/06/04/003889/F4.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Levins R"
+            ],
+            "date": "1969",
+            "title": "Some demographic and genetic consequences of environmental heterogeneity for biological control",
+            "links": []
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Hanski I",
+                "Gaggiotti O E"
+            ],
+            "date": "2004",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Anderson R M",
+                "May R M"
+            ],
+            "date": "1991",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Keeling M J",
+                "Rohani P."
+            ],
+            "date": "2008",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Dietz K",
+                "Heesterbeek J A P."
+            ],
+            "date": "2002",
+            "title": "Daniel Bernoulli\u2019s epidemiological model revisited",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0025-5564(02)00122-0&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12387913&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000179220600002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "Albert R",
+                "Barab\u00e1si A L"
+            ],
+            "date": "2002",
+            "title": "Statistical mechanics of complex networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/RevModPhys.74.47&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000174548700003&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Cohen R",
+                "Havlin S"
+            ],
+            "date": "2010",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Newman M E J"
+            ],
+            "date": "2010",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Chen G R",
+                "Wang X F",
+                "Li X"
+            ],
+            "date": "2012",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Watts D J",
+                "Strogatz S H"
+            ],
+            "date": "1998",
+            "title": "Collective dynamics of small-world networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/30918&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=9623998&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000074020000035&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "Barab\u00e1si A L",
+                "Albert R"
+            ],
+            "date": "1999",
+            "title": "Emergence of scaling in random networks",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIyODYvNTQzOS81MDkiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "12.",
+            "authors": [
+                "Boccaletti S",
+                "Latora V",
+                "Moreno Y"
+            ],
+            "date": "2006",
+            "title": "Complex networks: Structure and dynamics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.physrep.2005.10.009&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "13.",
+            "authors": [
+                "Dorogovtsev S N",
+                "Goltsev A V",
+                "Mendes J F F"
+            ],
+            "date": "2008",
+            "title": "Critical phenomena in complex networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/RevModPhys.80.1275&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000262253500006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "14.",
+            "authors": [
+                "Barrat A",
+                "Barth\u00e9lemy M",
+                "Vespignani A"
+            ],
+            "date": "2008",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "15.",
+            "authors": [
+                "Castellano C",
+                "Fortunato S",
+                "Loreto V."
+            ],
+            "date": "2009",
+            "title": "Statistical physics of social dynamics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/RevModPhys.81.591&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000267197500005&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "16.",
+            "authors": [
+                "Albert R",
+                "Jeong H",
+                "Barab\u00e1si A L"
+            ],
+            "date": "2000",
+            "title": "Error and attack tolerance of complex networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/35019019&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10935628&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000088383800038&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "17.",
+            "authors": [
+                "Gao J X",
+                "Buldyrev S V",
+                "Stanley H E"
+            ],
+            "date": "2012",
+            "title": "Networks formed from interdependent networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nphys2180&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "18.",
+            "authors": [
+                "Li X",
+                "Wang X F",
+                "Chen G R"
+            ],
+            "date": "2004",
+            "title": "Pinning a complex dynamical network to its equilibrium",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1109/TCSI.2004.835655&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "19.",
+            "authors": [
+                "Chen G R",
+                "Duan Z S"
+            ],
+            "date": "2008",
+            "title": "Network synchronizability analysis: A graph-theoretic approach",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19045476&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "20.",
+            "authors": [
+                "Arenas A",
+                "D\u00edaz-Guilera A",
+                "Kurths J"
+            ],
+            "date": "2008",
+            "title": "Synchronization in complex networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.physrep.2008.09.002&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "21.",
+            "authors": [
+                "Redner S."
+            ],
+            "date": "2001",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "22.",
+            "authors": [
+                "Masuda N",
+                "Gibert N",
+                "Redner S."
+            ],
+            "date": "2010",
+            "title": "Heterogeneous voter models",
+            "links": []
+        },
+        {
+            "label": "23.",
+            "authors": [
+                "Zhan J Y",
+                "Li X."
+            ],
+            "date": "2013",
+            "title": "Consensus of sampled-data multi-agent networking systems via model predictive control",
+            "links": []
+        },
+        {
+            "label": "24.",
+            "authors": [
+                "Wang Z",
+                "Liu Y",
+                "Wang L"
+            ],
+            "date": "2014",
+            "title": "Freezing period strongly impacts the emergence of a global consensus in the voter model",
+            "links": []
+        },
+        {
+            "label": "25.",
+            "authors": [
+                "Wang X F",
+                "Li X",
+                "Lv J H"
+            ],
+            "date": "2010",
+            "title": "Control and flocking of networked systems via pinning",
+            "links": []
+        },
+        {
+            "label": "26.",
+            "authors": [
+                "Liu Y Y",
+                "Slotine J J",
+                "Barabasi A L"
+            ],
+            "date": "2011",
+            "title": "Controllability of complex networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature10011&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21562557&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000290487200029&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "27.",
+            "authors": [
+                "Yan G",
+                "Ren J",
+                "Lai Y C"
+            ],
+            "date": "2012",
+            "title": "Controlling complex networks: How much energy is needed?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.108.218703&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23003312&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "28.",
+            "authors": [
+                "Yuan Z Z",
+                "Zhao C",
+                "Di Z R"
+            ],
+            "date": "2013",
+            "title": "Exact controllability of complex networks",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24025746&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "29.",
+            "authors": [
+                "Nowak M A"
+            ],
+            "date": "2006",
+            "title": "Five rules for the evolution of cooperation",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMTQvNTgwNS8xNTYwIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "30.",
+            "authors": [
+                "Szab\u00f3 G",
+                "F\u00e1th G"
+            ],
+            "date": "2007",
+            "title": "Evolutionary games on graphs",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.physrep.2007.04.004&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "31.",
+            "authors": [
+                "Rong Z H",
+                "Li X",
+                "Wang X F"
+            ],
+            "date": "2007",
+            "title": "Roles of mixing patterns in cooperation on a scale-free networked game",
+            "links": []
+        },
+        {
+            "label": "32.",
+            "authors": [
+                "Wang Z",
+                "Wang L",
+                "Yin Z Y"
+            ],
+            "date": "2012",
+            "title": "Inferring reputation promotes the evolution of cooperation in spatial social dilemma games",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0040218&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22808120&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "33.",
+            "authors": [
+                "Wang Z",
+                "Szolnoki A",
+                "Perc M"
+            ],
+            "date": "2013",
+            "title": "Interdependent network reciprocity in evolutionary games",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23378915&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "34.",
+            "authors": [
+                "Zhang G Q",
+                "Sun Q B",
+                "Wang L"
+            ],
+            "date": "2013",
+            "title": "Noise-induced enhancement of network reciprocity in social dilemmas",
+            "links": []
+        },
+        {
+            "label": "35.",
+            "authors": [
+                "Tan S L",
+                "Lv J H",
+                "Yu X H"
+            ],
+            "date": "2013",
+            "title": "Evolution and maintenance of cooperation via inheritance of neighborhood relationship",
+            "links": []
+        },
+        {
+            "label": "36.",
+            "authors": [
+                "Jin Q",
+                "Wang L",
+                "Xia C Y"
+            ],
+            "date": "2014",
+            "title": "Spontaneous symmetry breaking in interdependent networked game",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24526076&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "37.",
+            "authors": [
+                "Wang W X",
+                "Wang B H",
+                "Hu B"
+            ],
+            "date": "2005",
+            "title": "General dynamics of topology and traffic on weighted technological networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.94.188702&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15904415&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "38.",
+            "authors": [
+                "Meloni S",
+                "Arenas A",
+                "Moreno Y"
+            ],
+            "date": "2009",
+            "title": "Traffic-driven epidemic spreading in finite-size scale-free networks",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA2LzQwLzE2ODk3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "39.",
+            "authors": [
+                "Wu J",
+                "Tse C K",
+                "Lau F C M"
+            ],
+            "date": "2013",
+            "title": "Analysis of communication network performance from a complex network perspective",
+            "links": []
+        },
+        {
+            "label": "40.",
+            "authors": [
+                "Zhang G Q",
+                "Wang L",
+                "Chen T L"
+            ],
+            "date": "2009",
+            "title": "Analysis of self-organized criticality in weighted coupled systems",
+            "links": []
+        },
+        {
+            "label": "41.",
+            "authors": [
+                "Zhang G Q",
+                "Tirnakli U",
+                "Wang L"
+            ],
+            "date": "2011",
+            "title": "Self organized criticality in a modified Olami-Feder-Christensen model",
+            "links": []
+        },
+        {
+            "label": "42.",
+            "authors": [
+                "Wang L",
+                "Zhang G Q",
+                "Chen T L"
+            ],
+            "date": "2011",
+            "title": "Self-organized criticality analysis of earthquake model based on heterogeneous networks",
+            "links": []
+        },
+        {
+            "label": "43.",
+            "authors": [
+                "Brummitt C D",
+                "D\u2019Souza R M",
+                "Leicht E A"
+            ],
+            "date": "2012",
+            "title": "Suppressing cascades of load in interdependent networks",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA5LzEyL0U2ODAiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "44.",
+            "authors": [
+                "Pastor-Satorras R",
+                "Vespignani A"
+            ],
+            "date": "2004",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "45.",
+            "authors": [
+                "Pastor-Satorras R",
+                "Vespignani A"
+            ],
+            "date": "2001",
+            "title": "Epidemic Spreading in Scale-Free Networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.86.3200&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11290142&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000167866300072&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "46.",
+            "authors": [
+                "Lloyd A L",
+                "May R M"
+            ],
+            "date": "2001",
+            "title": "How viruses spread among computers and people",
+            "links": [
+                [
+                    "FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiRlVMTCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIyOTIvNTUyMC8xMzE2IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "47.",
+            "authors": [
+                "Fu X C",
+                "Small M",
+                "Chen G R"
+            ],
+            "date": "2014",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "48.",
+            "authors": [
+                "Bogu\u00f1\u00e1 M",
+                "Pastor-Satorras R",
+                "Vespignani A"
+            ],
+            "date": "2003",
+            "title": "Absence of epidemic threshold in scale-free networks with degree correlations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.90.028701&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12570587&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "49.",
+            "authors": [
+                "Li X",
+                "Wang X F"
+            ],
+            "date": "2006",
+            "title": "Controlling the spreading in small-world evolving networks: Stability, oscillation, and topology",
+            "links": []
+        },
+        {
+            "label": "50.",
+            "authors": [
+                "Liu Z H",
+                "Hu B"
+            ],
+            "date": "2005",
+            "title": "Epidemic spreading in community networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1209/epl/i2004-10550-5&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000233238500025&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "51.",
+            "authors": [
+                "Guo W P",
+                "Li X",
+                "Wang X F"
+            ],
+            "date": "2007",
+            "title": "Epidemics and immunization on Euclidean distance preferred small-world networks",
+            "links": []
+        },
+        {
+            "label": "52.",
+            "authors": [
+                "Pastor-Satorras R",
+                "Castellano C"
+            ],
+            "date": "2012",
+            "title": "Competing activation mechanisms in epidemics on networks",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22523634&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "53.",
+            "authors": [
+                "Parshani R",
+                "Carmi S",
+                "Havlin S"
+            ],
+            "date": "2010",
+            "title": "Epidemic Threshold for the Susceptible-Infectious-Susceptible Model on Random Networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.104.258701&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20867419&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "54.",
+            "authors": [
+                "Castellano C",
+                "Pastor-Satorras R"
+            ],
+            "date": "2010",
+            "title": "Thresholds for Epidemic Spreading in Networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.105.218701&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21231361&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "55.",
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "56.",
+            "authors": [
+                "Leung G M",
+                "Bacon-Shone J"
+            ],
+            "date": "2006",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "57.",
+            "authors": [
+                "Mclean A R",
+                "May R M",
+                "Pattison J"
+            ],
+            "date": "2005",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "58.",
+            "authors": [
+                "Fraser C",
+                "Donnelly C A",
+                "Cauchemez S"
+            ],
+            "date": "2009",
+            "title": "Pandemic Potential of a Strain of Influenza A (H1N1): Early Findings",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMjQvNTkzNC8xNTU3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "59.",
+            "authors": [
+                "Khan K",
+                "Arino J",
+                "Hu W"
+            ],
+            "date": "2009",
+            "title": "Spread of a novel influenza A(H1N1) virus via global airline transportation",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMc0904559&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19564630&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000267748900038&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "60.",
+            "authors": [
+                "Yang Y",
+                "Sugimoto J D",
+                "Elizabeth Halloran M"
+            ],
+            "date": "2009",
+            "title": "The Transmissibility and Control of Pandemic Influenza A (H1N1) Virus",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzMjYvNTk1My83MjkiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "61.",
+            "authors": [
+                "Simonsen L",
+                "Spreeuwenberg P",
+                "Lustig R"
+            ],
+            "date": "2013",
+            "title": "Global mortality estimates for the 2009 influenza pandemic from the GLaMOR project: A modeling study",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.1001558&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24302890&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "62.",
+            "authors": [
+                "Gao R B"
+            ],
+            "date": "2013",
+            "title": "Human infection with a novel avian-origin Influenza A (H7N9) virus",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa1304459&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23577628&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000318896200008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "63.",
+            "authors": [
+                "Yu H",
+                "Cowling B J",
+                "Feng L"
+            ],
+            "date": "2013",
+            "title": "Human infection with avian influenza A H7N9 virus: an assessment of clinical severity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0140- 6736(13)61207-6.&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "64.",
+            "authors": [
+                "Zhuang Q Y",
+                "Wang S C",
+                "Wu M L"
+            ],
+            "date": "2013",
+            "title": "Epidemiological and risk analysis of the H7N9 subtype influenza outbreak in China at its early stage",
+            "links": []
+        },
+        {
+            "label": "65.",
+            "authors": [
+                "Shi J Z",
+                "Deng G H",
+                "Liu P H"
+            ],
+            "date": "2013",
+            "title": "Isolation and characterization of H7N9 viruses from live poultry markets - Implication of the source of current H7N9 infection in humans",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/s11434-013-5873-4&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000319850700003&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "66.",
+            "authors": [
+                "McMichael A J"
+            ],
+            "date": "2004",
+            "title": "Environmental and social influences on emerging infectious diseases: past, present and future",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rstb.2004.1480&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15306389&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "67.",
+            "authors": [
+                "Riley S"
+            ],
+            "date": "2007",
+            "title": "Large-scale spatial-transmission models of infectious disease",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMTYvNTgyOS8xMjk4IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "68.",
+            "authors": [
+                "Hufnagel L",
+                "Brockmann D",
+                "Geisel T."
+            ],
+            "date": "2004",
+            "title": "Forecast and control of epidemics in a globalized world",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTAxLzQyLzE1MTI0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "69.",
+            "authors": [
+                "Colizza V",
+                "Barrat A",
+                "Barth\u00e9lemy M"
+            ],
+            "date": "2006",
+            "title": "The role of the airline transportation network in the prediction and predictability of global epidemic",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTAzLzcvMjAxNSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE0LzA2LzA0LzAwMzg4OS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "70.",
+            "authors": [
+                "Wang L",
+                "Li X",
+                "Zhang Y Q"
+            ],
+            "date": "2011",
+            "title": "Evolution of scaling emergence in large-scale spatial epidemic spreading",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21747932&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "71.",
+            "authors": [
+                "Stanley H E"
+            ],
+            "date": "1999",
+            "title": "Scaling, universality, and renormalization: Three pillars of modern critical phenomena",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/RevModPhys.71.S358&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "72.",
+            "authors": [
+                "Lv L",
+                "Zhang Z-K",
+                "Zhou T."
+            ],
+            "date": "2013",
+            "title": "Deviation of Zipf\u2019s and Heaps\u2019 laws in human languages with limited dictionary sizes",
+            "links": []
+        },
+        {
+            "label": "73.",
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "74.",
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "75.",
+            "authors": [
+                "Barth\u00e9lemy M"
+            ],
+            "date": "2010",
+            "title": "Spatial networks",
+            "links": []
+        },
+        {
+            "label": "76.",
+            "authors": [
+                "Bazzani A",
+                "Giorgini B",
+                "Rambaldi S"
+            ],
+            "date": "2010",
+            "title": "Statistical laws in urban mobility from microscopic GPS data in the area of Florence",
+            "links": []
+        },
+        {
+            "label": "77.",
+            "authors": [
+                "Peng C B",
+                "Jin X G",
+                "Wong K C"
+            ],
+            "date": "2012",
+            "title": "Collective human mobility pattern from taxi trips in urban area",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22529917&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "78.",
+            "authors": [
+                "Hasan S",
+                "Schneider C M",
+                "Ukkusuria S V"
+            ],
+            "date": "2012",
+            "title": "Spatiotemporal patterns of urban human mobility",
+            "links": []
+        },
+        {
+            "label": "79.",
+            "authors": [
+                "Liang X",
+                "Zhao J C",
+                "Dong L"
+            ],
+            "date": "2013",
+            "title": "Unraveling the origin of exponential law in intra-urban human mobility",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24136012&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "80.",
+            "authors": [
+                "Yan X Y",
+                "Han X P",
+                "Wang B H"
+            ],
+            "date": "2013",
+            "title": "Diversity of individual mobility patterns and emergence of aggregated scaling laws",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24045416&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "81.",
+            "authors": [
+                "Hu H",
+                "Nigmatulina K",
+                "Eckhoff P"
+            ],
+            "date": "2013",
+            "title": "The scaling of contact rates with population density for the infectious disease models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.mbs.2013.04.013&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23665296&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "82.",
+            "authors": [
+                "Lazer D",
+                "Pentland A",
+                "Adamic L"
+            ],
+            "date": "2009",
+            "title": "Computational Social Science",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzMjMvNTkxNS83MjEiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "83.",
+            "authors": [
+                "Helbing D"
+            ],
+            "date": "2013",
+            "title": "Globally networked risks and how to respond",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature12047&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23636396&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000318221500033&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "84.",
+            "authors": [
+                "Salath\u00e9 M",
+                "Freifeld C C",
+                "Mekaru S R"
+            ],
+            "date": "2013",
+            "title": "Influenza A (H7N9) and the importance of digital epidemiology",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMp1307752&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23822655&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000322547400004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "85.",
+            "authors": [
+                "Nsoesie E O",
+                "Brownstein J S",
+                "Ramakrishnan N"
+            ],
+            "date": "2013",
+            "title": "A systematic review of studies on forecasting the dynamics of influenza outbreaks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1111/irv.12226&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "86.",
+            "authors": [
+                "Rvachev L A",
+                "Longini I M"
+            ],
+            "date": "1985",
+            "title": "A mathematical model for the global spread of influenza",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/0025-5564(85)90064-1&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1985APU0100002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "87.",
+            "authors": [
+                "Brockmann D",
+                "Schuster H G"
+            ],
+            "date": "2009",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "88.",
+            "authors": [
+                "Colizza V",
+                "Pastor-Satorras R",
+                "Vespignani A"
+            ],
+            "date": "2007",
+            "title": "Reaction-diffusion processes and metapopulation models in heterogeneous networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nphys560&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000245972300025&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "89.",
+            "authors": [
+                "Colizza V",
+                "Vespignani A"
+            ],
+            "date": "2008",
+            "title": "Epidemic modeling in metapopulation systems with heterogeneous coupling pattern: Theory and simulations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.jtbi.2007.11.028&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18222487&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000255082000006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "90.",
+            "authors": [
+                "Tang M",
+                "Liu Z H",
+                "Li B W"
+            ],
+            "date": "2009",
+            "title": "Epidemic spreading by objective traveling",
+            "links": []
+        },
+        {
+            "label": "91.",
+            "authors": [
+                "Balcan D",
+                "Vespignani A"
+            ],
+            "date": "2011",
+            "title": "Phase transitions in contagion processes mediated by recurrent mobility patterns",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nphys1944&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21799702&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "92.",
+            "authors": [
+                "Rose G"
+            ],
+            "date": "2006",
+            "title": "Mobile phones as traffic probes: practices, prospects and issues",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1080/01441640500361108&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "93.",
+            "authors": [
+                "Gonz\u00e1lez M C",
+                "Hidalgo C A",
+                "Barab\u00e1si A L"
+            ],
+            "date": "2008",
+            "title": "Understanding individual human mobility patterns",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature06958&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18528393&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000256415300043&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "94.",
+            "authors": [
+                "Balcan D",
+                "Colizza V",
+                "Gon\u00e7alves B"
+            ],
+            "date": "2009",
+            "title": "Multiscale mobility networks and the spatial spreading of infectious diseases",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA2LzUxLzIxNDg0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "95.",
+            "authors": [
+                "Song C M",
+                "Qu Z H",
+                "Blumm N"
+            ],
+            "date": "2010",
+            "title": "Limits of predictability in human mobility",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMjcvNTk2OC8xMDE4IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "96.",
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "97.",
+            "authors": [
+                "Balcan D",
+                "Vespignani A"
+            ],
+            "date": "2012",
+            "title": "Invasion threshold in structured populations with recurrent mobility patterns",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.jtbi.2011.10.010&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22019505&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000299243800011&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "98.",
+            "authors": [
+                "Belik V",
+                "Geisel T",
+                "Brockmann D"
+            ],
+            "date": "2011",
+            "title": "Natural human mobility patterns and spatial spread of infectious diseases",
+            "links": []
+        },
+        {
+            "label": "99.",
+            "authors": [
+                "Ferguson N"
+            ],
+            "date": "2007",
+            "title": "Capturing human behaviour",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/446733a&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17429381&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000245626800021&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "100.",
+            "authors": [],
+            "date": "2009",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "101.",
+            "authors": [],
+            "date": "2013",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "102.",
+            "authors": [
+                "Bauch C T",
+                "Galvani A P",
+                "Earn D J D"
+            ],
+            "date": "2003",
+            "title": "Group-interest versus self-interest in smallpox vaccination policy",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTAwLzE4LzEwNTY0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "103.",
+            "authors": [
+                "Epstein J M",
+                "Parker J",
+                "Cummings D"
+            ],
+            "date": "2008",
+            "title": "Coupled contagion dynamics of fear and disease: mathematical and computational explorations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0003955&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19079607&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "104.",
+            "authors": [
+                "Funk S",
+                "Gilad E",
+                "Watkins C"
+            ],
+            "date": "2009",
+            "title": "The spread of awareness and its impact on epidemic outbreaks",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA2LzE2LzY4NzIiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "105.",
+            "authors": [
+                "Zhang H F",
+                "Zhang J",
+                "Zhou C S"
+            ],
+            "date": "2010",
+            "title": "Hub nodes inhibit the outbreak of epidemic under voluntary vaccination",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1088/1367-2630/12/2/023015&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "106.",
+            "authors": [
+                "Perra N",
+                "Balcan D",
+                "Gon\u00e7alves B"
+            ],
+            "date": "2011",
+            "title": "Towards a characterization of behavior-disease models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0023084&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21826228&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "107.",
+            "authors": [
+                "Wu Q",
+                "Fu X",
+                "Small M"
+            ],
+            "date": "2012",
+            "title": "The impact of awareness on epidemic spreading in networks",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22462977&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "108.",
+            "authors": [
+                "Zhang H F",
+                "Wu Z X",
+                "Xu X K"
+            ],
+            "date": "2013",
+            "title": "Impacts of subsidy policies on vaccination decisions in contact networks",
+            "links": []
+        },
+        {
+            "label": "109.",
+            "authors": [
+                "Ruan Z Y",
+                "Tang M",
+                "Liu Z H"
+            ],
+            "date": "2013",
+            "title": "Epidemic spreading with information-driven vaccination",
+            "links": []
+        },
+        {
+            "label": "110.",
+            "authors": [
+                "Xia C Y",
+                "Wang Z",
+                "Sanz J"
+            ],
+            "date": "2013",
+            "title": "Effects of delayed recovery and nonuniform transmission on the spreading of diseases in complex networks",
+            "links": []
+        },
+        {
+            "label": "111.",
+            "authors": [
+                "Zhu G H",
+                "Chen G R",
+                "Xu X J"
+            ],
+            "date": "2013",
+            "title": "Epidemic spreading on contact networks with adaptive weights",
+            "links": []
+        },
+        {
+            "label": "112.",
+            "authors": [
+                "Meloni S",
+                "Perra N",
+                "Arenas A"
+            ],
+            "date": "2011",
+            "title": "Modeling human mobility responses to the large-scale spreading of infectious diseases",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22355581&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "113.",
+            "authors": [
+                "Wang B",
+                "Cao L",
+                "Suzuki H"
+            ],
+            "date": "2012",
+            "title": "Safety-information-driven human mobility patterns with metapopulation epidemic dynamics",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23189237&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "114.",
+            "authors": [
+                "Ajelli M",
+                "Gon\u00e7alves B",
+                "Balcan D"
+            ],
+            "date": "2010",
+            "title": "Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1471-2334-10-190&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20587041&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "115.",
+            "authors": [
+                "Salath\u00e9 M",
+                "Kazandjieva M",
+                "Lee J W"
+            ],
+            "date": "2010",
+            "title": "A high-resolution human contact network for infectious disease transmission",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA3LzUxLzIyMDIwIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "116.",
+            "authors": [
+                "Isella L",
+                "Stehl\u00e9 J",
+                "Barrat A"
+            ],
+            "date": "2011",
+            "title": "What\u2019s in a crowd? Analysis of face-to-face behavioral networks",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.jtbi.2010.11.033&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21130777&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000286492100018&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "117.",
+            "authors": [
+                "Takaguchi T",
+                "Nakamura M",
+                "Sato N"
+            ],
+            "date": "2011",
+            "title": "Predictability of conversation partners",
+            "links": []
+        },
+        {
+            "label": "118.",
+            "authors": [
+                "Zhang Y",
+                "Wang L",
+                "Zhang Y Q"
+            ],
+            "date": "2012",
+            "title": "Towards a temporal network analysis of interactive WiFi users",
+            "links": []
+        },
+        {
+            "label": "119.",
+            "authors": [
+                "Zhang Y Q",
+                "Li X"
+            ],
+            "date": "2012",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "120.",
+            "authors": [
+                "Zhang Y Q",
+                "Li X"
+            ],
+            "date": "2013",
+            "title": "Temporal dynamics and impact of event interactions in cyber-social populations",
+            "links": []
+        },
+        {
+            "label": "121.",
+            "authors": [],
+            "date": "2013",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "122.",
+            "authors": [
+                "Lessler J",
+                "Cummings D A T",
+                "Read J M"
+            ],
+            "date": "2011",
+            "title": "Location-specific patterns of exposure to recent pre-pandemic strains of influenza A in southern China",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/ncomms1432&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21829185&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "123.",
+            "authors": [
+                "Crighton E J",
+                "Elliott S J",
+                "Moineddin R"
+            ],
+            "date": "2007",
+            "title": "An exploratory spatial analysis of pneumonia and influenza hospitalizations in Ontario by age and gender",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1017/S095026880600690X&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16824252&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000244652800009&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "124.",
+            "authors": [
+                "Wang L",
+                "Wang Z",
+                "Zhang Y"
+            ],
+            "date": "2013",
+            "title": "How human location-specific contact patterns impact spatial transmission between populations?",
+            "links": []
+        },
+        {
+            "label": "125.",
+            "authors": [
+                "Wang L",
+                "Zhang Y",
+                "Wang Z"
+            ],
+            "date": "2013",
+            "title": "The impact of location-specific contact pattern on the sir epidemic transmission between populations",
+            "links": []
+        },
+        {
+            "label": "126.",
+            "authors": [
+                "Diekmann O",
+                "Heesterbeek J A P"
+            ],
+            "date": "2000",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "127.",
+            "authors": [
+                "Poletto C",
+                "Tizzoni M",
+                "Colizza V"
+            ],
+            "date": "2012",
+            "title": "Heterogeneous length of stay of hosts\u2019 movements and spatial epidemic spread",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22741060&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "128.",
+            "authors": [
+                "Shen C S",
+                "Chen H S",
+                "Hou Z H"
+            ],
+            "date": "2012",
+            "title": "Strategy to suppress epidemic explosion in heterogeneous metapopulation networks",
+            "links": []
+        },
+        {
+            "label": "129.",
+            "authors": [
+                "Cao L",
+                "Li X",
+                "Wang B"
+            ],
+            "date": "2011",
+            "title": "Rendezvous effects in the diffusion process on bipartite metapopulation networks",
+            "links": []
+        },
+        {
+            "label": "130.",
+            "authors": [
+                "D\u00e9irdre Hollingsworth T",
+                "Ferguson N M",
+                "Anderson R M"
+            ],
+            "date": "2006",
+            "title": "Will travel restrictions control the international spread of pandemic influenza?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nm0506-497&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16675989&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000238149100020&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "131.",
+            "authors": [
+                "Cooper B S",
+                "Pitman R J",
+                "Edmunds W J"
+            ],
+            "date": "2006",
+            "title": "Delaying the international spread of pandemic influenza",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0030212&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16640458&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "132.",
+            "authors": [
+                "Tomba G S",
+                "Wallinga J"
+            ],
+            "date": "2008",
+            "title": "A simple explanation for the low impact of border control as a countermeasure to the spread of an infectious disease",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.mbs.2008.02.009&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18387639&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "133.",
+            "authors": [
+                "Bajardi P",
+                "Poletto C",
+                "Ramasco J J"
+            ],
+            "date": "2011",
+            "title": "Human mobility networks, travel restrictions, and the global spread of 2009 H1N1 pandemic",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0016591&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21304943&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "134.",
+            "authors": [
+                "Ferguson N M",
+                "Cummings D A T",
+                "Fraser C"
+            ],
+            "date": "2006",
+            "title": "Strategies for mitigating an influenza pandemic",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature04795&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16642006&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000239278900042&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "135.",
+            "authors": [
+                "Wu J T",
+                "Riley S",
+                "Fraser C"
+            ],
+            "date": "2006",
+            "title": "Reducing the impact of the next influenza pandemic using household-based public health interventions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0030361&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16881729&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "136.",
+            "authors": [
+                "Colizza V",
+                "Barrat A",
+                "Barth\u00e9lemy M"
+            ],
+            "date": "2007",
+            "title": "Modeling the worldwide spread of pandemic influenza: Baseline case and containment interventions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0040013&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17253899&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "137.",
+            "authors": [
+                "Riley S",
+                "Wu J T",
+                "Leung G M"
+            ],
+            "date": "2007",
+            "title": "Optimizing the dose of prepandemic influenza vaccines to reduce the infection attack rate",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0040218&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17579511&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "138.",
+            "authors": [
+                "Elizabeth Halloran M",
+                "Ferguson N M",
+                "Eubank S"
+            ],
+            "date": "2008",
+            "title": "Modeling targeted layered containment of an influenza pandemic in the United States",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA1LzEyLzQ2MzkiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNC8wNi8wNC8wMDM4ODkuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "139.",
+            "authors": [
+                "Wu J T",
+                "Lee C K",
+                "Cowling B J"
+            ],
+            "date": "2010",
+            "title": "Logistical feasibility and potential benefits of a population-wide passive-immunotherapy program during an influenza pandemic",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTA3LzcvMzI2OSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE0LzA2LzA0LzAwMzg4OS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "140.",
+            "authors": [
+                "Wang L",
+                "Zhang Y",
+                "Huang T Y"
+            ],
+            "date": "2012",
+            "title": "Estimating the value of containment strategies in delaying the arrival time of an influenza pandemic: A case study of travel restriction and patient isolation",
+            "links": []
+        },
+        {
+            "label": "141.",
+            "authors": [
+                "Stohr K",
+                "Esveld M"
+            ],
+            "date": "2004",
+            "title": "Will vaccines be available for the next influenza pandemic?",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMDYvNTcwNS8yMTk1IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "142.",
+            "authors": [
+                "Leung G M",
+                "Nicoll A"
+            ],
+            "date": "2010",
+            "title": "Reflections on pandemic (H1N1) 2009 and the international response",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.1000346&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20957189&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "143.",
+            "authors": [
+                "Smith J",
+                "Lipsitch M",
+                "Almond J W"
+            ],
+            "date": "2011",
+            "title": "Vaccine production, distribution, access, and uptake",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21664680&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000293615900034&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "144.",
+            "authors": [
+                "Hayden F G"
+            ],
+            "date": "2006",
+            "title": "Antiviral resistance in influenza viruses-Implications for management and pandemic response",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMp068030&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16495389&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000235456200001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "145.",
+            "authors": [
+                "Lipsitch M",
+                "Cohen T",
+                "Murray M"
+            ],
+            "date": "2007",
+            "title": "Antiviral resistance and the control of pandemic influenza",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0040015&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17253900&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "146.",
+            "authors": [
+                "Wu J T",
+                "Leung G M",
+                "Lipsitch M"
+            ],
+            "date": "2009",
+            "title": "Hedging against antiviral resistance during the next influenza pandemic using small stockpiles of an alternative chemotherapy",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.1000085&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19440354&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        },
+        {
+            "label": "147.",
+            "authors": [
+                "Brockmann D",
+                "Helbing D"
+            ],
+            "date": "2013",
+            "title": "The hidden geometry of complex, network-driven contagion phenomena",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDIvNjE2NC8xMzM3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTQvMDYvMDQvMDAzODg5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "148.",
+            "authors": [
+                "Shah D",
+                "Zaman T"
+            ],
+            "date": "2011",
+            "title": "Rumors in a network: Who\u2019s the culprit?",
+            "links": []
+        },
+        {
+            "label": "149.",
+            "authors": [
+                "Luo W Q",
+                "Tay W P",
+                "Leng M"
+            ],
+            "date": "2013",
+            "title": "Identifying infection sources and regions in large networks",
+            "links": []
+        },
+        {
+            "label": "150.",
+            "authors": [
+                "Wang W X",
+                "Yang R",
+                "Lai Y C"
+            ],
+            "date": "2011",
+            "title": "Predicting catastrophes in nonlinear dynamical systems by compressive sensing",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.106.154101&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21568562&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2014%2F06%2F04%2F003889.atom"
+                ]
+            ]
+        }
+    ]
+}

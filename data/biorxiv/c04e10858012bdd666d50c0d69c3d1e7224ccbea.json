@@ -1,0 +1,2528 @@
+{
+    "source": "biorxiv",
+    "id": "c04e10858012bdd666d50c0d69c3d1e7224ccbea",
+    "url": "https://biorxiv.org/content/10.1101/065250v1.full",
+    "title": "Design: An assay based on single-polypeptide-chain heterodimeric A2AR/D2R and non-oligomerized fusions for in vivo analysis of their allosteric receptor-receptor interactions",
+    "authors": [
+        "Toshio Kamiya",
+        "Takashi Masuko",
+        "Dasiel Oscar Borroto-Escuela",
+        "Haruo Okado",
+        "Hiroyasu Nakata"
+    ],
+    "sections": {
+        "Abstract": "Background The adenosine A2A receptor (A2AR) heteromerizes with the dopamine D2 receptor (D2R). In order to explore their functional interaction, we engineered previously stable single-polypeptide-chain (sc) A2AR/D2LR: whether the molecular entity of the striatal A2AR/D2R antagonism, i.e., scA2AR/D2Rs are just A2AR/D2R with the antagonism, remains unresolved.\nNew Method To further clarify the heteromerization through the scA2AR/D2LR, we here designed supramolecularly \u2018exclusive\u2019 monomers and dimers, using the C\u03b52 domain of IgE-Fc or apoproteins of the bacterial light-harvesting antenna complex.\nResults A concept of the recptor protein assembly regulation, i.e., the selective monomer/non-obligate dimer formation was obtained. Although none of these new fusions were constructed or tested, we could aim at obtaining heterodimer-specific agents, using the scA2AR/D2R. Whether the resulting designs were explained feasibly and rationally was addressed. The structure and function of the non-obligate dimer were here discussed through scA2AR/D2R, focusing on the procedure of the membrane protein design and methods for transient protein-protein interactions.\nSummary and Outlook Given that upon being expressed and allosteric regulation occurs regardless of specific signal to non-specific noise (S/N) ratio, the supramolecular designs, allowing us to express selectively monomer/non-obligate dimer of class A GPCR, are experimentally testable and will be used to confirm in vivo that such low S/N ratio interaction between A2AR and D2LR functions in the dopamine neurotransmission in the striatum.\n",
+        "1. Introduction": "In the striatal function [1,2], dopamine (DA)[3] plays a critical role. In the striatum, how the G-protein-coupled receptor (GPCR) for adenosine, subtype A2A (A2AR)[4,5] contributes to the DA neurotransmission in the \"volume transmission\"/dual-transmission model [6] has been studied extensively [7]. In addition to a fusion receptor, the prototype single-polypeptide-chain (sc) heterodimeric A2AR/D2R complex (the GPCR for DA, subtype D2; [8])[9], several types were created and tested experimentally [10], while referring to a relationship between nanoscale surface curvature and surface-bound protein oligomerization [11-12]. In order to further explore in vivo, we have thus designed a new molecular tool, supermolecule scA2AR/D2R. Here, even if no experiments on their expression will be done, and thus apart from discussing based on the obtained results, the structure and function of the non-obligate dimer will deserve to be discussed through scA2AR/D2R, focusing on the procedure of the membrane protein design and methods for transient protein-protein interactions [14,15], which have been rapidly progressing and burgeoning. scA2AR/D2R is intended to draw attention to possible developments in this field and for opinion pieces in a range of alternative solutions to controversial evaluation of data obtained by various methods that so far, have been extensively reviewed elsewhere [16,17].\n",
+        "2. Perspectives": "By a model of receptor-receptor interaction, a functional antagonistic interaction between A2AR and D2R to modulate DAergic activity has been explained [18-21]. While allostery in a GPCR hetero-dimer has been demonstrated [22-26], these class A GPCR dimers, unlike other class GPCRs, are not fully formed [27], but depend on the equilibrium between monomers and dimers [16]. Also, the recent BRET evidence indicates that class A GPCRs dissociate, merely by \"being in close proximity by chance (a.k.a. \"bystander BRET\")\"[28], and additional evidence provides a case against invariant class A GPCR oligomerization [29], but they do not mean that such insufficient class A GPCR dimers or oligomers cannot function in vivo. Some types of protein-protein interactions, transient or weaker, \"will be found to play an even more important role\" in the cells [14,15].\nInterestingly, in the phase of rational design and screening, fusing the two receptors was found to stimulate the receptor dimer formation [9,10]: In the study, by fusing the cytoplasmic carboxy-terminus (C-ter) of the human brain-type A2AR (that is derived from Dr. Shine's cDNA [30])(Fig. S1) via the transmembrane domain (TM) of a type II TM protein (Section 3.3) with the extracellular amino-terminus (N-ter) of D2R in tandem, we created successful designs for a fusion receptor, single-polypeptide-chain (sc) heterodimeric GPCR complex A2AR/D2R, as a solution [9,10]. However, the resulting prototype scA2AR/D2LR has compact folding, i.e., fixed stoichiometry (the apparent ratios of A2AR to D2R binding sites), A2AR : D2R = 10:3 = 3~4:1 ([10]: Graphical abstract) and the scA2AR/D2R expression system shows that the various designed types of functional A2AR/D2R exist even in living cells, but thereby with no apparent allostery as a whole. Thus, to further clarify the heteromerization through scA2AR/D2LR, we tried to design other fusion proteins so as not to be formed/expressed as higher-order-oligomers, we called these 'exclusive' monomers (Fig. 1B/2) or dimers (Fig. 3): GPCRs are provided with general features of TM helix 3 as a structural (at tilt-angle of 35\u00b0)/functional hub and TM helix 6 moving along 14 \u00c5 after activation [31]. Taking note of A2AR with the bundle width diameter of about 3.6 nm (Fig. 2A), thus, using a partner to space out [32] without identifying and specifically blocking the interacting portions between the receptors, we created the designs for non-oligomerized \u2018exclusive\u2019 monomeric A2AR and/or D2R in order to exclude their dimer/oligomer formation (Fig. 1B/2)(Sections 3.1.1 and 3.1.2), and for the \u2018exclusive\u2019 dimer (Fig. 3)(Section 3.2). Such molecular self-assembled architecture will entirely hold either a monomeric receptor or single dimeric A2AR/D2R alone, but none of the oligomers.\nSee text in detail. The figure art (B) is shown which was drawn, being adapted from the published figure, i.e., a figure art (lower left) of A2AR-odr4TM-D2LR in Fig. 1A (pp. 140) in our previous report [9], with a written permission by the copyright owner, the Japan Society for Cell Biology.\nAlthough none of these new fusions were constructed or tested, we could aim at obtaining heterodimer-specific agents, using the fusion receptor, scA2AR/D2R. Indeed, a universal influenza vaccine was engineered through fusing two polypeptides that originally resulted from the limited proteolysis of the native conformation of the hemagglutinin (HA), a trimeric membrane protein of influenza viruses, so as to be retained and stabilized [33]. Based on the above-mentioned BRET evidence [28], even if, assuming that A2AR and D2LR could dissociate, merely \"being in close proximity by chance (a.k.a. \"bystander BRET\")\", and that accordingly, the apparent ratio of A2AR to D2R binding sites was shown to be about 4 in scA2AR/D2LR possibly forced to form oligomers [10], the ratio in \u2018exclusive\u2019 forms of single-chain dimer should be 1 because of no or false interaction between the two receptors. On the other hand, even though the ratio in \u2018exclusive\u2019 forms of the single-chain dimer is 1, allosterism may be observed in the presence of the counter agonist. Furthermore, if the ratio in \u2018exclusive\u2019 forms of the single-chain dimer is not 1, it suggests that in the absence of the counter agonist, the specific interaction between the two happens, including protein folding during its biosynthesis [10]. Such 'exclusive' forms of single-chain dimers are just useful analytical tools allowing us to address this point.\nAdditionally, in vivo analysis of knock-in mice of the scA2AR/D2R in the postsynaptic striatopallidal \u03b3-aminobutyric acid (GABA)-ergic medium spiny projection neurons (the indirect pathway) would unveil something new and unobservable, only in knock-in mice of A2AR and/or D2R, about the functional A2AR/D2R with the antagonism (Table S1): To illustrate this method, for clarity, let us consider in given days or a period for behavioral/locomotor activity tests of interest in adult mice: Although in the neuron, D2R and A2AR are coexpressed under the control of their respective promoters, as a negative control in addition to the wild-type mouse, for example, the A2AR-knockout mutant mice [34] that have been knocked-in with the gene containing the internal ribosome entry site sequence between the A2AR and the D2R under the D2R promoter, are also necessary in case of scA2AR/D2R expression under the D2R promoter [1,35,36], compared with mutant 1 (expressing supramolecular monomer A2AR) and mutant 2 (expressing supramolecular dimer scA2AR/D2R; A2AR=D2LR as shown in Table S1). The evidence [28] intimates to us that fine-tuning of dimerization of class A GPCR is just done at the respective transcription level as a genetic unit in the discipline of Jacob and Monod [37], and that upon being expressed and \"being in close proximity by chance,\" allosteric regulation occurs by interaction between a class A GPCR and any class A GPCR or even other membrane proteins, regardless of the interaction [14,15,38] with specific signal to non-specific noise (S/N) ratio. Thus, to confirm in vivo that such low S/N ratio interaction between A2AR and D2LR functions in the DA neurotransmission in the striatum, we could address whether excluding such A2AR behavior only in postsynaptic striatopallidal GABAergic neurons, using knock-in mice with the \u2018exclusive\u2019 form of monomeric A2AR, results in defects compared to that of wild-type mice (Table S1). Also, we have already designed another type of \u2018exclusive\u2019 form of a single-chain dimer, the (core) light-harvesting antenna complex (LH) 1-based scA2AR/D2LR (Section 3.3)(T.K., unpublished).\nThe cytoplasmic C-ter region of A2AR is important for heterodimeric interaction with D2R [39]. Although crystallographyic analysis of GPCR hetero-dimer also remains unresolved [20], by turning from being elusive, such structural bases of these phenomena [25] are being revealed: major ligand-induced rearrangement of the TM domain interface in the metabotropic glutamate receptor homo-dimer [40], and by the single molecule analysis, multiple possible helix interfaces mediating inter-protomer associations in two functionally defined mutant luteinizing hormone receptors [41] were identified. A possible monovalent agent acting on GPCR heterodimers was referred to and a screen is needed to this end [42]. To prove the above-mentioned scGPCR-based screen as such a system is just our goal. Here, we could aim at obtaining heterodimer-specific agents [Supplemental Information (Section S3.2)], using a supramolecularly [43-45] designed fusion receptor, scA2AR/D2R, i.e., non-oligomrerized \u2018exclusive\u2019 monomer and dimer of the receptors, and in vivo analysis of the functional antagonistic A2AR/D2R. The possible occurrence of improper folding into a three-dimensional (3D) structure, in which the resulting receptor exhibits lower or false activity, should be avoided: This attributes to the interaction between a single \u2018exclusive\u2019 form of either receptor monomer or scA2AR/D2R and the surrounding fence-like architecture, while considering a single bond between two carbon atoms, of C-C covalent bond with a distance of 1.5 \u00c5.\nOn the other hand, an appearance of epitopes in heteromeric A2AR/D2LR alone, but not in monomeric (and/or homodimeric) A2AR or D2LR, can occur [10], in agreement with findings on the existence of agonistic/antagonistic (active/inactive-state-specific) or dimer-specific antibodies (nanobody)(Table 1). In our case, the mouse immunization proceeded smoothly: We found many antibodies that bound either non-transfected, A2AR-expressed, or D2LR-expressed cells, as well as A2AR/D2LR-coexpressed cells, by screening hybridomas. However, the frequency of obtaining a monoclonal antibody (mAb), possibly specific for heteromeric A2AR/D2LR of interest, was very low, only one out of more than 600 wells positive upon being screened, within a total of 960 wells plated after cell fusion {[10]-(s48);(T.K., T.M., unpublished data)}. It was reported on a broad and extremely potent human immunodeficiency virus (HIV)-specific mAb, termed 35O22, which binds the gp41\u2212gp120 interface of the viral envelope glycoprotein (trimer of gp41-gp120 heterodimers)[46](Table 1). This dimer-specific mAb was obtained despite not being immunized. The existence of virus-neutralizing mAbs, such as 35O22 that recognizes HIV-1 gp41-gp120 interface [46] and 2D22 locking the dimeric envelope proteins of dengue virus type 2 [47], is suggestive of that of heterodimer-specific mAb of our interest. Thus, the expression of homogeneous molecular species, either monomer or dimer, but not the mixture of both, followed by their membrane preparation appropriate to our needs, is necessary and worthy to be addressed experimentally. For our plan, it is advisable to start the construction of the exclusive forms of scA2AR/D2LR.\nMaking monoclonal antibodies specific for heteromeric A2AR/D2LRa, Main text:Table Footnote)\n",
+        "3. Architecture": "The molecular entity of allosteric modulation of A2AR/D2R remains unresolved. In order to circumvent the insufficient dimer formation of A2AR/D2LR, various scA2AR/D2R constructs, with spacers between the two receptors, were created ([10]: Graphical abstract): Successful design of fusions, A2AR-D2R(\u0394TM1) (not shown), D2R-A2AR(\u0394TM1) (not shown); the prototype A2AR-odr4TM-D2R; the same configuration as the prototype, but with different spacers, and the same configuration as the prototype, but with different TM (A2AR-TM-D2R); and the reverse configuration, D2R-odr4TM-A2AR. Using whole cell binding assays, constructs were examined for their binding activity. Although the apparent ratio of A2AR to D2R binding sites should be 1, neither was, suggesting compact folding, i.e., A2AR: D2R = 10:3 = 3~4:1; Counter agonist-independent binding cooperativity occurred in context of scA2AR/D2R. The A2AR/D2LR dimer (Fig. 1A) could show the cooperativity through the direct interaction in the presence or absence of a counter-agonist on the cell surface membrane (left). However, the monomer (here A2AR in gray) also could do it exclusively, not through the direct interaction between the receptors, but through the third molecules (in violet), including allosteric modulators, such as a lipid oleamide on the serotonin receptor [48-50], where a counter-agonist could induce the binding between a receptor (here A2AR) and the modulators, and thus make another receptor (here D2LR, in black) lack the same modulators, resulting in a decrease in the D2R affinity (i.e., the negative cooperativity, right)[23]. Another expalnation is possible (Section S3.3). This study into the bulky complexes needs to pay attention to the following matter: The cell surface on the intact living cells is, although not completely, free of curvature stress, in contrast to the intact intracellular vesicles and the membrane preparation. The membranes prepared only by homogenization are more than 10 \u03bcm in length. In preparing by sonication, they vary small unilamellar liposomes that are smaller than 50 nm in diameter, thus being highly fusogenic, to the large multilamellar ones such as only homogenates [11]. Also, note A2AR has a bundle width diameter of about 3.6 nm (Fig. 2). Inspired by two papers [51,52], we also designed the following fusions (Fig. 1B): First, the change between a single- and two-antigens binding by the designed antibody was reported using a hinge/domain. Then, in models of viral fusogenic proteins, both steric hindrance and conformational changes, i.e., negative cooperativity, were referred to. Accordingly, while considering the structure of the complete Fc fragment (Fc) of immunoglobulin (Ig) E, including the C\u03b52 domains, which is compact, bent conformation ([53]: pp. 205, the right column-line 2 from the bottom; [54]){The human IgE, as well as IgM, lacks a flexible hinge region, unlike other class/subclasses, such as IgG1, instead has a rigid C\u03b52 domain of Fc portion, allowing that upon the binding of an allergen to the IgE that is already bound to the high affinity receptor Fc\u03b5RI, the antigen binding fragment (Fab) portion transduces it to the Fc\u03b5RI [54]}, for the correct protein folding of C\u03b52, it was extracellularly expressed here. Thus, the expression of the \u2018exclusive\u2019 monomeric GPCRs with the human C\u03b52 domain (here in a loop), i.e., the C-ter, but not the N-ter, of the odr4TM of the prototype scA2AR/D2LR fused to the N-ter of C\u03b52, and its C-ter fused to the N-ter of the D2LR, could separate from each other. Whereas the prototype A2AR-odr4TM-D2R stimulates the dimerization of A2AR and D2R, this type of C\u03b52-intervening scA2AR/D2R makes both receptors repel each other, resulting in two 'exclusive' monomers. To this end, moreover, additional bulky molecules (gray dotted line) at both the N-ter and the C-ter of a fusion would be preferable.\n(A) The human A2AR structure PDB 3EML [55] is shown with a bundle width diameter of about 36 \u00c5 (Section S2). (B) The light-harvesting antenna complex (LH2, gray circle) from the Rhodopseudomonas acidophila strain 10050 consists of 9 mer of the \u03b1-apoprotein [53 amino acids, with the intracellular N-terminus (N-ter); a nonagon with each angle numbered] packed side by side to form a hollow cylinder with a radius of 18 \u00c5 and the 9 helical \u03b2-apoprotein (41 amino acids, with the intracellular N-ter) of an outer cylinder with a radius of 34 \u00c5, together with porphyrin-like, light-absorbing pigments bacteriochlorophyll a(Bchl a) and carotenoids [57]. Lines for 36 \u00c5 are shown in black. The expression of an \u2018exclusive\u2019 monomeric GPCR with the oil-fence-like structure, i.e., the C-ter of this \u03b1-apoprotein (Angle 1) fused to the N-ter of TM helix 1 of GPCR, and its C-ter of TM helix 7 fused to the N-ter of another \u03b1-apoprotein (between Angle 1 and either Angle 4 or 5, a GPCR is shown by a dashed line), with other 7 wild-type \u03b1-apoproteins (respectively, Angle 2, 3, and either 5~9 or 4, 6~9), could form a complex with 9 \u03b2-apoproteins and pigments.\nThe human A2AR structure PDB 3EML (Fig. 2A), determined by T4-lysozyme fusion strategy [55], where most of the IC3 (Leu2095.70~Ala2216.23: The Ballesteros-Weinstein numbering scheme is shown in superscript)[56] was replaced with lysozyme from T4 bacteriophage (not shown here) and the C-ter tail (Ala317~Ser412) was deleted to improve the likelihood of crystallization, is shown with a bundle width diameter of about 36 \u00c5 (Section S2). Recent papers consider 'the most complex designed membrane proteins contain porphyrins that catalyze transmembrane electron transfer.' [43]: The peripheral LH2 complex (a circle in gray: Fig. 2B) from the purple bacterium Rhodopseudomonas acidophila (Rhodoblastus acidophilus) strain 10050 consists of 9 mer of the \u03b1-apoprotein [53 amino acids, with the intracellular N-ter; a nonagon with each angle numbered] packed side by side to form a hollow cylinder with a radius of 18 \u00c5 and the 9 helical \u03b2-apoprotein (41 amino acids, with the intracellular N-ter) of an outer cylinder with a radius of 34 \u00c5, together with porphyrin-like, light-absorbing pigments bacteriochlorophyll a (Bchl a) and carotenoids [57]. The arrangement of this assembly differs markedly from that in the plant light-harvesting complex, where the gross assembly is formed from a trimer of complexes. Lines for 36 \u00c5 are shown in black. The expression of an \u2018exclusive\u2019 monomeric GPCR with the oil-fence-like structure, i.e., the C-ter of this \u03b1-apoprotein (Angle 1) fused to the N-ter of TM helix 1 of GPCR, and its C-ter of TM helix 7 fused to the N-ter of another \u03b1-apoprotein (between Angle 1 and either Angle 4 or 5, a GPCR is shown by dashed lines), with other 7 wild-type \u03b1-apoproteins (respectively, Angle 2, 3, and either 5~9 or 4, 6~9), could form a complex with 9 \u03b2-apoproteins and pigments, whereas it could not do two complexes where two \u03b1-apoproteins (Angles 1 and 4 or 5) separately interact with the respective other 8 wild-type \u03b1-apoproteins and sterically only 8 \u03b2-apoproteins, thus allowing it to be unstable probably due to the lack of a \u03b2-apoprotein. Both Bchl and carotenoids are well known to be incorporated into mammalian cells, for example, the photosensitized Pd-Bchl derivative such as WST11 as an anti-cancer drug and carotenoid vitamin A.\nUsing the LH complex from Rhodopseudomonas acidophila strain 10050, the C-ter of an \u03b1-apoprotein (Angle 1, gray dotted line) fused to the N-ter of TM helix 1 of the human prototype scA2AR/D2LR, i.e., A2ARodr4TM-D2LR (colored), and its C-ter of TM helix 7 fused to the N-ter of another \u03b1-apoprotein (a given Angle of another hemi-complex, gray dotted line), are shown (Fig. 3A). Its expression of a fusion, with the remaining ~16 wild-type \u03b1-apoproteins (presumed to be 18 mer originally in total), could form a unified complex, although bending, with ~18 \u03b2-apoproteins in total and pigments, thus surrounding scA2AR/D2LR. Alternatively, the expression of an \u2018exclusive\u2019 dimeric GPCR with the oil-fence-like structure (here shown in a bending dashed line in black: Fig. 3B) could form two complexes, where two \u03b1-apoproteins (Angles 1 and 1') separately interact with the respective other ~8 wild-type \u03b1-apoproteins and ~9 \u03b2-apoproteins, thus being possibly unstable due to the lack of apoproteins. To solve this ambiguity, two units of the hetero-9-meric-\u03b1\u03b2-apoprotein-containing LH2 complex may well be replaced by another 'fence'-like complex packed side by side to form a hollow cylinder with a larger radius, allowing them to sufficiently and stably surround a core scA2AR/D2R, as an \u2018exclusive\u2019 dimer (Section 3.3)(T.K., unpublished). Lines for 36 \u00c5 are shown in black.\nSee text in detail. Lines for 36 \u00c5 are shown in black. The figure art (A) is shown which was drawn, being adapted from the published figure, i.e., a figure art (lower left) of A2AR-odr4TM-D2LR in Fig. 1A (pp. 140) in our previous report [9], with a written permission by the copyright owner, the Japan Society for Cell Biology. This adaptation is only a small modification as a figure art, but biologically with very important intellectual revision introduced.\nImprinted-polymers-tailor-made mimics of the 'fence'-like architecture in our supermolecule \u2018exclusive\u2019 scA2AR/D2R would be possible in the future, based on polymer chemistry [58-61]. Also, the very recent rational de novo protein design [62-64] would be applicable to membrane proteins. Additionally, an approach different from the 'fence'-like architecture in our supermolecule to this end would be necessary for scA2AR/D2R.\nProtein-protein interactions can be classified on the basis of their binding affinities [14,15,65,66]: By definition, unlike permanent interactions with high affinities (Kd in the nM range), proteins interacting in a transient manner, either weakly or strongly, show a fast bound-unbound equilibrium with Kd values typically the \u03bcM range or less. As an example for strong transient interactions, G protein, consisting of three protomers/subunits (\u03b1, \u03b2 and \u03b3), is well known [67-70](Flock et al., 2015; DeVree et al., 2016)[71,72]. Among class A GPCRs, photoexcited rhodopsin, where i.e., \"absorption of a photon causes isomerization of 11-cis-retinal to all-trans-retinal,\" leading to a conformational change of rhodopsin, catalyzes G protein (transducin, Gt) cycle between the active GTP- and inactive GDP-bound states by allosterically stabilizing this transition state: Photoexcited rhodopsin has a high affinity for nucleotide-free Gt (Section S3.3) but not for Gt-GDP or Gt-GTP. Sternweis and Robishaw reported the high affinity binding of a non-hydrolyzable GTP analog, GTP\u03b3S, for G-protein in bovine brain membranes, with 0.37 nmol/mg of protein [73,74]. \"Kinetic data on G protein activation are difficult to obtain,\"[69], however, and parameters on the affinity between a GPCR and a G-protein have not clearly been reported so far, especially in cells [69], except for rhodopsin with Kd of nM ranges determined by cell-free, surface plasmon-waveguide resonance spectroscopy [75,76] and for a class A GPCR with Kd of around 100 nM by microscale thermophoresis [77]. A recent study, by double electron-electron resonance spectroscopy through paramagnetic labels carrying unpaired electrons that can be introduced commonly as nitroxides via usually sulfhydryl group of cysteine residues of proteins of interest [78], indicates \"a minority population exhibiting substantial domain separation\" between the GTPase and helical domains of G-protein \u03b1 [79], although \"no crystal structure of a nucleotide-bound G protein has captured a domain-separated conformation\u2014perhaps because such conformations are less populated and less amenable to crystallization than one with the domains in tight contact\u2014\"[80]. As an example for weak transient interactions with Kd of the \u03bcM range, a complex in the plant photosynthesis, of an electron carrier protein, ferredoxin, and its dependent oxidoreductase (flavine-adenine dinucleotide flavoenzyme) has been investigated: Some bacteria and algae possess another flavoprotein, flavine-mononucleotide-containing flavodoxin. Although the ferredoxin and flavodoxin lack structural homology, interestingly, X-ray crystallography and NMR shows the molecular association of the flavoenzyme with one of these two electron carrier proteins at the same area [81-85]. Double electron-electron resonance spectroscopy and NMR chemical shift perturbation experiments [86] were also applied to analyze the intra-TM interactions of GPCR during the activation [87]. On the other hand, as for the interactions between two class A GPCRs, in addition to Ahnert et al.'s periodic table of protein complexes [88], the quaternary structure topologies of a tetramer of class A GPCR can be generated [20]. Recently, a paper [89] suggested that rhodopsin dimerization is possibly critical for the formation of a stable rhodopsin-Gt complex and the stabilization of rhodopsin pigment structure, but not for G protein-dependent responses (Gt activation rates), using synthetic peptides derived from bovine rhodopsin TM regions to inhibit rhodopsin dimer formation: TM4 had the greatest affinity to the rhodopsin, with a calculated apparent Kd of around 0.5 \u03bcM, and the TM1, TM2, TM4, and TM5 mixture was able to reduce the dimer from only ~65 to 40%, meaning that the interaction between two rhodopsins is stronger than this Kd value. In this context, a supermolecule scA2AR/D2R system \u2018exclusive\u2019 monomer could inhibit dimer formation completely. In addition to the superiority, another type of \u2018exclusive\u2019 dimer could also form a dimer of A2AR and D2R completely, assuming a bound-state-directed equilibrium of a core scA2AR/D2R within the oil-fence, with (1 molecule)/[\u03c0(3.6 nm/2)2] or 2/[\u03c0(3.6 nm)2] \u2248 0.1 or 0.05 nm\u22122 = 1 or 0.5 \u00d7 105 \u03bcm\u22122, comparable to the concentration of rhodopsin (dimer) in the rod outer segment of 3 mM, which corresponds to a surface density of 27,000 \u03bcm\u22122 [67].\nIn our previous report [9,10], among GPCR protein-protein interactions, such as the disulfide bond formation of the N-ter, coiled-coil interaction of the cytoplasmic C-ter, and TM interaction [90], a type II TM protein with a cytoplasmic N-ter segment, single TM, and extracellular C-ter tail, i.e., the Caenorhabditis elegans accessory protein of odorant receptor (odr4)[91] was first selected for connection between the N-ter receptor half (A2AR) and the C-ter receptor half (D2LR, the long form of D2R) of the scA2AR/D2LR. Then, it was demonstrated that an insertion of some other TM sequence instead of the odr4TM sequence (TILITIALIIGLLASIIYFTVA) works similarly, or that it does not have to be odr4TM to work, using the scA2AR/D2LR designed with another TM of a type II TM protein, the human low affinity receptor for IgE designated CD23 (3.1).\nHuman ortholog, c1orf27 (chromosome 1 open reading frame 27: NP_060317.3; 454 aa)(http://www.ncbi.nlm.nih.gov), which was originally identified as human ODR4 and shown to have sequence, 432-IgViaAftVAVLAagIsFhyf-452 (Regions representing identity at that position or conserved amino acids to ODR4 TM are indicated in capital letters: [92]), has been regarded as the ODR4-like (pfam14778) conserved protein domain family. Smart blast search of odr4TM gave 3 hits, respectively, with E-values of 0.002, 0.003, and 0.012: hypothetical protein NOC27_163 (EDZ66836.1, Nitrosococcus oceani AFC27), photosystem (PS) II reaction center (RC) protein ycf12 (YP_009056868.1, Bathycoccus prasinos), and hypothetical protein MXAN_3681 (ABF89922.1, Myxococcus xanthus DK 1622).\nAmong these hits, a hit of a photosynthetic RC protein is impressive to us because of a use of its surrounding apoproteins in the bacterial LH complex in the supramolecularly designed scA2AR/D2R as described above. Blastp search of odr4TM against all non-redundant GenBank databases and the human genome gave no hits for human CD23.\nOn the other hand, CD23 is highly conserved among mammals. Smart blast search of human CD23TM (TQIVLLGLVTAALWAGLLTLLLLWHW) gave 2 additional hits, respectively, with E-values of 0.003 and 0.028: sulfonamide resistance protein (CRH97060.1, Streptococcus pneumonia) and 4-hydroxybenzoate octaprenyltransferase (WP_037755226.1, Streptomyces sp. AA0539).\nBlastp search of human CD23TM against genomes of Drosophila melanogaster, Saccharomyces cerevisiae, and C. elegans gave no hits with E-values fewer than 0.01. This suggests that human CD23TM had been selected as a preferable experimental design due to little relationship between the two protein TMs, while only the structures of the extracellular region of the human CD23 were determined (PDB ID: 4KI1 [93]; 4J6J [94]; 4G96 [95]; 4EZM [96]; 2H2R [97]; 1T8C [98]).\nIn photosynthesis, particular protein complexes, including the PS or the LH1 and the RC [more strictly, PSI and PSII form supercomplexes with the RC and the light-harvesting proteins, i.e., respectively, PSI-type RC and LHCI, and PSII-type RC, core light-harvesting proteins (CP43 and CP47) and peripheral LHCII, in aerobic photosynthesis (algae, cyanobacteria, and plants); PS of a type RC, core LH1 and peripheral LH2 in anaerobic photosynthesis (purple bacteria)], contribute to the highly efficient, light-induced charge separation across the membrane, followed by electron transport. Whether this property is negligible or not in our 'exclusive' supramolecular forms has not been tested: rearrangement of each molecule in this architecture or exchange with similar but unrelated molecules [88] would be necessary to inhibit this photosynthetic light reaction completely and surround the prototype scA2AR/D2R.\nAn important finding on PSII biogenesis has been recently reported: PSII RC protein D1 is synthesized as a precursor in the Arabidopsis chloroplast thylakoid lumen, and cleaved by the D1 C-terminal processing enzyme (AtCtpA). Unlike its cyanobacterial counterpart, Arabidopsis CtpA is essential for assembling functional PSII core complexes, dimers, and PSII supercomplexes [99]. This paper shows a discrepancy in PSII protein assembly [88] between cyanobacterum and a land plant Arabidopsis. Thus, whether in animal cells the LH is attached to form our supermolecules, and is expressed or not, requires testing. The D1 and D2 subunits of the PS II and the M and L subunits of the bacterial photosynthetic RC are members of Photo RC (cl08220) protein superfamily. Unlike the cyanobacterium Thermosynechococcus elongatus, {from which the membrane-intrinsic part of homodimeric PSII comprises (in each monomer) the antenna proteins CP47 (with 6 TM helices) and CP43 (with 6 TM helices), the RC subunits D1 (with 5 TM helices) and D2 (with 5 TM helices), and 13 small subunits, among them cytochrome (cyt) b-559 with 2 TM helices [100,101],} the RC from the purple bacteria such as Rhodopseudomonas (Blastochloris) viridis and the thermophilic, Thermochromatium tepidum, consists of the four protein subunits L (with 5 TM helices), M (with 5 TM helices), H (with a TM helix) and c-type cyt (without TM)[102,103]. \"The T. tepidum LH1\u2212RC core complex is composed of cytochrome (Cyt), H, L and M subunits for the RC, \u03b116\u03b216 subunits for the LH1 and 80 cofactors\" [103]. In addition, 1) based on that \"When the RC was removed the \u2018empty\u2019 LH1 complex became more circular.\" [104], 2) and that it remains unknown what structural features lead to the consequent differences in the nonameric and octameric apoprotein assemblies in LH2, respectively, from Rhodopseudomonas acidophila and another purple bacterium, Rhodospirillum (Phaeospirillum) molischianum [105], thus meaning that it remains just unknown why LH1 surrounds the RC but LH2 does not, 3) and furthermore, due to the difficulty in membrane-protein topology prediction itself (the next paragraph), in any case up to 25% precision, \"to predict interaction sites from sequence information only\" {[106]: Supporting Information-[Table 9. List of PDB IDs of all monomers (Test-set 1)](pp. 38, line 27), human A2AR (PDB: 3EML)(Fig. 2A)(Section 3.1.2) defined as a monomer}, multiple sequence alignment was done between these proteins. In order to obtain a possible architecture that surrounds any class A GPCRs unaffectedly and that forms functional supermolecules of interest, structural similarity between class A GPCRs (A2AR/D2R) and RC proteins was not searched. Instead, for the interaction between odr4TM in prototype scA2AR/D2R and TMs of its surrounding (fence-like) LH proteins, multiple alignment was done between odr4TM and TMs of core RC proteins. The results indicate no relationship between the C. elegans odr4TM or human CD23 TM and TM helices of the RC subunits (L/M/H) of T. tepidum or R. viridis (Fig. S2A/B). It suggests that \u03b1\u03b2 subunits for the LH surrounding scA2AR/D2R do not affect their core GPCR itself, even if each protein in this supermolecule is assembled to form it. Alternative interactions between core GPCRs and surrounding LH subunits in our supermolecules remain unknown because our designs are just back-of-envelope sketches and 3D-models, especially of membrane proteins, have also their limitations [107-109].\nProteome-wide studies of membrane-protein topology have been done in an evolutionary context [110,111]: \"Current topology-prediction methods are all based on the classic view of membrane-protein topology\"\"but much work remains to be done before these more advanced types of prediction reach the level of accuracy of the simple topology-prediction schemes.\" Unlike cytosolic proteins, proteins transported across or integrated into the cellular membranes have the feature [110,111]. Soluble proteins synthesized as immature ones usually have the N-ter, cleavable signal sequence, which is a segment of 7~12 hydrophobic amino acids. Predicting the site of cleavage between a signal sequence and the mature exported protein is possible [112,113]. Membrane proteins have different topologies in the lipid bilayer, with one or more TM segments composed of about 20 hydrophobic amino acids; After the N-ter signal sequence is cleaved, the protein has a new N-ter extracellularly, and thus with an additional hydrophobic segment as a TM, is just a type I membrane protein.\nWhile the N-ter hydrophilic region, without the N-ter hydrophobic signal sequence, of a protein (type II membrane protein with the intracellular N-ter) remains in the cytosol, additional hydrophobic segments function as TMs. Additionally, GPCR superfamily members have seven TM helices and a Nout\u2212Cin orientation (that is with an extracellular N-ter and a intracellular C ter). With these points, our plan on supermolecules is complex due to the two additional LH2 \u03b1-apoprotein-fusions to, respectively, the N-ter and C-ter of the prototype A2AR/D2R, but is very interesting, experimentally testable and will help to broaden our knowledge.\n",
+        "4. Summary and Outlook": "The supramolecular designs of scA2AR/D2LR, 'exclusive' monomers and dimers, using the C\u03b52 domain of IgE-Fc or apoproteins of the bacterial light-harvesting antenna complex, allowing us to express class A GPCR by recptor protein assembly regulation, i.e., the selective monomer/non-obligate dimer formation, are experimentally testable and will be used to confirm in vivo that such low S/N ratio interaction between A2AR and D2LR functions in the dopamine neurotransmission in the striatum.\n",
+        "Author contributions": "T.K. contributed to the planning and interpretation of all of the experiments, and conducted all of them, performed design [at The University of Tokyo General Library (Hongo, Bunkyo-ku, Tokyo)][from April 1, 2013 to date (this submission)] of vectors for the non-oligomerized \u2018exclusive\u2019 monomer and dimer, experiments such as antibody screening at TMIN (Kamiya et al., 2015), in silico search and wrote the paper; O.S. contributed to the interpretation of all of the experiments done at TMIN (Kamiya et al., 2015); T.M. performed immunization and cell fusion to make hybridomas at Kinki University, and with T.K., wrote the paper (Section 2.2 and Table Footnote). H.O. performed design (It started from December 2014) of vectors for in vivo analysis and with T.K., wrote the paper (in part, Section 2.1; Supplemental Information-Section S3.2). K.F. supervised the project of the electrophysiological studies (It started from November 2007)(Kamiya et al., 2015). With T.K., D.O.B.-E. analyzed the A2AR SNP and wrote the paper [Supplemental Information-Sections S3.1, S3.3, and S6 (Figure S1)]. H.N. supervised the overall project by the end of March 2007. H.N. also contributed to the interpretation of all of the experiments by the end of March 2007. All authors commented on the manuscript, except for H.N. who is at present under a departure from research activity.\n",
+        "Table Footnote": "This item is to discuss \u201cthe frequency of the monoclonal antibody (mAb) obtained, possibly specific for heteromeric A2AR/D2LR of interest\u201d (Section 2.2), while in our previous report, suggesting the existence of a mAb \u201cspecific for heteromeric A2AR/D2LR (Fig. 2B); [s48];(T.K., T.M., unpublished data): we failed to establish it as a clone.\u201d ([10])-Supplemental Information: pp. 25, line 8). In order to obtain a mAb specific for heteromeric A2AR/D2LR, partially purified A2AR/D2LR was not used as an immunogen because of being unexpectedly unable to be stored at \u221280 \u00b0C in prior experiments. Also, prototype scA2AR/D2LR was not used as an immunogen at that time because whether scA2AR/D2LR can simulate wild-type A2AR/D2LR remains unresolved as described [10]. Thus, mice were immunized with membranes of the coexpressed receptors. The handling of mice and all procedures performed on them were approved by the Animal Care and Use Committee of the School of Pharmaceutical Sciences, Kinki University. To check for the desired antibodies, samples of serum taken from the mice that had been immunized with a mixture of membranes from stable Myc-D2LR-expressing 293 cells [27] transiently transfected with 3HA-A2AR as the immunogen [10] and adjuvants [114], either CpG DNAs, Ribi, or TiterMax, were diluted ten- to 100-fold and assayed by an immunofluorescence-based screening method. In this method, as a set, all non-transfected, (transient) A2AR-expressed, (transient) D2LR-expressed human embryonic kidney (HEK) 293T, and (transient) 3HA-A2AR/(stable) Myc-D2LR-expressing 293 cells were plated separately directly onto 30-well glass slides [115,116] or glass coverslips, both of which had been treated with polyethylenimine-coating as usual, and fixed with 4% paraformaldehyde in Dulbecco\u2018s phosphate-buffered saline (D-PBS), subjected to sample incubation (anti-tag antibody was used as a control) followed by washing, and mounted, respectively, with glass coverslips or on slides using FluoroguardR [10]. The results indicated a high serum titer compared with the normal mouse serum before the immunizations begin, and that this hybridoma screening assay works well. Fusion of spleen cells, which were obtained from the immunized mice, was done as described before [117], and the cells were plated onto selection medium-filled wells of ten 96-well plates and screened. Viable hybridomas in the 958 wells survived at first (on November 8, 2003). Transient expression studies with HEK293T cells were performed as previously described [10]. On immunoblot analysis, cell membranes were subjected to SDS-PAGE and transferred to a nitrocellulose membrane as previously described [10]. Immunofluorescence studies were performed as previously described [10].\n"
+    },
+    "tables": [
+        {
+            "id": "T1",
+            "label": "Table 1.",
+            "description": "Making monoclonal antibodies specific for heteromeric A2AR/D2LRa, Main text:Table Footnote)\n",
+            "image": null
+        }
+    ],
+    "figures": [
+        {
+            "label": "Fig. 1.",
+            "title": "An \u2018exclusive\u2019 monomeric GPCR with the human C\u03b52 domain.",
+            "description": "See text in detail. The figure art (B) is shown which was drawn, being adapted from the published figure, i.e., a figure art (lower left) of A2AR-odr4TM-D2LR in Fig. 1A (pp. 140) in our previous report [9], with a written permission by the copyright owner, the Japan Society for Cell Biology.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/07/26/065250/F1.medium.gif"
+        },
+        {
+            "label": "Fig. 2.",
+            "title": "Another \u2018exclusive\u2019 monomeric GPCR with the oil-fence-like structure.",
+            "description": "(A) The human A2AR structure PDB 3EML [55] is shown with a bundle width diameter of about 36 \u00c5 (Section S2). (B) The light-harvesting antenna complex (LH2, gray circle) from the Rhodopseudomonas acidophila strain 10050 consists of 9 mer of the \u03b1-apoprotein [53 amino acids, with the intracellular N-terminus (N-ter); a nonagon with each angle numbered] packed side by side to form a hollow cylinder with a radius of 18 \u00c5 and the 9 helical \u03b2-apoprotein (41 amino acids, with the intracellular N-ter) of an outer cylinder with a radius of 34 \u00c5, together with porphyrin-like, light-absorbing pigments bacteriochlorophyll a(Bchl a) and carotenoids [57]. Lines for 36 \u00c5 are shown in black. The expression of an \u2018exclusive\u2019 monomeric GPCR with the oil-fence-like structure, i.e., the C-ter of this \u03b1-apoprotein (Angle 1) fused to the N-ter of TM helix 1 of GPCR, and its C-ter of TM helix 7 fused to the N-ter of another \u03b1-apoprotein (between Angle 1 and either Angle 4 or 5, a GPCR is shown by a dashed line), with other 7 wild-type \u03b1-apoproteins (respectively, Angle 2, 3, and either 5~9 or 4, 6~9), could form a complex with 9 \u03b2-apoproteins and pigments.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/07/26/065250/F2.medium.gif"
+        },
+        {
+            "label": "Fig. 3.",
+            "title": "An \u2018exclusive\u2019 dimeric GPCR with the oil-fence-like structure.",
+            "description": "See text in detail. Lines for 36 \u00c5 are shown in black. The figure art (A) is shown which was drawn, being adapted from the published figure, i.e., a figure art (lower left) of A2AR-odr4TM-D2LR in Fig. 1A (pp. 140) in our previous report [9], with a written permission by the copyright owner, the Japan Society for Cell Biology. This adaptation is only a small modification as a figure art, but biologically with very important intellectual revision introduced.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/07/26/065250/F3.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Kreitzer A.C.",
+                "Malenka R.C."
+            ],
+            "date": "2008",
+            "title": "Striatal plasticity and basal ganglia circuit function",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.neuron.2008.11.005&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19038213&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000261603200006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Donahue C.H.",
+                "Kreitzer A.C."
+            ],
+            "date": "2015",
+            "title": "A direct path to action initiation",
+            "links": []
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Spano P.F.",
+                "Trabucchi M.",
+                "Di Chiara G."
+            ],
+            "date": "1977",
+            "title": "Localization of nigral dopamine-sensitive adenylate cyclase on neurons originating from the corpus striatum",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIxOTYvNDI5Ni8xMzQzIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Glaser T.",
+                "Cappellari A.R.",
+                "Pillat M.M.",
+                "Iser I.C.",
+                "Wink M.R.",
+                "Battastini A.M.",
+                "Ulrich H."
+            ],
+            "date": "2012",
+            "title": "Perspectives of purinergic signaling in stem cell differentiation and tissue regeneration",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/s11302-011-9282-3&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22143354&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Ralevic V.",
+                "Burnstock G."
+            ],
+            "date": "1998",
+            "title": "Receptors for purines and pyrimidines",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoicGhhcm1yZXYiO3M6NToicmVzaWQiO3M6ODoiNTAvMy80MTMiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "Wall N.R.",
+                "De La Parra M.",
+                "Callaway E.M.",
+                "Kreitzer A.C."
+            ],
+            "date": "2013",
+            "title": "Differential innervation of direct- and indirect-pathway striatal projection neurons",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.neuron.2013.05.014&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23810541&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000322426200013&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Fuxe K.",
+                "Cintra A.",
+                "Agnati L.F.",
+                "H\u00e4rfstrand A.",
+                "Goldstein M."
+            ],
+            "date": "1988",
+            "title": "Studies on the relationship of tyrosine hydroxylase, dopamine and cyclicAMP-regulated phosphoprotein-32 immunoreactive neuronal structures and D1 receptor antagonist binding sites in various brain regions of the male rat-mismatches indicate a role of d1 receptors in volume transmission",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20501287&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Missale C.",
+                "Nash S.R.",
+                "Robinson S.W.",
+                "Jaber M.",
+                "Caron M.G."
+            ],
+            "date": "1998",
+            "title": "Dopamine receptors: From structure to function",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1152/physrev.1998.78.1.189&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=9457173&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000071629200007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Kamiya T.",
+                "Saitoh O.",
+                "Nakata H."
+            ],
+            "date": "2005",
+            "title": "Functional expression of single-chain heterodimeric G-protein-coupled receptor for adenosine and dopamine",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15840945&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Kamiya T.",
+                "Yoshioka K.",
+                "Nakata H."
+            ],
+            "date": "2015",
+            "title": "Analysis of various types of single-polypeptide-chain (sc) heterodimeric A2AR/D2R complexes and their allosteric receptor-receptor interactions",
+            "links": []
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "Chernomordik L.V.",
+                "Kozlov M.M."
+            ],
+            "date": "2008",
+            "title": "Mechanics of membrane fusion",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nsmb.1455&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18596814&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000257412500005&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Kurylowicz M.",
+                "Paulin H.",
+                "Mogyoros J.",
+                "Giuliani M.",
+                "Dutcher J.R."
+            ],
+            "date": "2014",
+            "title": "The effect of nanoscale surface curvature on the oligomerization of surface-bound proteins",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rsif.2013.0818&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24573329&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "13.",
+            "authors": [
+                "Soubias O.",
+                "Teague Jr. W.E.",
+                "Hines K.G.",
+                "Gawrisch K."
+            ],
+            "date": "2014",
+            "title": "The role of membrane curvature elastic stress for function of rhodopsin-like G protein-coupled receptors",
+            "links": []
+        },
+        {
+            "label": "14.",
+            "authors": [
+                "Acuner Ozbabacan S.E.",
+                "Engin H.B.",
+                "Gursoy A.",
+                "Keskin O."
+            ],
+            "date": "2011",
+            "title": "Transient protein-protein interactions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/protein/gzr025&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21676899&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000294555600004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "15.",
+            "authors": [
+                "Perkins J.R.",
+                "Diboun I.",
+                "Dessailly B.H.",
+                "Lees J.G.",
+                "Orengo C."
+            ],
+            "date": "2010",
+            "title": "Transient protein-protein interactions: structural, functional, and network properties",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.str.2010.08.007&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20947012&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "16.",
+            "authors": [
+                "Ferr\u00e9 S.",
+                "Casad\u00f3 V.",
+                "Devi L.A.",
+                "Filizola M.",
+                "Jockers R.",
+                "Lohse M.J.",
+                "Milligan G.",
+                "Pin J.-P.",
+                "Guitart X."
+            ],
+            "date": "2014",
+            "title": "G protein-coupled receptor oligomerization revisited: functional and pharmacological perspectives",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoicGhhcm1yZXYiO3M6NToicmVzaWQiO3M6ODoiNjYvMi80MTMiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "17.",
+            "authors": [
+                "Vischer H.F.",
+                "Castro M.",
+                "Pin J.-P."
+            ],
+            "date": "2015",
+            "title": "G protein\u2013coupled receptor multimers: A question still open despite the use of novel approaches",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoibW9scGhhcm0iO3M6NToicmVzaWQiO3M6ODoiODgvMy81NjEiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Ferre S.",
+                "von Euler G.",
+                "Johansson B.",
+                "Fredholm B.B.",
+                "Fuxe K."
+            ],
+            "date": "1991",
+            "title": "Stimulation of high-affinity adenosine A2 receptors decreases the affinity of dopamine D2 receptors in rat striatal membranes",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiODgvMTYvNzIzOCI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "19.",
+            "authors": [
+                "Agnati L.F.",
+                "Ferr\u00e9 S.",
+                "Lluis C.",
+                "Franco R.",
+                "Fuxe K."
+            ],
+            "date": "2003",
+            "title": "Molecular mechanisms and therapeutical implications of intramembrane receptor/receptor interactions among heptahelical receptors with examples from the striatopallidal GABA neurons",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoicGhhcm1yZXYiO3M6NToicmVzaWQiO3M6ODoiNTUvMy81MDkiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "20.",
+            "authors": [
+                "Cordomi A.",
+                "Navarro G.",
+                "Aymerich M.S.",
+                "Franco R."
+            ],
+            "date": "2015",
+            "title": "Structures for G-protein-coupled receptor tetramers in complex with G proteins",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.tibs.2015.07.007&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Bonaventura J.",
+                "Navarro G.",
+                "Casad\u00f3-Anguera V.",
+                "Azdad K.",
+                "Rea W.",
+                "Moreno E.",
+                "Brugarolas M.",
+                "Mallol J.",
+                "Canela E.I.",
+                "Llu\u00eds C.",
+                "Cort\u00e9s A.",
+                "Volkow N.D.",
+                "Schiffmann S.N.",
+                "Ferr\u00e9 S.",
+                "Casad\u00f3 V."
+            ],
+            "date": "2015",
+            "title": "Allosteric interactions between agonists and antagonists within the adenosine A2A receptor-dopamine D2 receptor heterotetramer",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTEyLzI3L0UzNjA5IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "22.",
+            "authors": [
+                "Wootten D.",
+                "Christopoulos A.",
+                "Sexton P.M."
+            ],
+            "date": "2013",
+            "title": "Emerging paradigms in GPCR allostery: implications for drug discovery",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nrd4052&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23903222&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "23.",
+            "authors": [
+                "Christopoulos A.",
+                "Changeux J.-P.",
+                "Catterall W.A.",
+                "Fabbro D.",
+                "Burris T.P.",
+                "Cidlowski J.A.",
+                "Olsen R.W.",
+                "Peters J.A.",
+                "Neubig R.R.",
+                "Pin J.-P.",
+                "Sexton P.M.",
+                "Kenakin T.P.",
+                "Ehlert F.J.",
+                "Spedding M.",
+                "Langmead C.J."
+            ],
+            "date": "2014",
+            "title": "International union of basic and clinical pharmacology. XC. Multisite pharmacology: Recommendations for the nomenclature of receptor allosterism and allosteric ligands",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoicGhhcm1yZXYiO3M6NToicmVzaWQiO3M6ODoiNjYvNC85MTgiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "24.",
+            "authors": [
+                "Christopoulos A."
+            ],
+            "date": "2014",
+            "title": "Advances in G protein-coupled receptor allostery: From function to structure",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoibW9scGhhcm0iO3M6NToicmVzaWQiO3M6ODoiODYvNS80NjMiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "25.",
+            "authors": [
+                "Lane J.R.",
+                "Donthamsetti P.",
+                "Shonberg J.",
+                "Draper-Joyce C.J.",
+                "Dentry S.",
+                "Michino M.",
+                "Shi L.",
+                "L\u00f3pez L.",
+                "Scammells P.J.",
+                "Capuano B.",
+                "Sexton P.M.",
+                "Javitch J.A.",
+                "Christopoulos A."
+            ],
+            "date": "2014",
+            "title": "A new mechanism of allostery in a G protein-coupled receptor dimer",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nchembio.1593&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25108820&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "26.",
+            "authors": [
+                "Gomes I.",
+                "Ayoub M.A.",
+                "Fujita W.",
+                "Jaeger W.C.",
+                "Pfleger K.D.G.",
+                "Devi L.A."
+            ],
+            "date": "2016",
+            "title": "G protein-coupled receptor heteromers",
+            "links": []
+        },
+        {
+            "label": "27.",
+            "authors": [
+                "Kamiya T.",
+                "Saitoh O.",
+                "Yoshioka K.",
+                "Nakata H."
+            ],
+            "date": "2003",
+            "title": "Oligomerization of adenosine A2A and dopamine D2 receptors in living cells",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0006-291X(03)00991-4&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12804599&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000183734800035&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "28.",
+            "authors": [
+                "Lan T.H.",
+                "Liu Q.",
+                "Li C.",
+                "Wu G.",
+                "Steyaert J.",
+                "Lambert N.A."
+            ],
+            "date": "2015",
+            "title": "BRET evidence that \u03b22 adrenergic receptors do not oligomerize in cells",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/srep10166&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25955971&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "29.",
+            "authors": [
+                "Latty S.L.",
+                "Felce J.H.",
+                "Weimann L.",
+                "Lee S.F.",
+                "Davis S.J.",
+                "Klenerman D."
+            ],
+            "date": "2015",
+            "title": "Referenced single-molecule measurements differentiate between GPCR oligomerization states",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bpj.2015.09.004&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "30.",
+            "authors": [
+                "Furlong T.J.",
+                "Pierce K.D.",
+                "Selbie L.A.",
+                "Shine J."
+            ],
+            "date": "1992",
+            "title": "Molecular characterization of a human brain adenosine A2 receptor",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/0169-328X(92)90152-2&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=1331670&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "31.",
+            "authors": [
+                "Venkatakrishnan A.J.",
+                "Deupi X.",
+                "Lebon G.",
+                "Tate C.G.",
+                "Schertler G.F.",
+                "Babu M.M."
+            ],
+            "date": "2013",
+            "title": "Molecular signatures of G-protein-coupled receptors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature11896&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23407534&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000315137700030&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "32.",
+            "authors": [
+                "Comps-Agrar L.",
+                "Kniazeff J.",
+                "N\u00f8rskov-Lauritsen L.",
+                "Maurel D.",
+                "Gassmann M.",
+                "Gregor N.",
+                "Pr\u00e9zeau L.",
+                "Bettler B.",
+                "Durroux T.",
+                "Trinquet E.",
+                "Pin J.-P."
+            ],
+            "date": "2011",
+            "title": "The oligomeric state sets GABAB receptor signalling efficacy",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NzoiZW1ib2pubCI7czo1OiJyZXNpZCI7czoxMDoiMzAvMTIvMjMzNiI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "33.",
+            "authors": [
+                "Impagliazzo A.",
+                "Milder F.",
+                "Kuipers H.",
+                "Wagner M.V.",
+                "Zhu X.",
+                "Hoffman R.M.",
+                "van Meersbergen R.",
+                "Huizingh J.",
+                "Wanningen P.",
+                "Verspuij J."
+            ],
+            "date": "2015",
+            "title": "A stable trimeric influenza hemagglutinin stem as a broadly protective immunogen",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDkvNjI1NC8xMzAxIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "34.",
+            "authors": [
+                "Yu C.",
+                "Gupta J.",
+                "Chen J.F.",
+                "Yin H.H."
+            ],
+            "date": "2009",
+            "title": "Genetic deletion of A2A adenosine receptors in the striatum selectively impairs habit formation",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Njoiam5ldXJvIjtzOjU6InJlc2lkIjtzOjExOiIyOS80OC8xNTEwMCI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "35.",
+            "authors": [
+                "Gerfen C.R."
+            ],
+            "date": "2006",
+            "title": "Indirect-pathway neurons lose their spines in Parkinson disease",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nn0206-157&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16439979&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000234990100004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "36.",
+            "authors": [
+                "Lobo M.K.",
+                "Karsten S.L.",
+                "Gray M.",
+                "Geschwind D.H.",
+                "Yang X.W."
+            ],
+            "date": "2006",
+            "title": "FACS-array profiling of striatal projection neuron subtypes in juvenile and adult mouse brains",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nn1654&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16491081&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000235645600025&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "37.",
+            "authors": [
+                "Shieh Y.-W.",
+                "Minguez P.",
+                "Bork P.",
+                "Auburger J.J.",
+                "Guilbride D.L.",
+                "Kramer G.",
+                "Bukau B."
+            ],
+            "date": "2015",
+            "title": "Operon structure and cotranslational subunit association direct protein assembly in bacteria",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzNTAvNjI2MS82NzgiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "38.",
+            "authors": [
+                "Wan C.",
+                "Borgeson B.",
+                "Phanse S.",
+                "Tu F.",
+                "Drew K.",
+                "Clark G.",
+                "Xiong X.",
+                "Kagan O.",
+                "Kwan J.",
+                "Bezginov A.",
+                "Chessman K.",
+                "Pal S.",
+                "Cromar G.",
+                "Papoulas O.",
+                "Ni Z.",
+                "Boutz D.R.",
+                "Stoilova S.",
+                "Havugimana P.C.",
+                "Guo X.",
+                "Malty R.H.",
+                "Sarov M.",
+                "Greenblatt J.",
+                "Babu M.",
+                "Derry W.B.",
+                "Tillier E.R.",
+                "Wallingford J.B.",
+                "Parkinson J.",
+                "Marcotte E.M.",
+                "Emili A."
+            ],
+            "date": "2015",
+            "title": "Panorama of ancient metazoan macromolecular complexes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature14877&link_type=DOI"
+                ],
+                [
+                    "GeoRef",
+                    "/lookup/external-ref?access_num=2015099302&link_type=GEOREF"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26344197&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "39.",
+            "authors": [
+                "Borroto-Escuela D.O.",
+                "Marcellino D.",
+                "Narvaez M.",
+                "Flajolet M.",
+                "Heintz N.",
+                "Agnati L.",
+                "Ciruela F.",
+                "Fuxe K."
+            ],
+            "date": "2010",
+            "title": "A serine point mutation in the adenosine A2AR C-terminal tail reduces receptor heteromerization and allosteric modulation of the dopamine D2R",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bbrc.2010.02.168&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=20197060&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "40.",
+            "authors": [
+                "Xue L.",
+                "Rovira X.",
+                "Scholler P.",
+                "Zhao H.",
+                "Liu J.",
+                "Pin J.-P.",
+                "Rondard P."
+            ],
+            "date": "2015",
+            "title": "Major ligand-induced rearrangement of the heptahelical domain interface in a GPCR dimer",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nchembio.1711&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25503927&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "41.",
+            "authors": [
+                "Jonas K.C.",
+                "Fanelli F.",
+                "Huhtaniemi, I T.",
+                "Hanyaloglu A.C."
+            ],
+            "date": "2015",
+            "title": "Single molecule analysis of functionally asymmetric GPCR oligomers reveals diverse spatial and structural assemblies",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEwOiIyOTAvNy8zODc1IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "42.",
+            "authors": [
+                "Berque-Bestel I.",
+                "Lezoualc\u2019h F.",
+                "Jockers R."
+            ],
+            "date": "2008",
+            "title": "Bivalent ligands as specific pharmacological tools for G-protein-coupled receptor dimers",
+            "links": []
+        },
+        {
+            "label": "43.",
+            "authors": [
+                "Joh N.H.",
+                "Wang T.",
+                "Bhate M.P.",
+                "Acharya R.",
+                "Wu Y.",
+                "Grabe M.",
+                "Hong M.",
+                "Grigoryan G.",
+                "DeGrado W.F."
+            ],
+            "date": "2014",
+            "title": "De novo design of a transmembrane Zn2+-transporting four-helix bundle",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDYvNjIxNi8xNTIwIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "44.",
+            "authors": [
+                "Song W.J.",
+                "Tezcan F.A."
+            ],
+            "date": "2014",
+            "title": "A designed supramolecular protein assembly with in vivo enzymatic activity",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDYvNjIxNi8xNTI1IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "45.",
+            "authors": [
+                "Gonen S.",
+                "DiMaio F.",
+                "Gonen T.",
+                "Baker D."
+            ],
+            "date": "2015",
+            "title": "Design of ordered two-dimensional arrays mediated by noncovalent protein-protein interfaces",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDgvNjI0MS8xMzY1IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "46.",
+            "authors": [
+                "Huang J.",
+                "Kang B.H.",
+                "Pancera M.",
+                "Lee J.H.",
+                "Tong T.",
+                "Feng Y.",
+                "Imamichi H.",
+                "Georgiev I.S.",
+                "Chuang G.-Y.",
+                "Druz A.",
+                "Doria-Rose N.A.",
+                "Laub L.",
+                "Sliepen K.",
+                "van Gils M.J.",
+                "de la Pe\u00f1a A.T.",
+                "Derking R.",
+                "Klasse P.-J.",
+                "Migueles S.A.",
+                "Bailer R.T.",
+                "Alam M.",
+                "Pugach P.",
+                "Haynes B.F.",
+                "Wyatt R.T.",
+                "Sanders R.W.",
+                "Binley J.M.",
+                "Ward A.B.",
+                "Mascola J.R.",
+                "Kwong P.D.",
+                "Connors M."
+            ],
+            "date": "2014",
+            "title": "Broad and potent HIV-1 neutralization by a human antibody that binds the gp41-gp120 interface",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature13601&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25186731&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000344187500045&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Fibriansah G.",
+                "Ibarra K.D.",
+                "Ng T.-S.",
+                "Smith S.A.",
+                "Tan J.L.",
+                "Lim X.-N.",
+                "Ooi J.S.",
+                "Kostyuchenko V.A.",
+                "Wang J.",
+                "de Silva A.M.",
+                "Harris E.",
+                "Crowe J.E. Jr",
+                "Lok S.-M."
+            ],
+            "date": "2015",
+            "title": "Cryo-EM structure of an antibody that neutralizes dengue virus type 2 by locking E protein dimers",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjExOiIzNDkvNjI0My84OCI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Thomas E.A.",
+                "Carson M.J.",
+                "Neal M.J.",
+                "Sutcliffe J.G."
+            ],
+            "date": "1997",
+            "title": "Unique allosteric regulation of 5-hydroxytryptamine receptor-mediated signal transduction by oleamide",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiOTQvMjUvMTQxMTUiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "49.",
+            "authors": [
+                "Dawaliby R.",
+                "Trubbia C.",
+                "Delporte C.",
+                "Masureel M.",
+                "Van Antwerpen P.",
+                "Kobilka B.K.",
+                "Govaerts C."
+            ],
+            "date": "2015",
+            "title": "Allosteric regulation of G protein-coupled receptor activity by phospholipids",
+            "links": []
+        },
+        {
+            "label": "50.",
+            "authors": [
+                "Guix\u00e0-Gonz\u00e1lez R.",
+                "Javanainen M.",
+                "G\u00f3mez-Soler M.",
+                "Cordobilla B.",
+                "Domingo J.C.",
+                "Sanz F.",
+                "Pastor M.",
+                "Ciruela F.",
+                "Martinez-Seara H.",
+                "Selent J."
+            ],
+            "date": "2016",
+            "title": "Membrane omega-3 fatty acids modulate the oligomerisation kinetics of adenosine A2A and dopamine D2 receptors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/srep19839&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "51.",
+            "authors": [
+                "Lewicki D.N.",
+                "Gallagher T.M."
+            ],
+            "date": "2002",
+            "title": "Quaternary structure of coronavirus spikes in complex with carcinoembryonic antigen-related cell adhesion molecule cellular receptors",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyNzcvMjIvMTk3MjciO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "52.",
+            "authors": [
+                "Scallon B.",
+                "Cai A.",
+                "Radewonuk J.",
+                "Naso M."
+            ],
+            "date": "2004",
+            "title": "Addition of an extra immunoglobulin domain to two anti-rodent TNF monoclonal antibodies substantially increased their potency",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.molimm.2004.01.006&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15140577&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "53.",
+            "authors": [
+                "Gould H.J.",
+                "Sutton B.J."
+            ],
+            "date": "2008",
+            "title": "IgE in allergy and asthma today",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nri2273&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18301424&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000253548600015&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "54.",
+            "authors": [
+                "Wan T.",
+                "Beavil R. L.",
+                "Fabiane S. M.",
+                "Beavil A. J.",
+                "Sohi M. K.",
+                "Keown M.",
+                "Young R.J.",
+                "Henry A.J.",
+                "Owens R.J.",
+                "Gould H.J.",
+                "Sutton B.J."
+            ],
+            "date": "2002",
+            "title": "The crystal structure of IgE-Fc reveals an asymmetrically bent conformation",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/ni811&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12068291&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000176441700019&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "55.",
+            "authors": [
+                "Jaakola V.-P.",
+                "Griffith M.T.",
+                "Hanson M.A.",
+                "Cherezov V.",
+                "Chien E.Y.T.",
+                "Lane J.R.",
+                "Ijzerman A.P.",
+                "Stevens R.C."
+            ],
+            "date": "2008",
+            "title": "The 2.6 angstrom crystal structure of a human A2A adenosine receptor bound to an antagonist",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMjIvNTkwNS8xMjExIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "56.",
+            "authors": [
+                "Isberg V.",
+                "de Graaf C.",
+                "Bortolato A.",
+                "Cherezov V.",
+                "Katritch V.",
+                "Marshall F.H.",
+                "Mordalski S.",
+                "Pin J.-P.",
+                "Stevens R.C.",
+                "Vriend G.",
+                "Gloriam D.E."
+            ],
+            "date": "2015",
+            "title": "Generic GPCR residue numbers - aligning topology maps while minding the gaps",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.tips.2014.11.001&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "57.",
+            "authors": [
+                "McDermott G.",
+                "Prince S.M.",
+                "Freer A.A.",
+                "Hawthornthwaite-Lawless A.M.",
+                "Papiz M.Z.",
+                "Cogdell R.J.",
+                "Isaacs N.W."
+            ],
+            "date": "1995",
+            "title": "Crystal structure of an integral membrane light-harvesting complex from photosynthetic bacteria",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/374517a0&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1995QR06900043&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "58.",
+            "authors": [
+                "Vlatakis G.",
+                "Andersson L.I.",
+                "M\u00fcller R.",
+                "Mosbach K."
+            ],
+            "date": "1993",
+            "title": "Drug assay using antibody mimics made by molecular imprinting",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/361645a0&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=8437624&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "59.",
+            "authors": [
+                "Haupt K.",
+                "Mosbach K."
+            ],
+            "date": "1998",
+            "title": "Plastic antibodies: developments and applications",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0167-7799(98)01222-0&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=9830155&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000076809400005&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "60.",
+            "authors": [
+                "van der Zwaag D.",
+                "Meijer E.W."
+            ],
+            "date": "2015",
+            "title": "Fueling connections between chemistry and biology",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDkvNjI1Mi8xMDU2IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "61.",
+            "authors": [
+                "Gutierrez-Puebla E."
+            ],
+            "date": "2016",
+            "title": "Interlacing molecular threads",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzNTEvNjI3MS8zMzYiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "62.",
+            "authors": [
+                "Brunette T.J.",
+                "Parmeggiani F.",
+                "Huang P.-S.",
+                "Bhabha G.",
+                "Ekiert D.C.",
+                "Tsutakawa S.E.",
+                "Hura G.L.",
+                "Tainer J.A.",
+                "Baker D."
+            ],
+            "date": "2015",
+            "title": "Exploring the repeat protein universe through computational protein design",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature16162&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26675729&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "63.",
+            "authors": [
+                "Doyle L.",
+                "Hallinan J.",
+                "Bolduc J.",
+                "Parmeggiani F.",
+                "Baker D.",
+                "Stoddard B.L.",
+                "Bradley P."
+            ],
+            "date": "2015",
+            "title": "Rational design of \u03b1-helical tandem repeat proteins with closed architectures",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature16191&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26675735&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "64.",
+            "authors": [
+                "Mondal S.",
+                "Adler-Abramovich L.",
+                "Lampel A.",
+                "Bram Y.",
+                "Lipstman S.",
+                "Gazit E."
+            ],
+            "date": "2015",
+            "title": "Formation of functional super-helical assemblies by constrained single heptad repeat",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/ncomms9615&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26468599&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "65.",
+            "authors": [
+                "Nooren I.M.",
+                "Thornton J.M."
+            ],
+            "date": "2003",
+            "title": "Diversity of protein-protein interactions",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NzoiZW1ib2pubCI7czo1OiJyZXNpZCI7czoxMDoiMjIvMTQvMzQ4NiI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "66.",
+            "authors": [
+                "Monod J.",
+                "Wyman J.",
+                "Changeux J.P."
+            ],
+            "date": "1965",
+            "title": "On the nature of allosteric transitions: a plausible model",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0022-2836(65)80285-6&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=14343300&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A19656540900010&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "67.",
+            "authors": [
+                "Stryer L",
+                "Bourne H.R."
+            ],
+            "date": "1986",
+            "title": "G proteins: a family of signal transducers",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1146/annurev.cellbio.2.1.391&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1986E986500014&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Gilman A.G."
+            ],
+            "date": "1987",
+            "title": "G proteins: transducers of receptor-generated signals",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1146/annurev.bi.56.070187.003151&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=3113327&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1987H963200021&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "69.",
+            "authors": [
+                "Oldham W.M.",
+                "Hamm H.E."
+            ],
+            "date": "2008",
+            "title": "Heterotrimeric G protein activation by G-protein-coupled receptors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nrm2299&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18043707&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000252231300013&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Hillenbrand M.",
+                "Schori C.",
+                "Sch\u00f6ppe J.",
+                "Pl\u00fcckthun A."
+            ],
+            "date": "2015",
+            "title": "Comprehensive analysis of heterotrimeric G-protein complex diversity and their interactions with GPCRs in solution",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTEyLzExL0UxMTgxIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "71.",
+            "authors": [
+                "Flock T.",
+                "Ravarani C.N.J.",
+                "Sun D.",
+                "Venkatakrishnan A.J.",
+                "Kayikci M.",
+                "Tate C.G.",
+                "Veprintsev D.B.",
+                "Babu M.M."
+            ],
+            "date": "2015",
+            "title": "Universal allosteric mechanism for G\u03b1 activation by GPCRs",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature14663&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26147082&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "72.",
+            "authors": [
+                "DeVree B.T.",
+                "Mahoney J.P.",
+                "V\u00e9lez-Ruiz G.A.",
+                "Rasmussen S.G.F.",
+                "Kuszak A.J.",
+                "Edwald E.",
+                "Fung J.-J.",
+                "Manglik A.",
+                "Masureel M.",
+                "Du Y.",
+                "Matt R.A.",
+                "Pardon E.",
+                "Steyaert J.",
+                "Kobilka B.K.",
+                "Sunahara R.K."
+            ],
+            "date": "2016",
+            "title": "Allosteric coupling from G protein to the agonist-binding pocket in GPCRs",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature18324&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=27362234&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "73.",
+            "authors": [
+                "Sternweis P.C.",
+                "Robishaw J.D."
+            ],
+            "date": "1984",
+            "title": "Isolation of two proteins with high affinity for guanine nucleotides from membranes of bovine brain",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyNTkvMjIvMTM4MDYiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "74.",
+            "authors": [
+                "Asano T.",
+                "Ui M.",
+                "Ogasawara N."
+            ],
+            "date": "1985",
+            "title": "Prevention of the agonist binding to \u03b3-aminobutyric acid B receptors by guanine nucleotides and islet-activating protein, pertussis toxin, in bovine cerebral cortex: Possible coupling of the toxin-sensitive GTP-binding proteins to receptors",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyNjAvMjMvMTI2NTMiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Alves I.D.",
+                "Salamon Z.",
+                "Varga E.",
+                "Yamamura H.I.",
+                "Tollin G.",
+                "Hruby V.J."
+            ],
+            "date": "2003",
+            "title": "Direct observation of G-protein binding to the human \u03b4-opioid receptor using plasmon-waveguide resonance spectroscopy",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyNzgvNDkvNDg4OTAiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "76.",
+            "authors": [
+                "Alves I.D.",
+                "Salgado G.F.J.",
+                "Salamon Z.",
+                "Brown M.F.",
+                "Tollin G.",
+                "Hruby V.J."
+            ],
+            "date": "2005",
+            "title": "Phosphatidylethanolamine enhances rhodopsin photoactivation and transducin binding in a solid supported lipid bilayer as determined using plasmon-waveguide resonance spectroscopy",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1529/biophysj.104.046722&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15501933&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000226090900020&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "77.",
+            "authors": [
+                "Dijkman P.M.",
+                "Watts A."
+            ],
+            "date": "2015",
+            "title": "Lipid modulation of early G protein-coupled receptor signalling events",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bbamem.2015.08.004&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "78.",
+            "authors": [
+                "Reginsson G.W.",
+                "Schiemann O."
+            ],
+            "date": "2011",
+            "title": "Pulsed electron-electron double resonance: beyond nanometre distance measurements on biomacromolecules",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MTA6InBwYmlvY2hlbWoiO3M6NToicmVzaWQiO3M6OToiNDM0LzMvMzUzIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Van Eps N.",
+                "Preininger A.M.",
+                "Alexander N.",
+                "Kaya A.I.",
+                "Meier S.",
+                "Meiler J.",
+                "Hamm H.E.",
+                "Hubbell W.L."
+            ],
+            "date": "2011",
+            "title": "Interaction of a G protein with an activated receptor opens the interdomain interface in the alpha subunit",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA4LzIzLzk0MjAiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "80.",
+            "authors": [
+                "Dror R.O.",
+                "Mildorf T.J.",
+                "Hilger D.",
+                "Manglik A.",
+                "Borhani D.W.",
+                "Arlow D.H.",
+                "Philippsen A.",
+                "Villanueva N.",
+                "Yang Z.",
+                "Lerch M.T.",
+                "Hubbell W.L.",
+                "Kobilka B.K.",
+                "Sunahara R.K.",
+                "Shaw D.E."
+            ],
+            "date": "2015",
+            "title": "Structural basis for nucleotide exchange in heterotrimeric G proteins",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDgvNjI0MS8xMzYxIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "81.",
+            "authors": [
+                "Carrillo N.",
+                "Ceccarelli E.A."
+            ],
+            "date": "2003",
+            "title": "Open questions in ferredoxin-NADP+ reductase catalytic mechanism",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1046/j.1432-1033.2003.03566.x&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12709048&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000182449700002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "82.",
+            "authors": [
+                "Kurisu G.",
+                "Kusunoki M.",
+                "Katoh E.",
+                "Yamazaki T.",
+                "Teshima K.",
+                "Onda Y.",
+                "Kimata-Ariga Y.",
+                "Hase T."
+            ],
+            "date": "2001",
+            "title": "Structure of the electron transfer complex between ferredoxin and ferredoxin-NADP+ reductase",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/84097&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11175898&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000166702500014&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "83.",
+            "authors": [
+                "Morales R.",
+                "Charon M.H.",
+                "Kachalova G.",
+                "Serre L.",
+                "Medina M.",
+                "G\u00f3mez-Moreno C.",
+                "Frey M."
+            ],
+            "date": "2000",
+            "title": "A redox\u2013dependent interaction between two electron-transfer partners involved in photosynthesis",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NToiZW1ib3IiO3M6NToicmVzaWQiO3M6NzoiMS8zLzI3MSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "84.",
+            "authors": [
+                "Ullmann G.M.",
+                "Hauswald M.",
+                "Jensen A.",
+                "Knapp E.W."
+            ],
+            "date": "2000",
+            "title": "Structural alignment of ferredoxin and flavodoxin based on electrostatic potentials: implications for their interactions with photosystem I and ferredoxin-NADP reductase",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/(SICI)1097-0134(20000215)38:3<301::AID-PROT6>3.0.CO;2-Y&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10713990&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000085160600006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "85.",
+            "authors": [
+                "Mart\u00ednez-J\u00falvez M.",
+                "Medina M.",
+                "G\u00f3mez-Moreno C."
+            ],
+            "date": "1999",
+            "title": "Ferredoxin-NADP+ reductase uses the same site for the interaction with ferredoxin and flavodoxin",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/s007750050379&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10550685&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000083283600006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "86.",
+            "authors": [
+                "Ding X.",
+                "Zhao X.",
+                "Watts A."
+            ],
+            "date": "2013",
+            "title": "G-protein-coupled receptor structure, ligand binding and activation as studied by solid-state NMR spectroscopy",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MTA6InBwYmlvY2hlbWoiO3M6NToicmVzaWQiO3M6OToiNDUwLzMvNDQzIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "87.",
+            "authors": [
+                "Manglik A.",
+                "Kim T.H.",
+                "Masureel M.",
+                "Altenbach C.",
+                "Yang Z.",
+                "Hilger D.",
+                "Lerch M.T.",
+                "Kobilka T.S.",
+                "Thian F.S.",
+                "Hubbell W.L.",
+                "Prosser, R S.",
+                "Kobilka B.K."
+            ],
+            "date": "2015",
+            "title": "Structural insights into the dynamic process of \u03b22-adrenergic receptor signaling",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.cell.2015.04.043&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25981665&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Ahnert S.E.",
+                "Marsh J.A.",
+                "Hern\u00e1ndez H.",
+                "Robinson C.V.",
+                "Teichmann S.A."
+            ],
+            "date": "2015",
+            "title": "Principles of assembly reveal a periodic table of protein complexes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1126/science.aaa2245&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "89.",
+            "authors": [
+                "Jastrzebska B.",
+                "Chen Y.",
+                "Orban T.",
+                "Jin H.",
+                "Hofmann L.",
+                "Palczewski K."
+            ],
+            "date": "2015",
+            "title": "Disruption of rhodopsin dimerization with synthetic peptides targeting an interaction interface",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyOTAvNDIvMjU3MjgiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "90.",
+            "authors": [
+                "Bouvier M."
+            ],
+            "date": "2001",
+            "title": "Oligomerization of G-protein-coupled transmitter receptors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/35067575&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11283750&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000167928300018&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "91.",
+            "authors": [
+                "Dwyer N.D.",
+                "Troemel E.R.",
+                "Sengupta P.",
+                "Bargmann C.I."
+            ],
+            "date": "1998",
+            "title": "Odorant receptor localization to olfactory cilia is mediated by ODR-4, a novel membrane-associated protein",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0092-8674(00)81173-3&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=9590179&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000073471500020&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "92.",
+            "authors": [
+                "Lehman C.W.",
+                "Lee J.D.R.",
+                "Komives C.F."
+            ],
+            "date": "2005",
+            "title": "Ubiquitously expressed GPCR membrane-trafficking orthologs",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15718105&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "93.",
+            "authors": [
+                "Dhaliwal B.",
+                "Pang M.O.Y.",
+                "Yuan D.",
+                "Beavil A.J.",
+                "Sutton B.J."
+            ],
+            "date": "2014",
+            "title": "A range of C\u03b53-C\u03b54 interdomain angles in IgE Fc accommodate binding to its receptor CD23",
+            "links": []
+        },
+        {
+            "label": "94.",
+            "authors": [
+                "Dhaliwal B.",
+                "Pang M.O.Y.",
+                "Yuan D.",
+                "Yahya N.",
+                "Fabiane S.M.",
+                "McDonnell J.M.",
+                "Gould H.J.",
+                "Beavil A.J.",
+                "Sutton B.J."
+            ],
+            "date": "2013",
+            "title": "Conformational plasticity at the IgE-binding site of the B-cell receptor CD23",
+            "links": []
+        },
+        {
+            "label": "95.",
+            "authors": [
+                "Yuan D.",
+                "Keeble A.H.",
+                "Hibbert R.G.",
+                "Fabiane S.",
+                "Gould H.J.",
+                "McDonnell J.M.",
+                "Beavil A.J.",
+                "Sutton B.J.",
+                "Dhaliwal B."
+            ],
+            "date": "2013",
+            "title": "Ca2+-dependent structural changes in the B-cell receptor CD23 increase its affinity for human immunoglobulin E",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamJjIjtzOjU6InJlc2lkIjtzOjEyOiIyODgvMzAvMjE2NjciO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNy8yNi8wNjUyNTAuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Dhaliwal B.",
+                "Yuan D.",
+                "Pang M.O.Y.",
+                "Henry A.J.",
+                "Cain K.",
+                "Oxbrow A.",
+                "Fabiane S.M.",
+                "Beavil A.J.",
+                "McDonnell J.M.",
+                "Gould H.J.",
+                "Sutton B.J."
+            ],
+            "date": "2012",
+            "title": "Crystal structure of IgE bound to its B-cell receptor CD23 reveals a mechanism of reciprocal allosteric inhibition with high affinity receptor Fc\u03b5RI",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA5LzMxLzEyNjg2IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "97.",
+            "authors": [
+                "Wurzburg B.A.",
+                "Tarchevskaya S.S.",
+                "Jardetzky T.S."
+            ],
+            "date": "2006",
+            "title": "Structural changes in the lectin domain of CD23, the low-affinity IgE receptor, upon calcium binding",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16765898&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "98.",
+            "authors": [
+                "Hibbert R.G.",
+                "Teriete P.",
+                "Grundy G.J.",
+                "Beavil R.L.",
+                "Relji\u0107 R.",
+                "Holers V.M.",
+                "Hannan J.P.",
+                "Sutton B.J.",
+                "Gould H.J.",
+                "McDonnell J.M."
+            ],
+            "date": "2005",
+            "title": "The structure of human CD23 and its interactions with IgE and CD21",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiamVtIjtzOjU6InJlc2lkIjtzOjk6IjIwMi82Lzc1MSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA3LzI2LzA2NTI1MC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "99.",
+            "authors": [
+                "Che Y.",
+                "Fu A.",
+                "Hou X.",
+                "McDonald K.",
+                "Buchanan B.B.",
+                "Huang W.",
+                "Luan S."
+            ],
+            "date": "2013",
+            "title": "C-terminal processing of reaction center protein D1 is essential for the function and assembly of photosystem II in Arabidopsis",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTEwLzQwLzE2MjQ3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "100.",
+            "authors": [
+                "Guskov, A",
+                "Kern J.",
+                "Gabdulkhakov A.",
+                "Broser M.",
+                "Zouni A.",
+                "Saenger W."
+            ],
+            "date": "2009",
+            "title": "Cyanobacterial photosystem II at 2.9-\u00c5 resolution and the role of quinones, lipids, channels and chloride",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nsmb.1559&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19219048&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000263906000017&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "101.",
+            "authors": [
+                "Ferreira K.N.",
+                "Iverson T.M.",
+                "Maghlaoui K.",
+                "Barber J.",
+                "Iwata S."
+            ],
+            "date": "2004",
+            "title": "Architecture of the photosynthetic oxygen-evolving center",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMDMvNTY2NS8xODMxIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDcvMjYvMDY1MjUwLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "102.",
+            "authors": [
+                "Deisenhofer J.",
+                "Epp O.",
+                "Miki K.",
+                "Huber R.",
+                "Michel H."
+            ],
+            "date": "1985",
+            "title": "Structure of the protein subunits in the photosynthetic reaction cetre of Rhodopseudomonas viridis at 3\u00c5 resolution",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/318618a0&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22439175&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1985AWQ1500045&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "103.",
+            "authors": [
+                "Niwa S.",
+                "Yu L.J.",
+                "Takeda K.",
+                "Hirano Y.",
+                "Kawakami T.",
+                "Wang-Otomo Z.-Y.",
+                "Miki K."
+            ],
+            "date": "2014",
+            "title": "Structure of the LH1-RC complex from Thermochromatium tepidum at 3.0\u00c5",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature13197&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Cogdell R.J.",
+                "Gall A.",
+                "K\u00f6hler J."
+            ],
+            "date": "2006",
+            "title": "The architecture and function of the light-harvesting apparatus of purple bacteria: from single molecules to in vivo membranes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1017/S0033583506004434&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17038210&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000243145000002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Cogdell R.J.",
+                "Isaacs N.W.",
+                "Freer A.A.",
+                "Howard T.D.",
+                "Gardiner A.T.",
+                "Prince S.M.",
+                "Papiz M.Z."
+            ],
+            "date": "2003",
+            "title": "The structural basis of light-harvesting in purple bacteria",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0014-5793(03)01102-5&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=14630315&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000186867600007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "106.",
+            "authors": [
+                "Hou Q.",
+                "Dutilh B.E.",
+                "Huynen M.A.",
+                "Heringa, J",
+                "Feenstra K.A."
+            ],
+            "date": "2015",
+            "title": "Sequence specificity between interacting and non-interacting homologs identifies interface residues--a homodimer and monomer use case",
+            "links": []
+        },
+        {
+            "label": "107.",
+            "authors": [
+                "Bhattacharya S.",
+                "Lam A.R.",
+                "Li H.",
+                "Balaraman G.",
+                "Niesen M.J.M.",
+                "Vaidehi N."
+            ],
+            "date": "2013",
+            "title": "Critical analysis of the successes and failures of homology models of G protein-coupled receptors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/prot.24195&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23042299&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000317288100001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Sapay N.",
+                "Estrada-Mondragon A.",
+                "Moreau C.",
+                "Vivaudou M.",
+                "Crouzy S."
+            ],
+            "date": "2014",
+            "title": "Rebuilding a macromolecular membrane complex at the atomic scale: Case of the Kir6.2 potassium channel coupled to the muscarinic acetylcholine receptor M2",
+            "links": []
+        },
+        {
+            "label": "109.",
+            "authors": [
+                "Leman J.K.",
+                "Ulmschneider M.B.",
+                "Gray J.J."
+            ],
+            "date": "2015",
+            "title": "Computational modeling of membrane proteins",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/prot.24703&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25355688&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "110.",
+            "authors": [
+                "von Heijne G."
+            ],
+            "date": "2006",
+            "title": "Membrane-protein topology",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nrm2063&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17139331&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000242274500013&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "111.",
+            "authors": [
+                "Rapoport T.A."
+            ],
+            "date": "2007",
+            "title": "Protein translocation across the eukaryotic endoplasmic reticulum and bacterial plasma membranes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature06384&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18046402&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000251209700042&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "112.",
+            "authors": [
+                "von Heijne G."
+            ],
+            "date": "1986",
+            "title": "A new method for predicting signal sequence cleavage sites",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/14.11.4683&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=3714490&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1986C742700023&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Reeb J.",
+                "Kloppmann E.",
+                "Bernhofer M.",
+                "Rost B."
+            ],
+            "date": "2015",
+            "title": "Evaluation of transmembrane helix predictions in 2014",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/prot.24749&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25546441&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "114.",
+            "authors": [
+                "Greenfield E.A."
+            ],
+            "date": "2014",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "115.",
+            "authors": [
+                "Masuko T.",
+                "Yagita H.",
+                "Hashimoto Y."
+            ],
+            "date": "1984",
+            "title": "Monoclonal antibodies against cell surface antigens present on human urinary bladder cancer cells",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=6583438&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "116.",
+            "authors": [
+                "Takasu N.",
+                "Masuko T.",
+                "Hojo H.",
+                "Hashimoto Y."
+            ],
+            "date": "1989",
+            "title": "A microtestplate-immunofluorescence assay for anti-trypanozoma cruzi antibodies",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=2699105&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        },
+        {
+            "label": "117.",
+            "authors": [
+                "Masuko T.",
+                "Ohno Y.",
+                "Masuko K.",
+                "Yagi H.",
+                "Uejima S.",
+                "Takechi M.",
+                "Hashimoto Y."
+            ],
+            "date": "2011",
+            "title": "Towards therapeutic monoclonal antibodies to membrane oncoproteins by a robust strategy using rats immunized with transfectants expressing target molecules fused to green fluorescent protein",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21040216&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F07%2F26%2F065250.atom"
+                ]
+            ]
+        }
+    ]
+}

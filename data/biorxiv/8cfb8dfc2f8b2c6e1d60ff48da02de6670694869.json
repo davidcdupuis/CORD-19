@@ -1,0 +1,273 @@
+{
+    "source": "biorxiv",
+    "id": "8cfb8dfc2f8b2c6e1d60ff48da02de6670694869",
+    "url": "https://biorxiv.org/content/10.1101/041558v1.full",
+    "title": "Productive infection of field strains of avian coronavirus infectious bronchitis virus in chicken peripheral blood-derived monocytes",
+    "authors": [
+        "Yueting Zhang",
+        "Gary R. Whittaker"
+    ],
+    "sections": {
+        "Abstract": "The avian coronavirus infectious bronchitis virus (IBV) typically infects the respiratory tract of chickens, but can also spread to other organs. However, the mechanisms of virus dissemination are presently unclear. We show that peripheral blood-derived monocytes/macrophages from chickens (chPBMC) are productively infected by clinical strains of IBV, accompanied by induction of apoptosis. Our data suggest that chPBMCs play a role in the dissemination of IBV, and may be important for viral pathogenesis.\n",
+        "Introduction": "Avian infectious bronchitis virus (IBV) is the prototype member of the Gammacoronavirus genus (1, 6). Despite extensive vaccination, IBV poses a continued economic threat to the poultry industry. The primary site of IBV infection is the epithelium of the respiratory tract; however IBV can spread to other sites including the gastrointestinal tract, kidney reproductive organs and Harderian glands (2, 9). Viremia has been suggested as a way for internal spread, as evidenced by detection of virus in the blood of infected chickens (3, 5). However, the mechanism remains unknown. Other coronaviruses, such as severe acute respiratory syndrome-coronavirus (4) and feline coronavirus (10), exhibit well recognized systemic infection, with monocytes, macrophages and dendritic cells originating from a common myeloid progenitor disseminating the virus and acting as an important immunopathogenic component in disease (8).\nIn the case of IBV, previous studies have shown that chicken bone marrow-derived macrophages were resistant to infection in vitro (11). However, macrophages from different anatomical sites can elicit distinct functions or responses to foreign pathogens (7, 8). To explain the known presence of IBV in the blood of infected chickens (3, 5), we reasoned that peripheral blood-derived monocytes/macrophages from chickens (chPBMCs) could be susceptible to IBV infection.\n",
+        "Methods": "IBV strains used in this study were M41, Cal99, Conn46, Iowa97 (all field strains) and Beaudette (a laboratory-adapted version of M41). Virus stocks were produced in embryonated chicken eggs and titered by EID50 or TCID50 assay. Chicken peripheral blood monocytes were prepared as described (20). Briefly blood was obtained by cardiac puncture from 6-8 week-old specific-pathogen-free White Leghorn chickens. Monocytes were isolated with a Ficoll gradient (GE Healthcare) and were cultured in RPMI 1640 supplemented with 10% heat-inactivated chicken serum and penicillin/streptomycin. 24h after cell seeding non-adherent were washed away. Monocytes for each independent experiment were obtained from an individual blood donor. All work with chickens was carried out according to the Cornell University Animal Care and Use program and complied with the Public Health Service Policy on Humane Care and Use of Laboratory Animals\nFor immunofluorescence assay, cells were fixed with methanol for detection of IBV viral antigens; otherwise cells were fixed with paraformaldehyde. Anti-S1 monoclonal antibody 15:88 was used for IBV-M41 and Beaudette, and anti-M monoclonal antibody 9:19 was used for IBV-Cal99, IBV-Conn46, and IBV-Iowa97. Monoclonal antibody KUL01 was purchased from Abcam. Secondary antibody was AlexaFluor goat anti-mouse 488 and nuclei were stained with Hoechst 33258 (Molecular Probes). Cells were quantified by scoring the % cells positive for viral antigen with >200 cells quantified from three independent experiments.\nFor RT-PCR for viral detection, 106 PBMCs were infected with 7x102 TCID50 IBV-M41. At indicated time points, culture supernatant was collected and filtered. Viral RNA was extracted from the supernatant using a Qiagen Viral RNA extraction kit. The RT-PCR reaction used a SuperScript One-Step RT-PCR kit (Invitrogen). IBV N gene primers were previously described by (17).\nFor apoptosis assays, chPBMCs were infected with 2x103 TCID50IBV-M41 and at 6h post infection, we used a Green FLICA caspase 3/7 assay kit (ImmunoChemistry Technologies). For the DNA laddering assay, total DNA was extracted from chPBMCs using a Qiagen DNeasy Blood & Tissue kit, and laddering was visualized on an agarose gel. To inactivate IBV-M41, viruses were irradiated for 30min under a UV-lamp (wavelength 254nm).\n",
+        "Results and Discussion": "To investigate a role for myeloid cells in IBV dissemination and viral pathogenesis, we isolated peripheral blood-derived monocytes from chickens (chPBMCs) and confirmed that they were positive for the monocyte/macrophage marker KUL01 (Fig.1A). Due to the lack of available reagents for avian species, we were unable to distinguish whether chPBMCs were matured or differentiated into macrophages or dendritic cells, or to determine the composition of unique cell populations. We found that chPBMCs are highly susceptible to the IBV field strains M41, Cal99, Conn46, and Iowa97 (Fig.1B). However, the laboratory-adapted strain Beaudette, which is not pathogenic in chickens, did not infect chPBMCs. Infections were also repeated with macrophages isolated from bone marrow of chickens, with similar results (not shown).\n(A) chPBMCs (3-day-old culture) were labeled with mouse anti-KUL01 avian macrophage/monocyte marker antibody followed by incubation with secondary antibody goat anti-mouse. Cell nuclei were stained with Hoechst 33258. (B) chPBMCs were infected with IBV-M41, IBV-Cal99, IBV-Conn46, IBV-Iowa97 or IBV-Bddte for 1 h at 37\u00b0C. Cells were washed with PBS and further incubated for 9 h for IBV-M41 and IBV-Bddte and for 23 h for other IBVs. Viral spike protein antigen was detected by immunofluorescence microscopy. Cell nuclei were stained with Hoechst 33258. (C) Infectivity of IBV-M41 in day 0 to 5 cultures of chPBMCs was determined by immunofluorescence microscopy. Cells were quantified by scoring the percentage of cells positive for viral antigen S or M. >200 cells were quantified from each of three independent experiments. (D) Filtered supernatants were harvested from IBV-M41 infected chPBMC at indicated time points. RT-PCR against IBV N gene was performed and amplified DNA products were visualized on an agarose gel. (E) The infectious titer of the supernatants containing IBV particles was determined by EID50 assay.\nTo examine whether the stage of maturation of the chPBMCs had an effect on IBV infection, we tested chPBMCs at different days post-seeding (Fig.1C). The percentage of infected cells increased with time, reaching a maximum at day 5. Beyond day 3-4, we observed a large proportion of giant multinucleated cells, as observed previously (12). In all further experiments, we utilized day 3-4 cultures due to difficulty in imaging and quantifying the giant cells.\nWe next determined whether IBV infection of chPBMCs produces progeny viral particles. RT-PCR was performed to detect released particles. Starting at 8h, we detected viral RNA in the supernatant, reaching a maximum at 24h postinfection. To determine whether these progeny virions were infectious, we performed an EID50 assay. The peak viral titer was 108 EID50/mL at 12h post-infection. At later times, the titer decreased slightly even though RT-PCR indicated more virus particles were present (Fig.1D). The reduced infectivity may be due to aggregation of viral particles between 12 and 24 h post infection.\nOne feature of chPBMC infection that we wished to examine was whether IBV can induce apoptosis. To do this, we used a FLICA assay that employs an inhibitor irreversibly binding to activated caspase3/7. At 6h post-infection, there was an increase in the fluorescence signal in IBVM41-infected cells, compared to mock-infected cells. Addition of UV-inactivated IBV-M41 also resulted in an increase in fluorescence signal, indicating that replication-defective IBV is also able to trigger apoptosis (Fig.2A). Cellular DNA from mock infected or infected chPBMCs was also collected after 24h post-infection and analyzed by gel electrophoresis. DNA from infected cells was fragmented and displayed an apoptosis-characteristic laddering while no obvious laddering was observed for mock-infected cells (Fig.2B).\n(A) Mock infected, live IBV-M41, or inactivated IBV-M41 infected chPBMCs were assayed at 6 h post infection. Apoptosis was revealed by a fluorescence FLICA caspase 3/7 detection assay. (B) Mock infected, IBV-M41(5x102TCID50) infected, or UV-inactivated IBV-M41(5x102TCID50) infected chPBMCs were harvested and total cellular DNA extracted and analyzed on an agarose gel.\nWe show here that field strains of IBV can productively infect monocytes/macrophages and induce apoptosis, yet the laboratory-adapted strain Beaudette does not infect. Our data suggest that IBV infection of blood-derived myeloid cells might be an important component in the pathogenesis of IBV, and be critical for viral dissemination.\n"
+    },
+    "tables": [],
+    "figures": [
+        {
+            "label": "Figure 1.",
+            "title": "Chicken PBMCs can be productively infected by field strains of IBV.",
+            "description": "(A) chPBMCs (3-day-old culture) were labeled with mouse anti-KUL01 avian macrophage/monocyte marker antibody followed by incubation with secondary antibody goat anti-mouse. Cell nuclei were stained with Hoechst 33258. (B) chPBMCs were infected with IBV-M41, IBV-Cal99, IBV-Conn46, IBV-Iowa97 or IBV-Bddte for 1 h at 37\u00b0C. Cells were washed with PBS and further incubated for 9 h for IBV-M41 and IBV-Bddte and for 23 h for other IBVs. Viral spike protein antigen was detected by immunofluorescence microscopy. Cell nuclei were stained with Hoechst 33258. (C) Infectivity of IBV-M41 in day 0 to 5 cultures of chPBMCs was determined by immunofluorescence microscopy. Cells were quantified by scoring the percentage of cells positive for viral antigen S or M. >200 cells were quantified from each of three independent experiments. (D) Filtered supernatants were harvested from IBV-M41 infected chPBMC at indicated time points. RT-PCR against IBV N gene was performed and amplified DNA products were visualized on an agarose gel. (E) The infectious titer of the supernatants containing IBV particles was determined by EID50 assay.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/02/26/041558/F1.medium.gif"
+        },
+        {
+            "label": "Figure 2.",
+            "title": "IBV-M41 induces rapid apoptosis in chPBMCs.",
+            "description": "(A) Mock infected, live IBV-M41, or inactivated IBV-M41 infected chPBMCs were assayed at 6 h post infection. Apoptosis was revealed by a fluorescence FLICA caspase 3/7 detection assay. (B) Mock infected, IBV-M41(5x102TCID50) infected, or UV-inactivated IBV-M41(5x102TCID50) infected chPBMCs were harvested and total cellular DNA extracted and analyzed on an agarose gel.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/02/26/041558/F2.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Beaudette F. R.",
+                "Hudson C. R."
+            ],
+            "date": "1937",
+            "title": "Cultivation of the virus of infectious bronchitis",
+            "links": []
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Bezuidenhout A.",
+                "Mondal S. P.",
+                "Buckles E. L."
+            ],
+            "date": "2011",
+            "title": "Histopathological and Immunohistochemical Study of Air Sac Lesions Induced by Two Strains of Infectious Bronchitis Virus",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21420689&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Chen H. T.",
+                "Zhang J.",
+                "Ma Y. P.",
+                "Ma L. N.",
+                "Ding Y. Z.",
+                "Liu X. T.",
+                "Cai X. P.",
+                "Ma L. Q.",
+                "Zhang Y. G.",
+                "Liu Y. S."
+            ],
+            "date": "2010",
+            "title": "Reverse transcription loop-mediated isothermal amplification for the rapid detection of infectious bronchitis virus in infected chicken tissues",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.mcp.2009.10.001&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19835950&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Ding Y.",
+                "Wang H.",
+                "Shen H.",
+                "Li Z.",
+                "Geng J.",
+                "Han H.",
+                "Cai J.",
+                "Li X.",
+                "Kang W.",
+                "Weng D.",
+                "Lu Y.",
+                "Wu D.",
+                "He L.",
+                "Yao K."
+            ],
+            "date": "2003",
+            "title": "The clinical pathology of severe acute respiratory syndrome (SARS): a report from China",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/path.1440&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12845623&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000183931300002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Hofstad M. S.",
+                "Yoder H. W."
+            ],
+            "date": "1966",
+            "title": "Avian infectious bronchitis\u2013virus distribution in tissues of chicks",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=4960464&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "King A. M. Q.",
+                "Lefkowitz E.",
+                "Adams M. J.",
+                "Carstens E. B."
+            ],
+            "date": "2011",
+            "title": "Virus Taxonomy: IXth Report of the International Committee on Taxonomy of Viruses",
+            "links": []
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Murray P. J.",
+                "Wynn T. A."
+            ],
+            "date": "2011",
+            "title": "Protective and pathogenic functions of macrophage subsets",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nri3073&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21997792&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Perlman S.",
+                "Dandekar A. A."
+            ],
+            "date": "2005",
+            "title": "Immunopathogenesis of coronavirus infections: implications for SARS",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nri1732&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16322745&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Raj G. D.",
+                "Jones R. C."
+            ],
+            "date": "1997",
+            "title": "Infectious bronchitis virus: Immunopathogenesis of infection in the chicken",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1080/03079459708419246&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18483939&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000071247600001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Rottier P. J."
+            ],
+            "date": "1999",
+            "title": "The molecular dynamics of feline coronaviruses",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0378-1135(99)00099-1&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10515281&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000082892800021&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "von Bulow V.",
+                "Klasen A."
+            ],
+            "date": "1983",
+            "title": "Effects of avian viruses on cultured chicken bone-marrow-derived macrophages",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1080/03079458308436162&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18766776&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ]
+            ]
+        },
+        {
+            "label": "12.",
+            "authors": [
+                "Weiss L. P.",
+                "Fawcett D. W."
+            ],
+            "date": "1953",
+            "title": "Cytochemical observations on chicken monocytes macrophages and giant cells in tissue culture",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1177/1.1.47&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=13022958&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F02%2F26%2F041558.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1953UX98400004&link_type=ISI"
+                ]
+            ]
+        }
+    ]
+}

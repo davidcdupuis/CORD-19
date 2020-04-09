@@ -1,0 +1,795 @@
+{
+    "source": "biorxiv",
+    "id": "1c0b25c8e3c89243fd8797e2e964e12689bc8556",
+    "url": "https://biorxiv.org/content/10.1101/053967v1.full",
+    "title": "50-valent inactivated rhinovirus vaccine is broadly immunogenic in rhesus macaques",
+    "authors": [
+        "Sujin Lee",
+        "Minh Trang Nguyen",
+        "Michael G. Currier",
+        "Joe B. Jenkins",
+        "Elizabeth A. Strobert",
+        "Adriana E. Kajon",
+        "Ranjna Madan-Lala",
+        "Yury A. Bochkov",
+        "James E. Gern",
+        "Krishnendu Roy",
+        "Xiaoyan Lu",
+        "Dean D. Erdman",
+        "Paul Spearman",
+        "Martin L. Moore"
+    ],
+    "sections": {
+        "Abstract": "As the predominant etiological agent of the common cold, human rhinovirus (HRV) is the leading cause of human infectious disease. Early studies showed monovalent formalin-inactivated HRV vaccine can be protective, and virus-neutralizing antibodies (nAb) correlated with protection. However, co-circulation of many HRV types discouraged further vaccine efforts. We approached this problem straightforwardly. We tested the hypothesis that increasing virus input titers in polyvalent inactivated HRV vaccine will result in broad nAb responses. Here, we show that serum nAb against many rhinovirus types can be induced by polyvalent, inactivated HRVs plus alhydrogel (alum) adjuvant. Using formulations up to 25-valent in mice and 50-valent in rhesus macaques, HRV vaccine immunogenicity was related to sufficient quantity of input antigens, and valency was not a major factor for potency or breadth of the response. We for the first time generated a vaccine capable of inducing nAb responses to numerous and diverse HRV types.\n",
+        "Introduction": "HRV causes respiratory illness in billions of people annually, a socioeconomic burden1. HRV also causes pneumonia hospitalizations in children and adults and exacerbations of asthma and chronic obstructive pulmonary disease (COPD)2. HRV was found to be the second leading cause of community-acquired pneumonia requiring hospitalization in US children, second only to respiratory syncytial virus, and the most common pathogen associated with pneumonia hospitalization in US adults3,4. A vaccine for HRV could alleviate serious disease in asthma and COPD, reduce pneumonia hospitalizations, and have widespread benefits for society on the whole. Decades ago, researchers identified inactivated HRV as a protective vaccine, defined virus-neutralizing antibodies (nAb) as a correlate of protection, and estimated duration of immunity5\u221211. Trials with monovalent HRV vaccine demonstrated that protection from homologous challenge and disease can be achieved with formalin-inactivated virus given intramuscularly (i.m.) or intranasally (i.n.) 8,10,11. Humoral immunity to heterologous virus types was not observed, though cross-reactive CD8 T cells can promote clearance12,13. Limited cross-neutralizing Abs can be induced by hyper-immunization in animals14,15. The possibility of a vaccine composed of 50, 100, or more distinct HRV antigens has been viewed as formidable or impossible2,16,17. There are two main challenges, generating a broad immune response and the feasibility of composing such a vaccine. The Ab repertoire is theoretically immense, and most vaccines in clinical use are thought to work via a polyclonal Ab response. Deep-sequencing of human Ab genes following vaccination against influenza virus found thousands of Ab lineages18,19. Whole pathogen and polyvalent vaccines carrying natural immunogens take advantage of this capacity. Valency has increased for pneumococcal and human papillomavirus virus vaccines in recent years. Given the significance of HRV, we tested polyvalent HRV vaccines.\nThere are three species of HRV, A, B, and C. Sequencing methods define 83 A types, 32 B types, and 55 C types20,21. It is thought there are 150 to 170 serologically distinct HRV types. HRV A and C are associated with asthma exacerbations and with more acute disease than HRV B22,23. HRV C was discovered in 2006 and 200724\u221227 and recently cultured in cells28,29. Here, we focused on HRV A, the most prevalent species. There are no permissive animal challenge models of HRV virus replication, but mice and cotton rats can recapitulate aspects of HRV pathogenesis30,31. The best efficacy model is human challenge. In monovalent vaccine trials, formalin-inactivated HRV-13 was validated prior to clinical testing by assessing induction of nAb in guinea pigs, and a reciprocal serum nAb titer of 23 resulting from four doses of a 1:125 dilution of the vaccine correlated with vaccine efficacy in humans9. Although the nAb titer required for protection is not defined, early studies established inactivated HRV as protective in humans, and immunogenicity in animals informed clinical testing.\n",
+        "Results and discussion": "We first used BALB/c mice to test immunogenicity. We propagated HRVs in H1-HeLa cells and inactivated infectivity using formalin. Sera from na\u00efve mice had no detectable nAb against HRV-16 (Fig. 1). Alum adjuvant enhanced the nAb response induced by i.m. inactivated HRV-16 (Fig. 1). There was no effect of valency (comparing 1-, 3-, 5-, 7-, and 10-valent) on the nAb response induced by inactivated HRV-16 or to the 3 types in the 3-valent vaccine (HRV-16, HRV-36, and HRV-78) (Fig. 1). The 50% tissue culture infectious dose (TCID50) titers of the input viruses prior to inactivation (inactivated-TCID50) are provided in Supplemental Table 1. Original antigenic sin can occur when sequential exposure to related virus variants results in biased immunity to the type encountered first32. In bivalent HRV-immune mice, we observed modest original antigenic sin following prime vaccination with 10-valent inactivated HRV, and boost vaccination partially alleviated the effect (Supplemental Fig. 1), similar to influenza virus32. Collectively, these results prompted us to explore more fully the nAb response to polyvalent HRV vaccine.\nMice were vaccinated i.m. with 1-valent inactivated HRV-16 with or without alum adjuvant (5 mice per group) or with 3-valent, 5-valent, 7-valent, or 10-valent inactivated HRV with alum (20 mice per group). HRV types and inactivated-TCID50 doses are specified in Supplemental Table 1. Sera were collected 18 days after vaccination and pooled for each group. Serum nAb titers were measured against HRV-16, HRV-36, and HRV-78. The dashed line represents limit of detection (LOD). Error bars show 95% confidence interval. Data depict three independent experiments combined.\nIn 1975, it was reported that two different 10-valent inactivated HRV preparations induced nAb titers to only 30-40% of the input virus types in recipient subjects33. However, the input titers of viruses prior to inactivation ranged from 101.5 to 105.5 TCID50 per ml, and these were then diluted 10-fold to generate 10-valent 1.0 ml doses given i.m. as prime and boost with no adjuvant33. We hypothesized that low input antigen doses are responsible for poor nAb responses to 10-valent inactivated HRV. We reconstituted the 1975 10-valent vaccine, as closely as possible with available HRV types, over a 101 to 105 inactivated-TCID50 per vaccine dose, and we compared it to a 10-valent vaccine of the same types with input titers ranging from > 105 to > 107 inactivated-TCID50 per dose. The reconstituted 1975 vaccine resulted in no detectable nAb after prime vaccination and, following boost vaccination, nAb to the five types that had the highest input titers (Fig. 2). The high titer vaccine resulted in nAb to 5 of 10 types after prime vaccination and all 10 types after the boost (Fig. 2). Following the boost vaccinations, there appeared to be a 104 inactivated-TCID50 per vaccine dose threshold for the induction of nAb in this model (Fig. 2b). Above this titer, there was no correlation between input load and nAb induction.\nMice (2 groups, 20 per group) were vaccinated with 10-valent HRV vaccine consisting of low inactivated-TCID50 per dose input titers (x-axis), similar to the 1975 Hamory et al. study33, plus alum (gray symbols) or with 10-valent HRV vaccine with high inactivated-TCID50 per dose input titers plus alum (black symbols). Sera were collected 18 days after prime (A) and 18 days after boost (B), pooled for each group, and nAb titers (y-axis) were measured against the indicated types in the vaccines. The dashed line represents LOD. Undetectable nAb were assigned LOD/2, and some symbols below LOD were nudged for visualization. Three independent experiments using low input titers showed similar results. There was a statistically significant association between input TCID50 virus titer and a detectable nAb response following prime (P = 0.01) and boost (P = 0.03) vaccination (Fisher\u2019s exact test).\nInjectable vaccines used in people are commonly given in a 0.5 ml dose. In our facility, the highest allowable i.m. vaccine volume in mice was 0.1 ml. We tested a 25-valent per 0.1 ml HRV vaccine in mice as a scalable prototype. The 25-valent inactivated HRV vaccine had a 7.4fold lower average inactivated-TCID50 per type per dose than the 10-valent composition (Supplemental Table 2) to accommodate the volume adjustment. The 10-valent inactivated HRV vaccine induced nAb to 100% of input types following the prime and the boost (Fig. 3a). The nAb induced by 10-valent inactivated HRV were persisting at 203 days post-boost (Supplemental Fig. 2). The 25-valent inactivated HRV prime vaccination induced nAb to 18 of 25 (72%) virus types, and the 25-valent boost resulted in nAb against 24 of the 25 types (96%) (Fig 3b). The average nAb titer resulting from prime + boost was 27 for 10-valent and 26.8 for 25-valent. The data demonstrate broad neutralization of diverse HRV types with a straightforward vaccine approach.\nThe inactivated-TCID50 input titers per dose are specified in Supplemental Table 2. A, 20 mice were vaccinated then boosted at 50 days with 10-valent HRV. B, 30 mice were vaccinated then boosted at 50 days with 25-valent HRV. Sera were collected at day 18 (prime) and day 68 (boost). nAb levels against the indicated types in the vaccines were measured in pooled sera. Error bars depict 95% confidence interval. Data shown represent one of three (10-valent) or two (25-valent) experiments with similar results. The dashed line represents LOD. Undetectable nAb were assigned LOD/2.\nIn order to increase vaccine valency, we chose rhesus macaques (RMs) and a 1.0 ml i.m. vaccine volume. Two RMs were vaccinated with 25-valent inactivated HRV, and two RMs were vaccinated with 50-valent inactivated HRV. Pre-immune sera in RM A and RM B had no detectable nAb against the 25 HRV types included in the 25-valent vaccine. The inactivated-TCID50 titers per dose were higher in RMs than in mice (Supplemental Table 3). The 25-valent vaccine induced nAb to 96% (RM A) and 100% (RM B) of input viruses following the prime vaccination (Fig. 4a). The 50-valent vaccine induced nAb to 90% (RM C) and 82% (RM D) of input viruses following the prime vaccination (Fig. 4c). The breadth of nAb following prime vaccination in RM was superior to what we observed in mice, which may have been due to animal species differences and/or higher inactivated-TCID50 input titers in the RM vaccines. Following boost vaccination, there were serum nAb titers against 100% of the types in 25-valent HRV-vaccinated RMs (Fig. 4b) and 98% (49 out of 50) of the virus types in 50-valent HRV-vaccinated RMs (Fig. 4d). The average nAb titer resulting from prime + boost in RMs was 29.3 for 25-valent and 28.6 for 50-valent. The nAb responses were type-specific, not cross-neutralizing, because there were minimal nAbs induced by the 25-valent vaccine against 10 non-vaccine types (Supplemental Fig. 3). The nAb response to 50-valent inactivated HRV vaccine was broad and potent in RMs.\nThe inactivated-TCID50 input titers per dose are specified in Supplemental Table 3. Two rhesus macaques (RM A and RM B) were vaccinated i.m. with 25-valent HRV + alum (A and B), and two rhesus macaques (RM C and RM D) were vaccinated i.m. with 50-valent HRV + alum (C and D). nAb titers against input virus types were measured in individual serum samples collected at day 18 (A and C). The RM received an identical boost vaccination at day 28, and sera were collected at day 46 for determining nAb titers post-boost vaccination (B and D). Error bars depict 95% confidence interval. The dashed line represents LOD. Undetectable nAb were assigned LOD/2.\nBased on our results and doses of early immunogenic HRV vaccines6,8, we estimate 104-5 inactivated-TCID50 per type per dose will be useful. Therefore, HRV stock titers \u2265 107 TCID50 per ml are required for a potential 83-valent HRV A formulation in a 0.5 ml dose containing alum adjuvant. The HRV stocks used in our vaccinations were produced in H1-HeLa cells, a good substrate for HRV replication but not suitable for vaccine manufacturing. We compared the infectious yield of 10 HRV types in H1-HeLa and WI-38, which can be qualified for vaccine production. Adequate yields were obtained from WI-38 cells (Supplemental Fig. 4). Injectable vaccines require defined purity. As proof of principle, we purified three HRV types by high performance liquid chromatography and found uncompromised immunogenicity of trivalent inactivated purified HRV in mice (Supplemental Fig. 5).\nForty years ago, the prospects for a polyvalent HRV vaccine were dour for good reasons17. However, progress in technology34 and advancement of more complex vaccines renders impediments to a polyvalent HRV vaccine manageable. Scale-up of HRV vaccines may be facilitated by related vaccine production processes and new cost-saving manufacturing technologies35\u221237. We provide proof of principle that broad nAb responses can be induced by vaccination with a 50-valent inactivated HRV vaccine plus alum adjuvant. Inactivated HRV has a positive history of clinical efficacy6,8,9. In future studies, we hope to produce a comprehensive 83-valent HRV A vaccine and generate HRV C vaccines. Our approach may lead to vaccines for rhinovirus-mediated diseases including asthma and COPD exacerbations and the common cold. Advancing valency may be applicable to vaccines for other antigenically variable pathogens.\n",
+        "ONLINE METHODS": "No statistical methods were used in predetermining sample sizes.\nH1-HeLa (CRL-1958) and WI38 (CCL-75) cells were obtained from the American Type Culture Collection (ATCC) and cultured in minimal essential media with Richter\u2019s modification and no phenol red (MEM) (ThermoFisher) supplemented with 10 % fetal bovine serum. The cell lines were not authenticated but are not commonly misidentified (International Cell Line Authentication Committee). We tested HeLa-H1 cells using the LookOut Mycoplasma detection kit (Sigma), and these were mycoplasma negative. HRV-7 (VR-1601), HRV-9 (VR-1745), HRV-11 (VR-1567), HRV-13 (VR-286), HRV-14 (VR-284), HRV-16 (VR-283), HRV-19 (V4-1129), HRV-24 (VR-1134), HRV-29 (VR-1809), HRV-30 (VR-1140), HRV-31 (VR-1795), HRV-32 (VR-329), HRV-36 (VR-509), HRV-38 (VR-511), HRV-40 (VR-341), HRV-41 (VR-1151), HRV-49 (VR-1644), HRV-53 (VR-1163), HRV-56 (VR-1166), HRV-58 (VR-1168), HRV-59 (VR-1169), HRV-60 (VR-1473), HRV-64 (VR-1174), HRV-66 (VR-1176), HRV-68 (VR-1178), HRV-75 (VR-1185), HRV-76 (VR-1186), HRV-77 (VR-1187), HRV-78 (VR-1188), HRV-80 (VR-1190), HRV-81 (VR-1191), HRV-85 (VR-1195), HRV-88 (VR-1198), HRV-89 (VR-1199), HRV-96 (VR-1296), and HRV-100 (VR-1300) prototype strains were purchased from ATCC. HRV-1B, HRV-10, HRV-21, HRV-28, HRV-33, HRV-34, HRV-39, HRV-45, HRV-50, HRV-51, HRV-54, HRV-55, HRV-94 strains were obtained from the Centers for Disease Control and Prevention. The HRVs in the study are species A, with the exception of HRV-14 (B), and represent A species broadly20,21.\nHRV stocks were generated in H1-HeLa cells. Approximately 0.5 ml of HRV was inoculated onto subconfluent H1-HeLa monolayer cells in a T-182 flask. After adsorption for 1 hr at room temperature with rocking, 50 ml of HRV infection medium (MEM supplemented with 2 % FBS, 20 mM HEPES, 10 mM MgCl2, 1X non-essential amino acids [Gibco catalog 11140-050]) was added and the infection was allowed to proceed at 32\u00b0C in a 5% CO2 humidified incubator until the monolayer appeared to be completely involved with cytopathic effect (CPE), 1 to 3 days post-infection. The cells were scraped, and the cells and medium (approximately 50 ml) were transferred to two pre-chilled 50 ml conical polypropylene tubes and kept on ice while each suspension was sonicated using a Sonic Dismembrator Model 500 (Fisher Scientific) equipped with a \u00bd-inch diameter horn disrupter and \u00bc-inch diameter tapered microtip secured on a ring stand. Sonication was performed by an operator in a closed room with ear protection, at 10 % amplitude, 1 sec on/1 sec off intervals, and 1 pulse per 1 ml of material. Sonication yielded higher titers than freeze-thaw. The suspension was clarified by centrifugation at 931 \u00d7 g for 10 minutes. The supernatant was transferred to cryovials, snap-frozen in liquid nitrogen, and stored at \u221280\u00b0C. For comparing HRV yield in H1-HeLa and WI-38 cells, T-75 flasks of subconfluent cells were infected at a multiplicity of infection (MOI) of 0.1 TCID50/cell, and 20 ml of culture medium were discarded prior to scraping the cells in the remaining 5 ml followed by sonication. For all stocks, TCID50/ml titers were determined by infecting subconfluent H1-HeLa cells in 96-well plates with serially diluted samples, staining the cells six days post-infection with 0.1% crystal violet/20% methanol, scoring wells for CPE, and calculating the endpoint titer using the Reed and Muench method38.\nHRV stock was harvested from H1-HeLa cell monolayers as describe above and clarified by brief centrifugation at low speed to remove large cellular debris (931 \u00d7 g, 10 min, 4\u00b0C). In order to remove excess albumin from the crude virus stock by affinity chromatography, the supernatant was loaded onto a HiTrap Blue HP column (GE Healthcare) using an \u00c4KTAPurifier system (GE Healthcare) according to the manufacturer specifications. Flowthrough was subsequently loaded through a HiTrap Capto Core 700 column (GE Healthcare) to refine the virus prep by size exclusion chromatography (SEC). The flowthrough from the HiTrap Blue HP and the HiTrap Capto Core 700 was captured using the \u00c4KTAPurifier system (GE Healthcare) with a 20 mM sodium phosphate buffer (pH 7.0). Flowthrough from SEC was dialyzed overnight with 0.1 M Tris-HCl buffer (pH 8.0), then loaded onto a HiTrap Q XL column (GE Healthcare) and separated into fractions by ion exchange chromatography. Virus-containing fractions were eluted using the \u00c4KTAPurifier system (GE Healthcare) with a 0.1 M Tris-HCl buffer (pH 8.0) and a sodium chloride gradient. Fractions showing high absorption peaks at 280 nM were collected and analyzed for viral titer by TCID50 end-point dilution assay, and fraction purity visualized on a 10% SDS-PAGE gel by silver stain (Thermo Fisher Scientific) (Supplemental Figure 6). Fractions of HRV-16, HRV-36, and HRV-78 of high virus titer and purity were combined for formalin-inactivation as described below.\nAll experiments involving animals were conducted at Emory University and the Yerkes National Primate Research Center in accordance with guidelines established by the Animal Welfare Act and the NIH Guide for the Care and Use of Laboratory Animals. Animal facilities at Emory University and the Yerkes Center are fully accredited by the Association for Assessment and Accreditation of Laboratory Animal Care International (AAALAC). The Institutional Animal Care and Use Committee (IACUC) of Emory University approved these studies. Pathogen-free, 6-7-week female BALB/c mice were purchased from the Jackson Laboratory (Bar Harbor, ME, USA). Mice were randomly assigned to groups based on sequential selection from an inventory, and investigators were not blinded to outcome assessment.\nYoung adult (3 - 5 kg, 2 - 4 years of age, 2 females and 2 males) Indian rhesus macaques (Macaca mulatta; RM) were maintained according to NIH guidelines at the Yerkes National Primate Research Center. Handling and movement of RMs was performed by qualified personnel who have received specific training in safe and humane methods of animal handling at the Yerkes National Primate Research Center. The initial exclusion criterion was pre-existing nAb against HRV. The studies were conducted in strict accordance with US Department of Agriculture regulations and the recommendations in the Guide for Care and Use of Laboratory Animals of the NIH. The RMs were allocated in an un-blinded fashion to two vaccine groups (25-valent and 50-valent), one male and one female per group.\nBefore immunization, all HRV types were inactivated by addition of 0.025% formalin followed by incubation with stirring for 72 hr at 37\u00b0C, as previously described for HRV vaccine33. Complete inactivation of infectivity was confirmed by end-point TCID50 titration in H1-HeLa cells. Formalin inactivation by this method resulted in greater immunogenicity in mice than alternative inactivation by beta-propiolactone, suggesting formalin inactivation preserved antigenic determinants. Mice were vaccinated i.m. with inactivated HRV strains mixed with 100 \u03bcg of Alhydrogel adjuvant 2% (aluminum hydroxide wet gel suspension, alum) (Sigma catalog A8222 or Invivogen catalog vac-alu) according instructions of the manufacturers. The total volume per mouse was 100 \u03bcl, administered in 50 \u03bcl per thigh. Mice were given a second identical vaccination (boost) at the time indicated in figure legends. RMs were vaccinated i.m. with inactivated HRV strains mixed with 500 \u03bcg of Alhydrogel adjuvant 2%. The total volume per RM was 1 ml, administered in one leg. RMs were boosted with an identical vaccination at four weeks.\n",
+        "Serum collection": "In mice, peripheral blood was collected into microcentrifuge tubes from the submandibular vein. Samples were incubated at room temperature for 20 min to clot. The tubes were centrifuged 7500 \u00d7 g for 10 min to separate serum. The serum samples were pooled from mice of each group and stored at \u221280 \u00b0C until used. Phlebotomy involving RMs was performed under either ketamine (10 mg/kg) or Telazol (4 mg/kg) anesthesia on fasting animals. Following anesthesia with ketamine or Telazol, the animals were bled from the femoral vein. Yerkes blood collection guidelines were followed and no more than 10 ml/kg/28 days of blood was collected. After collecting blood in serum separating tube (SST), samples were incubated at room temperature for 30 min. The tubes were centrifuged 2500 \u00d7 g for 15 min to separate serum. The serum samples from individual RM were stored at \u221280 \u00b0C until used.\nH1-HeLa cells were seeded in 96-well plates to attain 80-90 % confluence in 24 h. Heat-inactivated (56\u00b0C, 30 min) serum samples were 2-fold serially diluted in MEM and added to 500 TCID50/mL HRV of each type to be tested, in an equal volume. The virus and serum mixtures were incubated 37\u00b0C for 1 h. Then, 50 \u03bcl of the serum-virus mixture was transferred onto H1-HeLa cell monolayers in 96-well plates in triplicate, and plates were spinoculated at 2,095 \u00d7 g for 30 min at 4\u00b0C. For each type, a no-serum control was added to test the input 500 TCID50. We tested pooled HRV-16 anti-sera against HRV-16 in each assay as a standard. After spinoculation, 150 \u03bcl of HRV infection medium were added to each well. The 96-well plates were incubated for 6 days at 32\u00b0C and 5% CO2 and then stained with crystal violet as described above. Wells were scored for the presence or absence of CPE. Neutralizing antibody endpoint titers and 95% confidence intervals were determined by the method of Reed and Muench, as previously described for HRV14,38. The 95% confidence interval indicates variability of three technical replicates within a single nAb experiment.\n",
+        "Author Contributions": "S.L. and M.T.N. contributed equally. S.L., M.T.N., M.G.C., J.B.J, E.A.S, A.E.K., and R.M.L. performed experiments. K.R., Y.A.B., J.E.G, and P.S. provided reagents and advice. X.L. and D.D.E. provided rhinovirus types. S.L., M.T.N., and M.L.M designed the experiments, analyzed data, and wrote the paper.\n",
+        "Competing Interests": "The authors declare competing financial interests: M.L.M co-founded Meissa Vaccines, Inc. and serves as Chief Scientific Officer for the Company. S.L., M.T.N., and M.L.M are co-inventors of rhinovirus vaccine subject to evaluation in this paper. The vaccine technology has been optioned to Meissa by Emory University.\n",
+        "Acknowledgements": "We are indebted to the Yerkes veterinary personnel for providing technical assistance. We thank Max Cooper (Emory University) and Joshy Jacob (Emory University) for helpful discussions. This study was supported by a pilot grant from the Emory+Children\u2019s Center for Childhood Infections and Vaccines (CCIV) to M.L.M and in part by Department of Health and Human Services, National Institutes of Health grants 1R01AI087798 and 1U19AI095227 to M.L.M. This work is dedicated to A.R.\n"
+    },
+    "tables": [],
+    "figures": [
+        {
+            "label": "Figure 1.",
+            "title": "Immunogenicity of inactivated HRV is not affected by increasing valency from one to ten.",
+            "description": "Mice were vaccinated i.m. with 1-valent inactivated HRV-16 with or without alum adjuvant (5 mice per group) or with 3-valent, 5-valent, 7-valent, or 10-valent inactivated HRV with alum (20 mice per group). HRV types and inactivated-TCID50 doses are specified in Supplemental Table 1. Sera were collected 18 days after vaccination and pooled for each group. Serum nAb titers were measured against HRV-16, HRV-36, and HRV-78. The dashed line represents limit of detection (LOD). Error bars show 95% confidence interval. Data depict three independent experiments combined.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/05/17/053967/F1.medium.gif"
+        },
+        {
+            "label": "Figure 2.",
+            "title": "Immunogenicity of inactivated polyvalent HRV is related to dose.",
+            "description": "Mice (2 groups, 20 per group) were vaccinated with 10-valent HRV vaccine consisting of low inactivated-TCID50 per dose input titers (x-axis), similar to the 1975 Hamory et al. study33, plus alum (gray symbols) or with 10-valent HRV vaccine with high inactivated-TCID50 per dose input titers plus alum (black symbols). Sera were collected 18 days after prime (A) and 18 days after boost (B), pooled for each group, and nAb titers (y-axis) were measured against the indicated types in the vaccines. The dashed line represents LOD. Undetectable nAb were assigned LOD/2, and some symbols below LOD were nudged for visualization. Three independent experiments using low input titers showed similar results. There was a statistically significant association between input TCID50 virus titer and a detectable nAb response following prime (P = 0.01) and boost (P = 0.03) vaccination (Fisher\u2019s exact test).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/05/17/053967/F2.medium.gif"
+        },
+        {
+            "label": "Figure 3.",
+            "title": "Broad nAb responses against 10-valent and 25-valent inactivated HRV in mice.",
+            "description": "The inactivated-TCID50 input titers per dose are specified in Supplemental Table 2. A, 20 mice were vaccinated then boosted at 50 days with 10-valent HRV. B, 30 mice were vaccinated then boosted at 50 days with 25-valent HRV. Sera were collected at day 18 (prime) and day 68 (boost). nAb levels against the indicated types in the vaccines were measured in pooled sera. Error bars depict 95% confidence interval. Data shown represent one of three (10-valent) or two (25-valent) experiments with similar results. The dashed line represents LOD. Undetectable nAb were assigned LOD/2.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/05/17/053967/F3.medium.gif"
+        },
+        {
+            "label": "Figure 4.",
+            "title": "Broad nAb responses against 25-valent and 50-valent inactivated HRV in rhesus macaques.",
+            "description": "The inactivated-TCID50 input titers per dose are specified in Supplemental Table 3. Two rhesus macaques (RM A and RM B) were vaccinated i.m. with 25-valent HRV + alum (A and B), and two rhesus macaques (RM C and RM D) were vaccinated i.m. with 50-valent HRV + alum (C and D). nAb titers against input virus types were measured in individual serum samples collected at day 18 (A and C). The RM received an identical boost vaccination at day 28, and sera were collected at day 46 for determining nAb titers post-boost vaccination (B and D). Error bars depict 95% confidence interval. The dashed line represents LOD. Undetectable nAb were assigned LOD/2.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/05/17/053967/F4.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Gwaltney J. M.",
+                "Hendley J. O.",
+                "Simon G.",
+                "Jordan W. S."
+            ],
+            "date": "1966",
+            "title": "Rhinovirus infections in an industrial population. I. The occurrence of illness",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJM196612082752301&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=4288780&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A19668587100001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Glanville N.",
+                "Johnston S. L."
+            ],
+            "date": "2015",
+            "title": "Challenges in developing a cross-serotype rhinovirus vaccine",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.coviro.2015.03.004&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25829255&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Jain S."
+            ],
+            "date": "2015",
+            "title": "Community-Acquired Pneumonia Requiring Hospitalization among U.S. Adults",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa1500245&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26172429&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Jain S."
+            ],
+            "date": "2015",
+            "title": "Community-acquired pneumonia requiring hospitalization among U.S. children",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa1405870&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25714161&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Barclay W. S.",
+                "al-Nakib W.",
+                "Higgins P. G.",
+                "Tyrrell D. A."
+            ],
+            "date": "1989",
+            "title": "The time course of the humoral immune response to rhinovirus infection",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1017/S095026880003106X&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=2558033&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "Doggett J. E.",
+                "Bynoe M. L.",
+                "Tyrrell D. A."
+            ],
+            "date": "1963",
+            "title": "Some attempts to produce an experimental vaccine with rhinoviruses",
+            "links": [
+                [
+                    "FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6MzoiUERGIjtzOjExOiJqb3VybmFsQ29kZSI7czozOiJibWoiO3M6NToicmVzaWQiO3M6OToiMS81MzIyLzM0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Mufson M. A."
+            ],
+            "date": "1963",
+            "title": "Effect of Neutralizing Antibody on Experimental Rhinovirus Infection",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1001/jama.1963.63710060029013&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=14059033&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Perkins J. C."
+            ],
+            "date": "1969",
+            "title": "Evidence for protective effect of an inactivated rhinovirus vaccine administered by the nasal route",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=4309899&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1969E466700007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Perkins J. C."
+            ],
+            "date": "1969",
+            "title": "Comparison of protective effect of neutralizing antibody in serum and nasal secretions in experimental rhinovirus type 13 illness",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=4312066&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1969F089200007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Buscho R. F.",
+                "Perkins J. C.",
+                "Knopf H. L.",
+                "Kapikian A. Z.",
+                "Chanock R. M."
+            ],
+            "date": "1972",
+            "title": "Further characterization of the local respiratory tract antibody response induced by intranasal instillation of inactivated rhinovirus 13 vaccine",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoiamltbXVub2wiO3M6NToicmVzaWQiO3M6OToiMTA4LzEvMTY5IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "Mitchison D. A."
+            ],
+            "date": "1965",
+            "title": "Prevention of Colds by Vaccination against a Rhinovirus: A Report by the Scientific Committee on Common Cold Vaccines",
+            "links": [
+                [
+                    "FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6MzoiUERGIjtzOjExOiJqb3VybmFsQ29kZSI7czozOiJibWoiO3M6NToicmVzaWQiO3M6MTE6IjEvNTQ0Ni8xMzQ0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "12.",
+            "authors": [
+                "Stott E. J.",
+                "Draper C.",
+                "Stons P. B.",
+                "Tyrrell D. A."
+            ],
+            "date": "1969",
+            "title": "Absence of heterologous antibody responses in human volunteers after rhinovirus vaccination. (Brief report)",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=4315817&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "13.",
+            "authors": [
+                "Glanville N."
+            ],
+            "date": "2013",
+            "title": "Cross-serotype immunity induced by immunization with a conserved rhinovirus capsid protein",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.ppat.1003669&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24086140&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "14.",
+            "authors": [
+                "Cooney M. K.",
+                "Fox J. P.",
+                "Kenny G. E."
+            ],
+            "date": "1982",
+            "title": "Antigenic groupings of 90 rhinovirus serotypes",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoiaWFpIjtzOjU6InJlc2lkIjtzOjg6IjM3LzIvNjQyIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "15.",
+            "authors": [
+                "McLean G. R."
+            ],
+            "date": "2012",
+            "title": "Rhinovirus infections and immunisation induce cross-serotype reactive antibodies to VP1",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.antiviral.2012.06.006&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22742898&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "16.",
+            "authors": [
+                "Couch R. B."
+            ],
+            "date": "1984",
+            "title": "The common cold: control?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/infdis/150.2.167&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=6206168&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1984TH02300001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "17.",
+            "authors": [
+                "Fox J. P."
+            ],
+            "date": "1976",
+            "title": "Is a rhinovirus vaccine possible?",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=176887&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1976BN07200001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "18.",
+            "authors": [
+                "Crowe J. E."
+            ],
+            "date": "2013",
+            "title": "Universal flu vaccines: primum non nocere",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1126/scitranslmed.3007118&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "19.",
+            "authors": [
+                "Vollmers C.",
+                "Sit R. V.",
+                "Weinstein J. A.",
+                "Dekker C. L.",
+                "Quake S. R."
+            ],
+            "date": "2013",
+            "title": "Genetic measurement of memory B-cell recall using antibody repertoire sequencing",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTEwLzMzLzEzNDYzIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "20.",
+            "authors": [
+                "McIntyre C. L.",
+                "Knowles N. J.",
+                "Simmonds P."
+            ],
+            "date": "2013",
+            "title": "Proposals for the classification of human rhinovirus species A, B and C into genotypically assigned types",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1099/vir.0.053686-0&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23677786&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000322850200011&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "21.",
+            "authors": [
+                "Palmenberg A. C."
+            ],
+            "date": "2009",
+            "title": "Sequencing and analyses of all known human rhinovirus genomes reveal structure and evolution",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjExOiIzMjQvNTkyMy81NSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA1LzE3LzA1Mzk2Ny5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "22.",
+            "authors": [
+                "Lee W. M."
+            ],
+            "date": "2012",
+            "title": "Human rhinovirus species and season of infection determine illness",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1164/rccm.201202-0330OC&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22923659&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000311128300015&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "23.",
+            "authors": [
+                "Miller E. K."
+            ],
+            "date": "2009",
+            "title": "A novel group of rhinoviruses is associated with asthma hospitalizations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.jaci.2008.10.007&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19027147&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000262793900015&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "24.",
+            "authors": [
+                "Arden K. E.",
+                "McErlean P.",
+                "Nissen M. D.",
+                "Sloots T. P.",
+                "Mackay I. M."
+            ],
+            "date": "2006",
+            "title": "Frequent detection of human rhinoviruses, paramyxoviruses, coronaviruses, and bocavirus during acute respiratory tract infections",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/jmv.20689&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16847968&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "25.",
+            "authors": [
+                "Kistler A."
+            ],
+            "date": "2007",
+            "title": "Pan-viral screening of respiratory tract infections in adults with and without asthma reveals unexpected human coronavirus and human rhinovirus diversity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1086/520816&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17703411&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000249251800004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "26.",
+            "authors": [
+                "Lamson D."
+            ],
+            "date": "2006",
+            "title": "MassTag polymerase-chain-reaction detection of respiratory pathogens, including a new rhinovirus genotype, that caused influenza-like illness in New York State during 2004-2005",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1086/508551&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17054069&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000241820500008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "27.",
+            "authors": [
+                "Renwick N."
+            ],
+            "date": "2007",
+            "title": "A recently identified rhinovirus genotype is associated with severe respiratory-tract infection in children in Germany",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1086/524312&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18190255&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000251922600008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "28.",
+            "authors": [
+                "Bochkov Y. A."
+            ],
+            "date": "2011",
+            "title": "Molecular modeling, organ culture and reverse genetics for a newly identified human rhinovirus C",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nm.2358&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21483405&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "29.",
+            "authors": [
+                "Bochkov Y. A."
+            ],
+            "date": "2015",
+            "title": "Cadherin-related family member 3, a childhood asthma susceptibility gene product, mediates rhinovirus C binding and replication",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTEyLzE3LzU0ODUiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNS8xNy8wNTM5NjcuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "30.",
+            "authors": [
+                "Bartlett N. W."
+            ],
+            "date": "2008",
+            "title": "Mouse models of rhinovirus-induced disease and exacerbation of allergic airway inflammation",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nm1713&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18246079&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000252946700030&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "31.",
+            "authors": [
+                "Blanco J. C."
+            ],
+            "date": "2014",
+            "title": "Prophylactic Antibody Treatment and Intramuscular Immunization Reduce Infectious Human Rhinovirus 16 Load in the Lower Respiratory Tract of Challenged Cotton Rats",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.trivac.2014.02.003&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25328560&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "32.",
+            "authors": [
+                "Kim J. H.",
+                "Davis W. G.",
+                "Sambhara S.",
+                "Jacob J."
+            ],
+            "date": "2012",
+            "title": "Strategies to alleviate original antigenic sin responses to influenza viruses",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA5LzM0LzEzNzUxIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDUvMTcvMDUzOTY3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "33.",
+            "authors": [
+                "Hamory B. H.",
+                "Hamparian V. V.",
+                "Conant R. M.",
+                "Gwaltney J. M."
+            ],
+            "date": "1975",
+            "title": "Human responses to two decavalent rhinovirus vaccines",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/infdis/132.6.623&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=172561&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "34.",
+            "authors": [
+                "Racaniello V. R.",
+                "Baltimore D."
+            ],
+            "date": "1981",
+            "title": "Cloned poliovirus complementary DNA is infectious in mammalian cells",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIyMTQvNDUyMy85MTYiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wNS8xNy8wNTM5NjcuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "35.",
+            "authors": [
+                "Farid S. S.",
+                "Washbrook J.",
+                "Titchener-Hooker N. J."
+            ],
+            "date": "2005",
+            "title": "Decision-support tool for assessing biomanufacturing strategies under uncertainty: stainless steel versus disposable equipment for clinical trial material preparation",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/bp049692b&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15801789&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F05%2F17%2F053967.atom"
+                ]
+            ]
+        },
+        {
+            "label": "36.",
+            "authors": [
+                "Thomassen Y. E."
+            ],
+            "date": "2013",
+            "title": "Next generation inactivated polio vaccine manufacturing to support post polio-eradication biosafety goals",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0083374&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "37.",
+            "authors": [
+                "Thomassen Y. E."
+            ],
+            "date": "2013",
+            "title": "Scale-down of the inactivated polio vaccine production process",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/bit.24798&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "38.",
+            "authors": [
+                "Reed L. J.",
+                "Muench H."
+            ],
+            "date": "1938",
+            "title": "A simple method of estimating fifty per cent endpoints",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/prot.22879&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "39.",
+            "authors": [
+                "Kattur Venkatachalam A. R.",
+                "Szyporta M.",
+                "Kiener T. K.",
+                "Balraj P.",
+                "Kwang J."
+            ],
+            "date": "2014",
+            "title": "Concentration and purification of enterovirus 71 using a weak anion-exchange monolithic column",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1743-422X-11-99&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "40.",
+            "authors": [
+                "Weiss V. U."
+            ],
+            "date": "2015",
+            "title": "Capillary electrophoresis, gas-phase electrophoretic mobility molecular analysis, and electron microscopy: effective tools for quality assessment and basic rhinovirus research",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/978-1-4939-1571-2_9&link_type=DOI"
+                ]
+            ]
+        }
+    ]
+}

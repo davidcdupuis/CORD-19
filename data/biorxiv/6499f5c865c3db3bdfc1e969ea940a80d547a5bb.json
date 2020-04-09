@@ -1,0 +1,411 @@
+{
+    "source": "biorxiv",
+    "id": "6499f5c865c3db3bdfc1e969ea940a80d547a5bb",
+    "url": "https://biorxiv.org/content/10.1101/044594v1.full",
+    "title": "Zika virus outbreak in the Americas: Is Aedes albopictus an overlooked culprit?",
+    "authors": [
+        "Azeem Mehmood Butt",
+        "Izza Nasrullah",
+        "Raheel Qamar",
+        "Yigang Tong"
+    ],
+    "sections": {
+        "Summary / Abstract": "Codon usage patterns of viruses reflect a series of evolutionary changes that enable viruses to shape their survival rates and fitness toward the external environment and, most importantly, their hosts. In the present study, we employed multiple codon usage analysis indices to determine genotype specific codon usage patterns of Zika virus (ZIKV) strains from the current outbreak and those reported previously. Several genotype specific and common codon usage traits were noted in ZIKV coding sequences, indicative of independent evolutionary origins from a common ancestor. The overall influence of natural selection was found to be more profound than that of mutation pressure and acting on specific set of viral genes belonging to ZIKV strains of Asian genotype from the recent outbreak. Furthermore, an interplay of codon adaptation and deoptimization have been observed in ZIKV genomes. The collective findings of codon analysis in association with the geographical data of Aedes populations in the Americas suggests that ZIKV have evolved a dynamic set of codon usage patterns in order to maintain a successful replication and transmission chain within multiple hosts and vectors.\n",
+        "Competing interests": "The authors have declared that no competing interests exist.\n",
+        "Authors\u2019 contributions": "AMB RQ and YT conceived and designed the experiments. AMB and IN performed the experiments. AMB RQ and YT analyzed the data. RQ and YT contributed reagents/materials/analysis tools. AMB and IN wrote the paper. All authors read and approved the final manuscript.\n",
+        "Acknowledgements": "This research was supported by grant from China Mega-Project on Infectious Disease Prevention (No. 2013ZX10004-605).\n",
+        "Footnotes": "\u21b5# Co-first author\nNOTE: An expanded version of this manuscript is under-preparation. The current pre-print version (v.01) of this manuscript may contain grammatical & proofreading mistakes. Errors and omissions excepted.\n"
+    },
+    "tables": [],
+    "figures": [
+        {
+            "label": "Figure 1.",
+            "title": "Analysis of host inducted selection pressure on coding sequences of ZIKV.",
+            "description": "",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/03/30/044594/F1.medium.gif"
+        },
+        {
+            "label": "Figure 2.",
+            "title": "Correspondence analysis of codon usage pattern in ZIKV coding sequences.",
+            "description": "The single ZIKV strain from Ae. Aegypti is marked with its GenBank ID.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/03/30/044594/F2.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "",
+            "authors": [
+                "Butt A.M.",
+                "Nasrullah I.",
+                "Tong Y."
+            ],
+            "date": "2014",
+            "title": "Genome-wide analysis of codon usage and influencing factors in chikungunya viruses",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Campos G.S.",
+                "Bandeira A.C.",
+                "Sardi S.I."
+            ],
+            "date": "2015",
+            "title": "Zika Virus Outbreak, Bahia, Brazil",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.3201/eid2110.150847&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26401719&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Cao-Lormeau V.M.",
+                "Musso D."
+            ],
+            "date": "2014",
+            "title": "Emerging arboviruses in the Pacific",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0140-6736(14)61977-2&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25443481&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Duffy M.R.",
+                "Chen T.H.",
+                "Hancock W.T.",
+                "Powers A.M.",
+                "Kool J.L.",
+                "Lanciotti R.S.",
+                "Pretrick M.",
+                "Marfel M.",
+                "Holzbauer S.",
+                "Dubray C."
+            ],
+            "date": "2009",
+            "title": "Zika virus outbreak on Yap Island, Federated States of Micronesia",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa0805715&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19516034&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000266813800008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Freire C.C.d.M.",
+                "Iamarino A.",
+                "Neto D.F.d.L.",
+                "Sall A.A.",
+                "Zanotto P.M.d.A."
+            ],
+            "date": "2015",
+            "title": "Spread of the pandemic Zika virus lineage is associated with NS1 codon usage adaptation in humans",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Grantham R.",
+                "Gautier C.",
+                "Gouy M.",
+                "Mercier R.",
+                "Pave A."
+            ],
+            "date": "1980",
+            "title": "Codon catalog usage and the genome hypothesis",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/8.1.197-c&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=6986610&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1980JC46600018&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Grard G.",
+                "Caron M.",
+                "Mombo I.M.",
+                "Nkoghe D.",
+                "Mboui Ondo S.",
+                "Jiolle D.",
+                "Fontenille D.",
+                "Paupy C.",
+                "Leroy E.M."
+            ],
+            "date": "2014",
+            "title": "Zika virus in Gabon (Central Africa)\u2010\u20102007: a new threat from Aedes albopictus?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0002681&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24516683&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Gu W.",
+                "Zhou T.",
+                "Ma J.",
+                "Sun X.",
+                "Lu Z."
+            ],
+            "date": "2004",
+            "title": "Analysis of synonymous codon usage in SARS Coronavirus and other viruses in the Nidovirales",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.virusres.2004.01.006&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15041183&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Kraemer M.U.",
+                "Sinka M.E.",
+                "Duda K.A.",
+                "Mylne A.Q.",
+                "Shearer F.M.",
+                "Barker C.M.",
+                "Moore C.G.",
+                "Carvalho R.G.",
+                "Coelho G.E.",
+                "Van Bortel W."
+            ],
+            "date": "2015",
+            "title": "The global distribution of the arbovirus vectors Aedes aegypti and Ae",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26126267&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Liu Y.S.",
+                "Zhou J.H.",
+                "Chen H.T.",
+                "Ma L.N.",
+                "Pejsak Z.",
+                "Ding Y.Z.",
+                "Zhang J."
+            ],
+            "date": "2011",
+            "title": "The characteristics of the synonymous codon usage in enterovirus 71 virus and the effects of host on the virus in codon usage pattern",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Ma J.J.",
+                "Zhao F.",
+                "Zhang J.",
+                "Zhou J.H.",
+                "Ma L.N.",
+                "Ding Y.Z.",
+                "Chen H.T.",
+                "Gu Y.X.",
+                "Liu Y.S."
+            ],
+            "date": "2013",
+            "title": "Analysis of Synonymous Codon Usage in Dengue Viruses",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Marin A.",
+                "Bertranpetit J.",
+                "Oliver J.L.",
+                "Medina J.R."
+            ],
+            "date": "1989",
+            "title": "Variation in G + C-content and codon choice: differences among synonymous codon groups in vertebrate genes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/17.15.6181&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=2570402&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1989AK53100024&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Moratorio G.",
+                "Iriarte A.",
+                "Moreno P.",
+                "Musto H.",
+                "Cristina J."
+            ],
+            "date": "2013",
+            "title": "A detailed comparative analysis on the overall codon usage patterns in West Nile virus",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Musso D.",
+                "Cao-Lormeau V.M.",
+                "Gubler D.J."
+            ],
+            "date": "2015",
+            "title": "Zika virus: following the path of dengue and chikungunya?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0140-6736(15)61273-9&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26194519&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Nasrullah I.",
+                "Butt A.M.",
+                "Tahir S.",
+                "Idrees M.",
+                "Tong Y."
+            ],
+            "date": "2015",
+            "title": "Genomic analysis of codon usage shows influence of mutation pressure, natural selection, and host features on Marburg virus evolution",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Puigbo P.",
+                "Aragones L.",
+                "and Garcia-Vallve S."
+            ],
+            "date": "2010",
+            "title": "RCDI/eRCDI: a web-server to estimate codon usage deoptimization",
+            "links": []
+        },
+        {
+            "label": "",
+            "authors": [
+                "Shackelton L.A.",
+                "Parrish C.R.",
+                "Holmes E.C."
+            ],
+            "date": "2006",
+            "title": "Evolutionary basis of codon usage and nucleotide composition bias in vertebrate DNA viruses",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/s00239-005-0221-1&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16557338&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000237487400004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Sharp P.M.",
+                "Cowe E.",
+                "Higgins D.G.",
+                "Shields D.C.",
+                "Wolfe K.H.",
+                "Wright F."
+            ],
+            "date": "1988",
+            "title": "Codon usage patterns in Escherichia coli, Bacillus subtilis, Saccharomyces cerevisiae, Schizosaccharomyces pombe, Drosophila melanogaster and Homo sapiens; a review of the considerable within-species diversity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/16.17.8207&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=3138659&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1988Q116800001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "",
+            "authors": [
+                "Tao P.",
+                "Dai L.",
+                "Luo M.",
+                "Tang F.",
+                "Tien P.",
+                "Pan Z."
+            ],
+            "date": "2009",
+            "title": "Analysis of synonymous codon usage in classical swine fever virus",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18958611&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F03%2F30%2F044594.atom"
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1001 @@
+{
+    "source": "biorxiv",
+    "id": "44a440cc1c135c938d2216ea672f8ef4f9c01296",
+    "url": "https://biorxiv.org/content/10.1101/070656v1.full",
+    "title": "Genome-wide Prediction of microRNAs in Zika virus Genomes Reveals Possible Interactions with Human Genes Involved in the Nervous System Development",
+    "authors": [
+        "Juan Cristina",
+        "Natalia Echeverr\u00eda",
+        "Fabiana Gambaro",
+        "Alvaro Fajardo",
+        "Pilar Moreno"
+    ],
+    "sections": {
+        "Abstract": "Zika virus (ZIKV) is a member of the family Flaviviridae. In 2015, ZIKV triggered a large epidemic in Brazil and spread across Latin America. In November of that year, the Brazilian Ministry of Health reported a 20-fold increase in cases of neonatal microcephaly, which corresponds geographically and temporally to the ZIKV outbreak. ZIKV was isolated from the brain tissue of a fetus diagnosed with microcephaly, and recent studies in mice models revealed that ZIKV infection may cause brain defects by influencing brain cell developments. Unfortunately, the mechanisms by which ZIKV alters neurophysiological development remain unknown. MicroRNAs (miRNAs) are small noncoding RNAs that regulate post-transcriptional gene expression by translational repression. In order to gain insight into the possible role of ZIKV-mediated miRNA signaling dysfunction in brain-tissue development, we computationally predicted new miRNAs encoded by the ZIKV genome and their effective hybridization with transcripts from human genes previously shown to be involved in microcephalia. The results of these studies suggest a possible role of these miRNAs on the expression of human genes associated with this disease. Besides, a new ZIKV miRNA was predicted in the 3\u2019stem loop (3\u2019 SL) of the 3\u2019untranslated region (3\u2019UTR) of the ZIKV genome, suggesting the role of the 3\u2019UTR of flaviviruses as a source of miRNAs.\n",
+        "Introduction": "Zika virus (ZIKV) is a member of the family Flaviviridae, whose natural transmission cycle involves mainly vectors from the Aedes genus, while humans are occasional hosts [1]. Clinical manifestations of disease caused by ZIKV range from asymptomatic cases to an influenza-like syndrome associated to fever, headache, malaise and cutaneous rash [2]. ZIKV genome consists of a single-stranded positive sense RNA molecule of approximately 10,800 nt in length [3]. Although ZIKV enzootic activity was reported in diverse countries of Africa and Asia, few human cases were reported until 2007, when a large epidemic took place in Micronesia [4]. A large ZIKV outbreak occurred in French Polynesia during 2013\u20132014 and then spread to other Pacific islands [5]. In early 2015, a ZIKV epidemic outbreak took place in Brazil, currently estimated at 440,000\u2013 1,300,000 cases [6]. In November 2015, the Brazilian Ministry of Health reported a 20-fold increase in cases of neonatal microcephaly, which corresponds geographically and temporally to the ZIKV outbreak [7]. Due to this global threat, World Health Organization (WHO) declared a public health emergency of international concern on February 1st, 2016 [8].\nZIKV was detected by electron microscopy and RT-qPCR in brains and amniotic fluid of microcephalic fetuses, strengthening the causal link between ZIKV and increased incidence of microcephaly [9, 10]. Furthermore, recent studies show that ZIKV can infect human iPSC-derived neural progenitor cells (NPCs) in vitro, resulting in dysregulation of cell-cycle-related pathways and increased cell death [11]. The development of animal models permits to begin to understand the underlying pathology of ZIKV infection [12, 13]. Modeling ZIKV infection in mice revealed direct effects of ZIKV on neural precursor cells development, including proliferation, differentiation and cell death, which may link ZIKV with the development of microcephaly [14]. Notably, genes associated with microcephaly were downregulated in ZIKV-infected mice brains [14] and NPCs [11]. Multiple approaches will be needed to understand the pathogenesis of ZIKV infection [12].\nMicroRNAs (miRNAs) are small regulatory non-coding RNAs, ranging from 19 to 24 nucleotides in length, that post-transcriptionally regulate target gene expression by inhibiting the translation of mRNA transcripts or leading to their cleavage [15]. While encoded not only by cellular genomes but also by viral genomes [16], miRNAs play a vital role in diverse biological processes, including development, apoptosis, tumorogenesis, proliferation, etc. [17]. Viral miRNAs are mostly identified by traditional cloning from virus-infected cells [18], nevertheless, computational prediction and hybridization analysis are also applied to viral miRNA identification [19, 20]. To date, RNA virus-encoded miRNAs have been identified in Hepatitis C virus [21], Human Immunodeficiency virus (HIV) [22], Bovine Leukemia virus (BLV) [23], Middle East Respiratory Syndrome (MERS) coronavirus [24] Hepatitis A virus (HAV) [25] and Ebolavirus [26]. Interestingly, miRNAs have also been identified in other members of the family Flaviviridae, like West Nile virus (WNV) [27] or Dengue virus (DENV) [28]. Very recent in silico studies revealed the miRNA coding capacity of the ZIKV genome [29]. In order to get insight into the role of ZIKV genome in relation to miRNA coding, we computationally identified new potential miRNAs on the ZIKV genome along with their target genes. Our study may help to better understand host-pathogen interaction as well as to contribute to the development of new antiviral strategies against ZIKV infection.\n",
+        "Materials and Methods": "In this study, we used complete genome sequences of ZIKV strain Natal-RGN (GenBank accession number: KU527068), isolated in 2015, from the brain tissue of a fetus diagnosed with microcephaly [10]. VMir program [30] was used to analyze the ZIKV strain sequences. VMir is an ab initio prediction program specifically designed to identify pre-miRNA in viral genomes. Using this approach, ZIKV sequences were analyzed for possible pre-miRNA hairpin structures, using highly stringent filtering parameters (minimum hairpin size of 60 nucleotides, maximum hairpin size of 120 nucleotides, minimum hairpin score of 160, minimum window count of 25). VMir scores were calculated according to Grundhoof [30].\nTo discriminate real pre-miRNAs from other hairpin structures (pseudo hairpins) we employed iMiRNA-SSF approach [31]. This approach represents an improvement in the performance for accurate identification of miRNA precursors by combining negative sets with different distributions [31].\nWith the purpose of extracting mature miRNA: miRNA* duplexes from pre-miRNA hairpins, we employed MiRduplexSVM [32]. This approach uses a novel SVM-based methodology and takes into account several aspects of the biogenesis of miRNAs, whereby a duplex is formed before the mature molecule is selected [32].\nIn order to observe the degree of conservation of the predicted pre-miRNA and mature miRNA sequences in Natal-NGR ZIKV strain and strains from all types isolated elsewhere, the sequences from all available and comparable ZIKV strains for which the complete genome sequences are known, were downloaded from the GeneBank database. Once downloaded, the sequences were aligned using the MUSCLE program [33]. Consensus sequences (i.e. the calculated most frequent nucleotide residue found at each position of the sequence alignment) were established using Entropy-One software from the HIV database (available at: http://www.hiv.lanl.gov/). For names and accession numbers of ZIKV strains included in these studies, see Supplementary Material Table 1.\nPredicted hairpin and mature sequences within Natal-RGN ZIKV genome.\nThe RNAfold web server [34] was used to predict the secondary structure of pre-miRNAs. Only default parameters were used.\nIn order to identify the regulatory relationships between predicted miRNAs and their putative target gene transcripts we employed miRTar [35]. The parameters assigned for the hybridization were set to \u221214 kcal/mol of minimum free energy (MFE) for all hybridizations as a cut-off value and an alignment score \u2265 140. We studied the relation between predicted miRNAs and their target gene transcripts focusing on human genes involved in microcephaly. For names, accession numbers and their roles on brain development of the genes involved in these analyses, see Supplementary Material Table 2.\nIn order to confirm an effective hybridization between gene transcript targets and predicted ZIKV miRNA, we employed the RNAhybrid [36]. RNA hybrid is a tool for finding the minimum free energy hybridization of a long and a short RNA and is widely used for miRNA target prediction. Pairing energy or minimum free energy (MFE) indicates the stability of the hybridization. A stringent condition was employed, with a MFE set at \u221230 kcal/mol for all hybridizations, as a cut-off value.\n",
+        "Results": "Computational prediction represents a widely used and effective strategy to identify novel miRNAs that can be further examined and validated by experimental approaches. In order to observe whether ZIKV genome could be folded into putative pre-miRNA stem-loop structures, we first analyzed its putative miRNA-encoding capacity using full-length sequences from Natal-RGN ZIKV genome (GenBank accession number: KU527068). We filtered VMir [30] output using stringent custom setting. The results of these studies revealed six pre-miRNA hairpins that were selected as potential hairpins and suggested the potential miRNA-coding capacity of the genome of this ZIKV strain. Then, in order to confirm the presence of these pre-miRNA structures, we classified them into real or pseudo pre-miRNAs by means of the iMiRNA-SSF approach [31]. Four out of the six pre-miRNA structures (named MD1, MD13, MD17 and MD21) were classified as real pre-miRNA. These structures are present in different genomic regions of the ZIKV genome (see Table 1).\nAs an RNA virus, ZIKV has a high degree of genetic variability and heterogeneity. Recent studies have estimated the rate of evolution of ZIKV from 0.98 to 1.06 \u00d7 10\u22123 substitutions per site per year (s/s/y) [37] and 1.20 \u00d7 10\u22123 s/s/y [38]. Besides, previous phylogenetic analysis characterized two major genetic lineages of ZIKV, the African and Asian lineages [39]. Very recently, phylogenetic analyses revealed the presence of three distinct lineages, (Asian/American lineage, African lineage 1 and African lineage 2) [40]. For these reasons, it is important to establish the degree of conservation of the pre-miRNAs and mature miRNAs sequences of predicted miRNAs in the genome of Natal-RGN ZIKV strain among ZIKV strains from all genetic lineages and isolated elsewhere.\nIn order to gain insight into this matter, all available and comparable ZIKV strains for which complete genome sequences are known were downloaded from the GenBank database and aligned using the MEGA6 program [41]. These strains were isolated elsewhere and represent all genetic lineages of ZIKV strains (for strains and accession numbers, see Supplementary Material Table 1). Once aligned, consensus sequences (i.e. the calculated most frequent nucleotide residue found at each position of the sequence alignment) were established and compared to predicted pre-miRNA and mature miRNA sequences in Natal-NGR ZIKV strain. The results of these studies revealed 98% identity among pre-miRNA MD1 and corresponding consensus sequences, and 100% identity among pre-miRNAs MD13, MD17 and MD21 and corresponding consensus sequences. 100% identity among mature miRNAs and consensus sequences were found in all cases. The secondary RNA structure of predicted pre-miRNA sequences and corresponding consensus sequences were identical in all cases (see Fig 1). The results of these studies revealed that these predicted pre-miRNAs and mature miRNAs sequences are highly conserved among ZIKV strains.\nIn A to D, comparisons of the predicted secondary structure of the pre-miRNAs sequences found in Natal-NGR ZIKV strain and ZIKV corresponding consensus sequences are shown. Structures of the predicted pre-miRNA hairpins and their respective consensus (con) sequences are indicated by name at the bottom of the figure as well as the minimum free energy (MFE) values obtained for each structure. Bars at the bottom of the structures denote base pair probabilities. Only centroid structures are depicted. Mature miRNAs sequences are indicated by a square bracket next to each structure.\nIn order to comprehend the dynamics between viral miRNAs and their targets is extremely important to understand the complexity of biological regulation and virus-host interaction. In silico prediction of miRNA targets provides a suitable approach for identifying potential target sites based on their complete or partial complementarity with miRNAs. For these reasons, pairwise comparison of human gene transcripts of genes associated with microcephaly and miRNA-MD1, -MD13, -MD17 and -MD21 were performed by means of the use of the miRTar database [35]. The results of these studies are shown in Table 2. As it can be seen in this table, miRNA-MD1, and miRNA-MD17 hybridize with human gene transcripts of genes associated with micocephaly.\nPredicted ZIKV miRNA targets associated with microcephaly, identified by in silico analysis.\nIn order to reconfirm effective hybridizations among the identified gene transcript targets and miRNA-MD1 and -MD17, we observed their hybridization patterns and calculated the minimum free energy for each hybridization. We used very stringent conditions, with a MFE of -30 kcal/mol as a cut-off value for miRNA-target pairing. The results of these studies are shown in Table 3.\nEffective hybridization of predicted ZIKV miRNA and transcript gene targets.\n",
+        "Discussion": "miRNAs play critical roles in many biological processes, such as cell growth, tissue differentiation, cell proliferation, embryonic development, cell proliferation, and apoptosis. As a consequence, their deregulation perturbs gene expression and can have pathological consequences [42].\nMicrocephaly is characterized by a reduced occipitofrontal circumference (OFC) of the head that is at least 4 standard deviations (SD) below the age- and sex-matched means and is caused by insufficient fetal brain development, which mostly affects the cerebral cortex [42]. Several genes have been mapped to date from various populations around the world in relation with microcephaly, including Microcephalin, WDR62, CDK5RAP2, CASC5, ASPM, CENPJ, STIL, CEP135, CEP152, ZNF335, PHC1, CDK6 and CENPF [43] (for gene names, accession numbers, protein description and role on brain development, see Supplementary Material Table 2).\nNatal-RGN ZIKV strain was isolated from the brain tissue of a fetus diagnosed with microcephaly [10] and mouse models have provided significant evidence that ZIKV infection may cause brain defects by influencing brain cell development [12, 14]. Unfortunately, the mechanism by which ZIKV alters neurophysiological development remains unknown. A recent study revealed the miRNA coding capacity of ZIKV strains [29], which is in agreement with the results found in this work (see Table 1). In this study, using highly stringent conditions, four new miRNAs were found in the Natal-RGN ZIKV strain (Table 1). These miRNAs are situated in different ZIKV genome regions and are highly conserved among ZIKV strains (see Table 1 and Fig. 1). Moreover, two of these miRNA (ZIKV-miRNA-MD1 and MD17) were found to hybridize with target transcripts from genes previously shown to be associated with microcephaly (see Table 2). Futhermore, ZIKV-miRNA-MD1 effectively hybridize with MCPH1, WDR62, CDK5RAP2, ASPM, ZNF335 and CENPF (Table 2) even in stringent conditions (MFE > 30.0 kcal/mol) (Table 3), while ZIKV-miRNA-MD17 effective hybridizes with CENPF in the same conditions (Table 3). All these microcephaly associated genes have been found to be downregulated in an in vivo mice model of ZIKV infection, leading to disruption of neural development and microcephaly [14]. In this study, one of the predicted ZIKV miRNA (MD-21) is situated in the 3\u2019untranslated region (3'UTR) of the ZIKV genome (Table 1). Flaviviruses are characterized by a relatively long and highly structured 3\u2019UTR [44]. This region contains a number of stem-loops (SLs) and tertiary structures conserved among members of the genus Flavivirus [45], which makes it resistant to RNase degradation [46]. One of these SLs, the 3\u2019SL located at the very end of the 3\u2019UTR has been shown to be crucial for viral replication and interacts with a variety of proteins [47]. In order to gain insight into the location and possible functions of MD-21, the secondary structure of the 3\u2019UTR of the consensus sequences obtained for ZIKV genomes included in these studies was established (Fig. 2). Interestingly, we found that the pre-miRNA-MD21 is identical to flaviviruses 3\u2019SL and contains the short 5\u2019-ACAG-3\u2019 sequence in the top loop of the 3\u2019SL, which is conserved among the members of this genus (see Fig. 2). Recent studies revealed the production of a miRNA (KUN-miR-1) from the 3\u2019SL of the 3\u2019UTR of WNV [27, 48]. Production of this miRNA was shown to be required for efficient WNV replication in mosquito cells. These studies also demonstrated that KUN-miR-1 functions via up-regulation of the expression of transcription factor GATA4, which in turn is required to facilitate WNV replication in mosquito cells [27]. In order to observe if GATA4 may be a target for ZIKV-miR-MD21, we computationally calculated that hybridization (Table 4). The result of this analysis revealed that ZIKV-miR-MD21 has the capability to hybridize Aedes aegypti GATA4 (Table 4).\nThe secondary structure of 3\u2019UTR consensus sequences obtained for the ZIKV strains included in these studies is shown. Stem-loops (SLs) names are indicated next to each SL. Flavivirus conserved 5\u2019-ACAG-3\u2019 sequence in the top loop of the 3\u2019SL is indicated by a red bracket. Mature miRNA-MD21 sequences are indicated by a black line next to the sequences. Bar at the bottom of the structures denote base pair probabilities.\nEffective hybridization of ZIKV-miR-MD21 and Aedes aegypti GATA4 gene.\nAdditionally, a recent study has reported another miRNA also produced from hairpin structures located in the 3\u2019UTR of DENV-2 in infected mosquito cells [28].\nThus, there is increasing evidence suggesting the role of the 3\u2019UTR of flaviviruses as a source of miRNAs. This is in agreement with the results of this work.\nHowever, the details of the mechanisms for the generation of these miRNAs and their potential functions in virus replication in invertebrates hosts will require further investigation [44].\nThe results presented here suggest a possible role of miRNAs on the expression of human genes associated with microcephaly. Besides, they hint to candidate miRNAs that should be further confirmed by experimental analysis.\n",
+        "Conclusions": "The results of this work revealed the miRNA coding capacity of the ZIKV genome, in agreement with a recent report [29]. In this study, using highly stringent conditions, four new miRNAs were found in the Natal-RGN ZIKV genome, which was isolated from the brain tissue of a fetus diagnosed with microcephaly. These miRNAs are situated in different ZIKV genome regions and are highly conserved among ZIKV strains. Two of these miRNA (ZIKV-miRNA-MD1 and -MD17) were found to hybridize with target transcripts from genes previously shown to be associated with microcephaly. Moreover, effective hybridizations among ZIKV-miRNA-MD1 and -MD17 and these target genes can be observed even in highly stringent conditions (MFE > 30.0 kcal/mol). These results suggest a possible role of miRNAs on the expression of human genes associated with microcephaly and revealed candidate miRNAs that should be further confirmed by experimental analysis. Additionally, another new ZIKV miRNA, ZIKV-miRNA-MD21, was predicted in the 3\u2019SL of the 3\u2019UTR of the ZIKV genome, suggesting a potential role for the 3\u2019UTR of flaviviruses as a source of miRNAs production.\n",
+        "Acknowledgements": "Authors acknowledge support by Agencia Nacional de Investigaci\u00f3n e Innovaci\u00f3n (ANII), PEDECIBA and Comisi\u00f3n Sectorial de Investigaci\u00f3n Cient\u00edfica (CSIC), Grupos I+D, Universidad de la Rep\u00fablica, Uruguay.\n"
+    },
+    "tables": [
+        {
+            "id": "T1",
+            "label": "Table 1.",
+            "description": "Predicted hairpin and mature sequences within Natal-RGN ZIKV genome.\n",
+            "image": null
+        },
+        {
+            "id": "T2",
+            "label": "Table 2.",
+            "description": "Predicted ZIKV miRNA targets associated with microcephaly, identified by in silico analysis.\n",
+            "image": null
+        },
+        {
+            "id": "T3",
+            "label": "Table 3.",
+            "description": "Effective hybridization of predicted ZIKV miRNA and transcript gene targets.\n",
+            "image": null
+        },
+        {
+            "id": "T4",
+            "label": "Table 4.",
+            "description": "Effective hybridization of ZIKV-miR-MD21 and Aedes aegypti GATA4 gene.\n",
+            "image": null
+        }
+    ],
+    "figures": [
+        {
+            "label": "Fig 1.",
+            "title": "Predicted secondary structure of pre-miRNAs.",
+            "description": "In A to D, comparisons of the predicted secondary structure of the pre-miRNAs sequences found in Natal-NGR ZIKV strain and ZIKV corresponding consensus sequences are shown. Structures of the predicted pre-miRNA hairpins and their respective consensus (con) sequences are indicated by name at the bottom of the figure as well as the minimum free energy (MFE) values obtained for each structure. Bars at the bottom of the structures denote base pair probabilities. Only centroid structures are depicted. Mature miRNAs sequences are indicated by a square bracket next to each structure.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/08/21/070656/F1.medium.gif"
+        },
+        {
+            "label": "Fig 2.",
+            "title": "Predicted secondary structure of ZIKV 3\u2019UTR.",
+            "description": "The secondary structure of 3\u2019UTR consensus sequences obtained for the ZIKV strains included in these studies is shown. Stem-loops (SLs) names are indicated next to each SL. Flavivirus conserved 5\u2019-ACAG-3\u2019 sequence in the top loop of the 3\u2019SL is indicated by a red bracket. Mature miRNA-MD21 sequences are indicated by a black line next to the sequences. Bar at the bottom of the structures denote base pair probabilities.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/08/21/070656/F2.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Hayes EB"
+            ],
+            "date": "2009",
+            "title": "Zika virus outside Africa",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.3201/eid1509.090442&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19788800&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Simpson DI"
+            ],
+            "date": "1964",
+            "title": "Zika virus infection in man",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/0035-9203(64)90201-9&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=14175744&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Kuno G",
+                "Chang G"
+            ],
+            "date": "2007",
+            "title": "Full-length sequencing and genomic characterization of Bagaza, Kedougou, and Zika viruses",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/s00705-006-0903-z&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17195954&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000246208800003&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Duffy MR",
+                "Chen TH",
+                "Hancock WT",
+                "Powers AM",
+                "Kool JL",
+                "Lanciotti RS"
+            ],
+            "date": "2009",
+            "title": "Zika virus outbreak on Yap Island, Federated States of Micronesia",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa0805715&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19516034&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000266813800008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Musso D"
+            ],
+            "date": "2015",
+            "title": "Zika virus transmission from French Polynesia to Brazil",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.3201/eid2110.151125&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26403318&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "Campos GS",
+                "Bandeira AC",
+                "Sardi SI"
+            ],
+            "date": "2015",
+            "title": "Zika virus outbreak, Bahia, Brazil",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.3201/eid2110.150847&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26401719&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Marrs C",
+                "Olson G",
+                "Saade G",
+                "Hankins G",
+                "Wen T",
+                "Patel J"
+            ],
+            "date": "2016",
+            "title": "Zika virus and pregnancy: a review of the literature and clinical considerations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1055/s-0036-1580089&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Heymann DL",
+                "Hodgson A",
+                "Sall AA",
+                "Freedman DO",
+                "Staples JE",
+                "Althabe F"
+            ],
+            "date": "2016",
+            "title": "Zika virus and microcephaly: why is this situation a PHEIC?",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0140-6736(16)00320-2&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26876373&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Calvet G",
+                "Aguiar RS",
+                "Melo AS",
+                "Sampaio SA",
+                "de Filippis I",
+                "Fabri A"
+            ],
+            "date": "2016",
+            "title": "Detection and sequencing of Zika virus from amniotic fluid of fetuses with microcephaly in Brazil: a case study",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S1473-3099(16)00095-5&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26897108&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Mlakar J",
+                "Korva M",
+                "Tul N",
+                "Popovi\u0107 M",
+                "Polj\u0161ak-Prijatelj M",
+                "Mraz J"
+            ],
+            "date": "2016",
+            "title": "Zika virus associated with microcephaly",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1056/NEJMoa1600651&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26862926&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "Tang H",
+                "Hammack C",
+                "Ogden SC",
+                "Wen Z",
+                "Qian X",
+                "Li Y"
+            ],
+            "date": "2016",
+            "title": "Zika virus infects human cortical neural progenitors and attenuates their growth",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.stem.2016.02.016&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26952870&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "12.",
+            "authors": [
+                "Rossi S",
+                "Vasilakis N"
+            ],
+            "date": "2016",
+            "title": "Modeling Zika virus infection in mice",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.stem.2016.06.009&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "13.",
+            "authors": [
+                "Hickman HD",
+                "Pierson TC"
+            ],
+            "date": "2016",
+            "title": "Zika in the brain: new models shed light on viral infection",
+            "links": []
+        },
+        {
+            "label": "14.",
+            "authors": [
+                "Li C",
+                "Xu D",
+                "Ye Q",
+                "Hong S",
+                "Jiang Y",
+                "Liu X"
+            ],
+            "date": "2016",
+            "title": "Zika virus disrupts neural progenitor development and leads to microcephaly in mice",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.stem.2016.04.017&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=27179424&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "15.",
+            "authors": [
+                "Almeida MI",
+                "Reis RM",
+                "Calin GA"
+            ],
+            "date": "2011",
+            "title": "MicroRNA history: discovery, recent applications, and next frontiers",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.mrfmmm.2011.03.009&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21458467&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000297781700001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "16.",
+            "authors": [
+                "Grundhoff A",
+                "Sullivan CS"
+            ],
+            "date": "2011",
+            "title": "Virus-encoded microRNAs",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.virol.2011.01.002&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21277611&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000288343000017&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "17.",
+            "authors": [
+                "Ambros V"
+            ],
+            "date": "2001",
+            "title": "microRNA: tiny regulators with great potential",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0092-8674(01)00616-X&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11779458&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000173024200003&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "18.",
+            "authors": [
+                "Pfeffer S",
+                "Zavolan M",
+                "Gr\u00e4sser FA",
+                "Chien M",
+                "Russo JJ",
+                "Ju J"
+            ],
+            "date": "2004",
+            "title": "Identification of virus-encoded microRNAs",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzMDQvNTY3MS83MzQiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wOC8yMS8wNzA2NTYuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "19.",
+            "authors": [
+                "Sullivan CS",
+                "Ganem D"
+            ],
+            "date": "2005",
+            "title": "MicroRNAs and viral infection",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.molcel.2005.09.012&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16209940&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000232514500002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "20.",
+            "authors": [
+                "Cui C",
+                "Griffiths A",
+                "Li G",
+                "Silva LM",
+                "Kramer MF",
+                "Gaasterland T"
+            ],
+            "date": "2006",
+            "title": "Prediction and identification of Herpes Simplex virus 1-encoded microRNAs",
+            "links": []
+        },
+        {
+            "label": "21.",
+            "authors": [
+                "Shivastava S",
+                "Steele R",
+                "Ray R",
+                "Ray RB"
+            ],
+            "date": "2015",
+            "title": "MicroRNAs: role in Hepatitis C virus pathogenesis",
+            "links": []
+        },
+        {
+            "label": "22.",
+            "authors": [
+                "Zhang Y",
+                "Fan M",
+                "Geng G",
+                "Liu B",
+                "Huang Z",
+                "Luo H"
+            ],
+            "date": "2014",
+            "title": "A novel HIV-1-encoded microRNA enhances its viral replication by targeting the TATA box region",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1742-4690-11-23&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24620741&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "23.",
+            "authors": [
+                "Rosewick N",
+                "Momont M",
+                "Durkin K",
+                "Takeda H",
+                "Caiment F",
+                "Cleuter Y"
+            ],
+            "date": "2013",
+            "title": "Deep sequencing reveals abundant noncanonical retroviral microRNAs in B-Cell leukemia/lymphoma",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTEwLzYvMjMwNiI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA4LzIxLzA3MDY1Ni5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "24.",
+            "authors": [
+                "Hasan MM",
+                "Akter R",
+                "Ullah MS",
+                "Abedin MJ",
+                "Ullah GMA",
+                "Hossain MZ"
+            ],
+            "date": "2014",
+            "title": "Computational approach for predicting role of human microRNAs in MERS-CoV genome",
+            "links": []
+        },
+        {
+            "label": "25.",
+            "authors": [
+                "Shi J",
+                "Duan Z",
+                "Sun J",
+                "Wu M",
+                "Wang B",
+                "Zhang J"
+            ],
+            "date": "2014",
+            "title": "Identification and validation of a novel micro-RNA-like molecule derived from a cytoplasmic RNA virus antigenome by bioinformatics and experimental approaches",
+            "links": []
+        },
+        {
+            "label": "26.",
+            "authors": [
+                "Teng J",
+                "Wang Y",
+                "Zhang X",
+                "Liu W",
+                "Fan H",
+                "Yao H"
+            ],
+            "date": "2015",
+            "title": "Systematic genome-wide screening and prediction of microRNAs in EBOV during the 2014 Ebolavirus outbreak",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/srep09912&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=26011078&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "27.",
+            "authors": [
+                "Hussain M",
+                "Torres S",
+                "Schnettler E",
+                "Funk A",
+                "Grundhoff A",
+                "Pijlman GP"
+            ],
+            "date": "2012",
+            "title": "West Nile virus encodes a microRNA-like small RNA in the 3\u2019 untranslated region which up-regulates GATA4 mRNA and falicitates virus replication in mosquito cells",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/gkr848&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22080551&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000302019900034&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "28.",
+            "authors": [
+                "Hussain M",
+                "Asgari S"
+            ],
+            "date": "2014",
+            "title": "MicroRNA-like viral small RNA from Dengue virus 2 autoregulates its replication in mosquito cells",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTExLzcvMjc0NiI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE2LzA4LzIxLzA3MDY1Ni5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "29.",
+            "authors": [
+                "Pylro VS",
+                "Oliveira FS",
+                "Morais DK",
+                "Cuadros-Orellana S",
+                "Pais FS",
+                "Medeiros JD"
+            ],
+            "date": "2016",
+            "title": "ZIKV - CDB: a collaborative database to guide research linking SncRNAs and ZIKA virus disease symptoms",
+            "links": []
+        },
+        {
+            "label": "30.",
+            "authors": [
+                "Grundhoff A"
+            ],
+            "date": "2011",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": null,
+            "authors": [],
+            "date": null,
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "31.",
+            "authors": [
+                "Chen J",
+                "Wang X",
+                "Liu B"
+            ],
+            "date": "2016",
+            "title": "iMiRNA-SSF: improving the identification of microRNA precursors by combining negative sets with different distributions",
+            "links": []
+        },
+        {
+            "label": "32.",
+            "authors": [
+                "Karathanasis N",
+                "Tsamardinos I",
+                "Poirazi P"
+            ],
+            "date": "2015",
+            "title": "MiRduplexSVM: a high-performing MiRNA-duplex prediction and evaluation methodology",
+            "links": []
+        },
+        {
+            "label": "33.",
+            "authors": [
+                "Edgar RC"
+            ],
+            "date": "2004",
+            "title": "MUSCLE: a multiple sequence alignment method with reduced time and space complexity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1471-2105-5-113&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15318951&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "34.",
+            "authors": [
+                "Gruber AR",
+                "Lorenz R",
+                "Bernhart SH",
+                "Neubock R",
+                "Hofacker IL"
+            ],
+            "date": "2008",
+            "title": "The Vienna RNA websuite",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/gkn188&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18424795&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000258142300015&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "35.",
+            "authors": [
+                "Hsu JB",
+                "Chiu CM",
+                "Hsu SD",
+                "Huang WY",
+                "Chien CH",
+                "Lee TY"
+            ],
+            "date": "2011",
+            "title": "miRTar: an integrated system for identifying miRNA-target interactions in human",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1471-2105-12-300&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21791068&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "36.",
+            "authors": [
+                "Rehmsmeier M",
+                "Steffen P",
+                "Hoechsmann M",
+                "Giegerich R"
+            ],
+            "date": "2004",
+            "title": "Fast and effective prediction of microRNA/target duplexes RNA",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoicm5hIjtzOjU6InJlc2lkIjtzOjEwOiIxMC8xMC8xNTA3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDgvMjEvMDcwNjU2LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "37.",
+            "authors": [
+                "Faria NR",
+                "Azevedo RD",
+                "Kraemer MU",
+                "Souza R",
+                "Cunha MS",
+                "Hill SC"
+            ],
+            "date": "2016",
+            "title": "Zika virus in the Americas: Early epidemiological and genetic findings",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzNTIvNjI4My8zNDUiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNi8wOC8yMS8wNzA2NTYuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "38.",
+            "authors": [
+                "Fajardo A",
+                "So\u00f1ora M",
+                "Moreno P",
+                "Moratorio G",
+                "Cristina J"
+            ],
+            "date": "2016",
+            "title": "Bayesian coalescent inference reveals high evolutionary rates and diversification of Zika virus populations",
+            "links": []
+        },
+        {
+            "label": "39.",
+            "authors": [
+                "Faye O",
+                "Freire CC",
+                "Iamarino A",
+                "Faye O",
+                "de Oliveira JV",
+                "Diallo M"
+            ],
+            "date": "2014",
+            "title": "Molecular evolution of Zika virus during its emergence in the 20(th) century",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0002636&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24421913&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "40.",
+            "authors": [
+                "Shen S",
+                "Shi J",
+                "Wang J",
+                "Tang S",
+                "Wang H"
+            ],
+            "date": "2016",
+            "title": "Phylogenetic analysis revealed the central roles of two African countries in the evolution and worldwide spread of Zika virus",
+            "links": []
+        },
+        {
+            "label": "41.",
+            "authors": [
+                "Tamura K",
+                "Stecher G",
+                "Peterson D",
+                "Filipski A",
+                "Kumar S"
+            ],
+            "date": "2013",
+            "title": "MEGA6: Molecular Evolutionary Genetics Analysis version 6.0",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/molbev/mst197&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24132122&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000327793000019&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "42.",
+            "authors": [
+                "Faheem M",
+                "Naseer MI",
+                "Rasool M",
+                "Chaudhary AG",
+                "Kumosani TA",
+                "Ilyas AM"
+            ],
+            "date": "2015",
+            "title": "Molecular genetics of human primary microcephaly: an overview",
+            "links": []
+        },
+        {
+            "label": "43.",
+            "authors": [
+                "Hussain MS",
+                "Baig SM",
+                "Neumann S",
+                "Nurnberg G",
+                "Farooq M",
+                "Ahmad I"
+            ],
+            "date": "2012",
+            "title": "A truncating mutation of CEP135 causes primary microcephaly and disturbed centrosomal function",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.ajhg.2012.03.016&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22521416&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "44.",
+            "authors": [
+                "Clarke BD",
+                "Roby JA",
+                "Slonchak A",
+                "Khromykh AA"
+            ],
+            "date": "2015",
+            "title": "Functional non-coding RNA derived from the flavivirus 3\u2019 untranslated region",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.virusres.2015.01.026&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25660582&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "45.",
+            "authors": [
+                "Hahn CS",
+                "Hahn YS",
+                "Rice CM",
+                "Lee E",
+                "Dalgarno L"
+            ],
+            "date": "1987",
+            "title": "Conserved elements in the 3\u2019 untranslated region of flavivirus RNAs and potential cyclization sequences",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/0022-2836(87)90455-4&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=2828633&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1987K830800004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "46.",
+            "authors": [
+                "Pijlman GP",
+                "Funk A",
+                "Kondratieva N",
+                "Leung J",
+                "Torres S"
+            ],
+            "date": "2008",
+            "title": "A highly structured, nuclease-resistant, noncoding RNA produced by flaviviruses is required for pathogenicity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.chom.2008.10.007&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19064258&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000262007200010&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "47.",
+            "authors": [
+                "Yu L",
+                "Nomaguchi M",
+                "Padmanabhan R",
+                "Markoff L"
+            ],
+            "date": "2008",
+            "title": "Specific requirements for elements of the 5\u2019 and 3\u2019 terminal regions in flavivirus RNA synthesis and viral replication",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.virol.2007.12.035&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18234265&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        },
+        {
+            "label": "48.",
+            "authors": [
+                "Roby JA",
+                "Pijlman GP",
+                "Wilusz J",
+                "Khromykh AA"
+            ],
+            "date": "2014",
+            "title": "Noncoding subgenomic flavivirus RNA: multiple functions in West Nile virus pathogenesis and modulation of host responses",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.3390/v6020404&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24473339&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F08%2F21%2F070656.atom"
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1364 @@
+{
+    "source": "biorxiv",
+    "id": "33565294e6bc67fb7ee14dcae6cfdb08148f4ea5",
+    "url": "https://biorxiv.org/content/10.1101/018481v1.full",
+    "title": "Big city, small world: Density, contact rates, and transmission of dengue across Pakistan",
+    "authors": [
+        "M.U.G. Kraemer",
+        "T.A. Perkins",
+        "D.A.T. Cummings",
+        "R. Zakar",
+        "S.I. Hay",
+        "D.L. Smith",
+        "R.C. Reiner"
+    ],
+    "sections": {
+        "Abstract": "Macroscopic descriptions of populations commonly assume that encounters between individuals are well mixed; i.e., each individual has an equal chance of coming into contact with any other individual. Relaxing this assumption can be challenging though, due to the difficulty of acquiring detailed knowledge about the non-random nature of encounters. Here, we fitted a mathematical model of dengue virus transmission to spatial time series data from Pakistan and compared maximum-likelihood estimates of \u201cmixing parameters\u201d when disaggregating data across an urban-rural gradient. We show that dynamics across this gradient are subject not only to differing transmission intensities but also to differing strengths of nonlinearity due to differences in mixing. We furthermore show that neglecting spatial variation in mixing can lead to substantial underestimates of the level of effort needed to control a pathogen with vaccines or other control efforts. We complement this analysis with relevant contemporary environmental drivers of dengue.\n",
+        "Introduction": "The transmission dynamics of all infectious diseases depend on a few basic but key determinants: the availability of susceptible and infectious hosts, contacts between them, and the potential for transmission upon contact. Susceptibility is shaped primarily by historical patterns of transmission, the natural history of the pathogen, the host\u2019s immune response, and host demography (Grenfell et al. 2004). What constitutes an epidemiologically significant contact depends on the pathogen\u2019s mode of transmission (Stoddard et al. 2009), and structure in contact patterns can be influenced by transportation networks and the spatial scale of transmission (Brockmann & Helbing 2013), by host heterogeneities such as age (Kilpatrick et al. 2006), and dynamically in response to the pathogen\u2019s influence on host behavior (Fenichel et al. 2011). Whether transmission actually occurs during contact between susceptible and infectious hosts often depends heavily on environmental conditions (Shaman et al. 2010; Gilbert et al. 2014; Weiss et al. 2014b). Disentangling the relative roles of these factors in driving patterns of disease incidence and prevalence is a difficult but central pursuit in infectious disease epidemiology, and mathematical models that are specific about the biology of how these mechanisms interact represent an indispensible tool in this pursuit (Anderson & May 1991).\nThe time-series susceptible-infected-recovered (TSIR) model was developed by Finkenst\u00e4dt & Grenfell (2000) to offer a more accurate and straightforward way to statistically connect mechanistic models of infectious disease transmission with time series data. Among other features, TSIR models readily account for inhomogeneous mixing in a phenomenological way by allowing for nonlinear dependence of rates of contact between susceptible and infectious hosts on their densities. Although this is a simple feature that can be incorporated into any model based on mass-action assumptions \u2013 indeed, earlier applications pertained to inhomogeneous mixing in predator-prey systems (Pascual & Levin 1999) \u2013 the \u201cmixing parameters\u201d that determine the extent of this nonlinearity have primarily been fit to empirical data in applications of the TSIR model to transmission of measles, cholera, rubella, and dengue (Bj\u00f8rnstad et al. 2002; Koelle & Pascual 2004; Metcalf et al. 2011; Reich et al. 2013). Applied to discrete-time models such as the TSIR, mixing parameters also have an interpretation as corrections for approximating a truly continuous-time process with a discrete-time model (Liu et al. 1987; Glass et al. 2003). In no application of the TSIR model to date has the potential for variation in these parameters been assessed, leaving the extent to which inhomogeneity of mixing is different in space and time as an open question in the study of infectious disease dynamics.\nThere are a number of reasons why mixing might vary in time or space. Seasonal variation in mixing might arise because of travel associated with labor (Bharti et al. 2011), religious events (Lessler et al. 2014), or vacation (Deville et al. 2014). A major driver of flu is associated with the timing of school openings (Salath\u00e9 et al. 2010), social networks (Cauchemez et al. 2011), and spatial variation in mixing could arise because of cultural differences and the geographic scales of interest (Brockmann & Helbing 2013; Vazquez-Prokopec et al. 2013; Read et al. 2014), because of variation in the density and quality of roads (Uchida & Nelson 2008), or because of variation in human densities and myriad factors associated with that (Bj\u00f8rnstad et al. 2002; Simini et al. 2012). For vector-borne diseases, variation in mixing is amplified even further by variation in vector densities (Perkins et al. 2013), which effectively mediate contact between susceptible and infectious hosts.\nDengue is a mosquito-borne viral disease with a strong potential for spatial variation in mixing (Brady et al. 2012; Bhatt et al. 2013). The dominant vectors of dengue viruses (Aedes spp.) thrive in areas where they are able to associate with humans, as humans provide not only a preferred source of blood but also water containers that the mosquitoes use for egg laying and for larval and pupal development (Morrison et al. 2008). Two additional aspects of Aedes ecology \u2013 limited dispersal distance of the mosquito (Harrington et al. 2005) and daytime biting (Akram et al. 2009) \u2013 imply that human movement should be the primary means by which the viruses spread spatially (Stoddard et al. 2009). Indeed, analyses of dengue transmission dynamics at a variety of scales have strongly supported this hypothesis (Allicock et al. 2012; Stoddard et al. 2013; Bhoomiboonchoo et al. 2014; Reiner et al. 2014). To the extent that human movement in dense urban environments is more well-mixed than elsewhere, there are likely to be differences in the extent of inhomogeneous mixing in peri-urban and rural areas. This is also presumably the case for directly transmitted pathogens, but with a potentially even stronger discrepancy for dengue due to the urban-rural gradient in mosquito densities.\nTo assess the potential for spatial variation in the inhomogeneity of mixing as it pertains dengue transmission, we performed an analysis of district-level time series of dengue transmission in the Punjab province of Pakistan using a TSIR model with separate mixing parameters for urban and rural districts. We likewise made estimates of the relationships between density-independent transmission potential and putative drivers thereof, such as temperature, to allow for the relative roles of extrinsic and intrinsic factors to be teased apart. Finally, we performed mathematical analyses of the fitted model to assess the significance of spatial variation in mixing inhomogeneity for how time series data are interpreted and used to guide control efforts.\n",
+        "Material and Methods": "We obtained daily dengue case data aggregated at hospital level from Punjab province provided by the Health Department Punjab, Pakistan between 2011 and 2014. In total, 41,300 suspected and confirmed dengue cases were reported in 109 hospitals. All hospitals were subsequently geo-located using \u2018Google maps\u2019 (http://www.maps.google.com). Hospitals that could not be identified were removed from the database. 21,182 cases alone were reported from the year 2011, which affected the almost the entire province. Many more cases occurred in Lahore (35,348) compared to all other districts (5,952) (Table 1). A breakdown per year and each province is provided in Table S1 and additional information about collection can be found in the supplementary appendix.\nReported cases by year in Lahore and all other districts.\nEnvironmental conditions are instrumental in defining the risk of transmission of dengue (Bhatt et al. 2013). Transmission is limited by the availability of a competent disease vector. Due to a lack of resources and political instability no comprehensive nation wide entomological surveys have been performed in Pakistan. Therefore we use a probabilistic model to infer the probability of occurrence of Ae. aegypti and Ae. albopictus in Pakistan derived from a globally comprehensive dataset containing more than 20,000 records for each species (Figure 1a and b). Such model outputs have proven useful in identifying areas of risk of transmission of dengue as well as malaria (Gething et al. 2011; Sinka et al. 2012; Bhatt et al. 2013). Other important environmental conditions defining the risk of transmission of dengue are temperature, water availability, and vegetation cover (Messina et al. 2015). To account for such variation, raster layers of daytime land surface temperature (LST) were processed from the MOD11A2 satellite, gap-filled to remove missing values, and then averaged to a monthly temporal resolution for all four years (Weiss et al. 2015). The density of vegetation coverage has been shown to be associated with vector abundance (Eisen & Lozano-Fuentes 2009). Moreover, vegetation indices are useful proxies for precipitation and may be used to derive the presence of standing water buckets that are habitats for the Aedes mosquitos (Maciel-de-Freitas et al. 2007). The same method was again applied to derive the Enhanced Vegetation Index (EVI) from the MOD11A2 satellite to produce 16 day and monthly pixel based estimates for 2011-2014 (Figure 1g) (Weiss et al. 2014a). Due to the inherent delay between rainfall and daily temperature influencing mosquito population dynamics and those mosquitoes contributing to an increase in DENV transmission, we consider both, the influence of the current temperature, vegetation indices and precipitation, data on current transmission as well as the values of those covariates the time step before (Figure 1f).\nCovariates used in this study to derive environmental drivers of transmission. Aedes aegypti probability of occurrence (a); Ae. albopictus probability of occurrence (b); Urbanicity (c); Weighted urban accessibility (d); Population density and study area (e); Precipitation (f); Enhanced Vegetation Index (EVI) mean (g).\nWe used population count estimates on a 100m resolution that were subsequently aggregated up to match all other raster layers to a 5 km \u00d7 5 km resolution for the year 2015 (http://www.worldpop.org) (Figure 1e). In a follow-up analysis to our primary investigation into the climatological drivers of dengue transmission we included several density-based covariates. We derived a weighted accessibility metric that includes both, population density and urban accessibility, a metric commonly used to derive relative movement patterns (Uchida & Nelson 2008; Tatem et al. 2012). This map shows a friction surface, i.e. the time needed to travel through a specific pixel (Figure 1d). We also used an urban, peri-urban and rural classification scheme to quantify patterns of urbanicity based on a globally available grid (Center for International Earth Science Information Network (CIESIN) 2010) (Figure 1c). All covariates and case data were aggregated and averaged (where appropriate) to a district level.\nFollowing Finkenst\u00e4dt & Grenfell (2000), we assume a general transmission model of\n\n\nwhere It,i is the number of infected and infectious individuals and St,i the number of susceptible individuals, at time t in district i, Ni is the population of district i, and \u03b2t,i is the covariate driven contact rate. The mixing parameter for the ith district is given by \u03b1i; when \u03b1i is equal to 1, the population has homonegeous mixing where values less than one can either indicate inhomogeneous mixing or a need to correct for the discretization of the continuous-time process. Finally, the error terms \u2208t,i are assumed to be independent and identically log-normally distributed random variables. For more details please see SI.\nThe term \u03b2t,i is fit using generalized additive model regression (GAM) (Hastie & Tibshirani 1990; Dominici et al. 2002; Wood 2011). The time-varying climatological covariates are all fit as a smooth spline, while all other covariates enter \u03b2t,i linearly. Additionally, unexplained seasonal variation is accounted for using a 12-month periodic smooth spline.\nModel selection was performed using backwards selection. Two base models were investigated. First, a climate only model was created using only the climatological and climate suitability covariates. Second, a \u201cfull\u201d model using the density-dependent covariates as well as the climatological covariates were combined into a single model which was then subjected to backwards selection. For both models the mixing coefficient was initially set equal for each district and once a final model was arrived upon, the mixing coefficient for Lahore was allowed to vary separately from the other coefficients. All model fitting was conducted using R (R Core Team 2014) and the \u201cmgcv\u201d package (Wood 2011). Models are fit by maximizing the restricted maximum likelihood (Patterson & Thompson 1971) to reduce bias and over-fitting of the smooth splines. The model source code and processing of covariates will be made available in line with previous projects (Pigott & Kraemer 2014).\nTo explore the potential significance of spatial variation in mixing parameters, we conducted an analysis to probe the inherent mathematical tradeoff between the mixing parameter \u03b1 and the density-independent transmission coefficient \u03b2. Specifically, to answer the question, what difference in local transmission would be necessary to account for a difference in mixing while achieving identical transmission dynamics. To explore this, we used eqn. (1) to establish:\n\n\nfrom which we obtained\n\n\nWe then examined how variation in l and \u03b12 \u2212 \u03b11 affected the left hand side of eqn. (3) and likewise the critical proportion of the population to control in order to effect pathogen elimination, which, under our model, is .\n",
+        "Results": "The majority of cases are clustered in Lahore, the capital of Punjab province. Ongoing transmission seems to be focal in three (Vehari, Rawlpindi and Lahore) districts and spread through infective sparks to smaller more rural provinces. In early investigations, all hospitals that reported dengue cases are located in areas with high EVI values indicating a clear environmental signal (Figure 1b).\nTo disentangle the different aspects of dengue dynamics and their drivers we used a model containing only the climatological covariates and performing backwards model selection until each covariate in the model was significant at a 5% level resulted in a model that explained 76.9% of the deviance and whose adjusted R-squared was 0.746. Amongst the yearly-averaged covariates, EVI and precipitation remained in the model as well as the derived Ae. albopictus range map (p-values of 8.21 \u00d7 10-4, 0.01, and 3.9 \u00d7 10-5 respectively). Interestingly, if the derived Ae. aegypti map is substituted for the Ae. albopictus map, the deviance explained increases slightly to 76.8%. For climatological covariates that were fit as smooth splines, temperature, lagged temperature and EVI remained in the model (Figure 2, p-values of 0.010, 0.030 and 0.030 with effective degrees of freedom 7.55, 5.47, and 1.83, respectively). There was a significant amount of periodic variation unexplained by the climatological covariates alone and the \u2018seasonality\u2019 covariate remained (Figure 2, p-value = 0.0034). The estimated median values for R0 per district are clustered around two (mean = 2.1), their geographical distribution indicates a clear trend towards districts with higher population (Figure 3). Finally, the mixing coefficient was significantly lower than 1 (\u03b1 = 0.69, 95% CI = (0.614, 0.771), p-value = 1.6 \u00d7 10\u221214).\nModel outputs using a backwards model selection procedure in the model using climatological variables (a, A-D), and including the density dependent variables (b, A-D).\nAverage distribution of R0 with green representing Lahore versus red all other districts (A), their geographical distribution (B), and over time in which the green line again is representing Lahore versus the red line representing all other districts (C).\nTo understand these differences the final model was then compared to a nested model where the coefficient for Lahore was allowed to vary independently of all other districts. Deviance explained increased to 77% and adjusted R-squared increased to 0.753. Further, the mixing coefficient for Lahore (\u03b1 = 0.74) was significantly larger than the mixing coefficient for the other districts (\u03b1 = 0.59, p-value=0.0068) (Figure S1). The median R0 for Lahore was estimated at 3.28, the highest for all districts.\nIn assess how far the variation of mixing coefficients can be explained by other covariates we consider the possibility that movement accounts for the differences in the mixing coefficient between Lahore and the other districts. The density-dependent covariates (described earlier) were then added to the full model and backwards selection was repeated. The resulting model explained 78.6% of the variance, had an adjusted R-squared of 0.763 and is superior to the final climatological model based on AIC (699.23 versus 714.83). Yearly averaged EVI, NDVI and precipitation were all significant (p-values of 8.7 \u00d7 10-5, 0.00024, and 0.00028, respectively). Again, the derived Ae. albopictus map was significant (p-value = 0.008163). For climatological covariates fit as smooth splines, only temperature and lagged temperature were found significant (Figure 2b, p-value of 4.0 \u00d7 10-5 and 0.0013, and effective degrees of freedom 7.61 and 4.81, respectively), and there was still a significant \u2018seasonality\u2019 (Figure 2b, p-value of 4.0 \u00d7 10-7, effective degrees of freedom 4.48). The mixing coefficient was fit at \u03b1 = 0.58, barely lower than the mixing coefficient for non-Lahore districts in the climatological model. The estimated median R0 again clustered around 2 (mean = 1.8), and again the R0 for Lahore was largest, but in this model it was considerably larger than in the climatological model (Lahore R0= 7.82, Figure 2b). Full details of the model parameters are shown in Table S2-S5.\nTwo of the density-dependent covariates remained in the model: the urban map (p-value = 0.01) and the weighted access map (p-value= 3 \u00d7 10-5). When the nested model that allows Lahore\u2019s mixing coefficient to vary was fit, there was no significant difference in the two mixing coefficients (p-value\u22481).\nGiven a difference in estimates of the mixing parameters between Lahore and elsewhere of 0.15, we analyzed eqn. (3) to assess the bias in estimates of the transmission coefficient that would result from ignoring this extent of variation in the inhomogeneity of mixing displayed between two areas. For the purpose of ceteris paribus comparisons, we assumed equal force of infection but varied it across several orders of magnitude. Depending on the order of magnitude, estimates of transmission coefficients made if overestimating the mixing parameter by 0.15 could easily result in a two- to three-fold underestimate in the transmission coefficient (Figure 4). For realistic ranges of the transmission coefficient for dengue, and more generally the basic reproductive number R0, this extent of underestimation of R0 could lead to underestimating the critical proportion of the population to which vaccines or other control measures must be applied by 20-30% (Figure 5).\nRatio of betas (R0) assuming equal force of infection and a difference in \u03b12 \u2013 \u03b11 of 0.2, 0.15 (green), and 0.1, form top to bottom. The straight line indicates a ratio of 1.\nCritical proportion of the population to control in population 2 as a function of R0 in population 1, the order of magnitude of the infectious numbers in each population, and a difference in \u03b12 \u2013 \u03b11 of 0.1, 0.15 (green), and 0.2. The straight line indicates the critical proportion assuming the \u03b1 in each population are equal.\n",
+        "Discussion": "Our results point to considerable spatial heterogeneity in the extent of mixing and strength of an associated nonlinearity in transmission along an urban-rural gradient. This regional variability in mixing has direct implications for estimates of the basic reproductive number of dengue in our study region and elsewhere. Although the potential for such bias in estimates of the basic reproductive number has been shown in a theoretical context (Hu et al. 2013; Perkins et al. 2013), we provide quantitative estimates of the extent of this problem in interfacing models with a rich spatio-temporal data set. Such analyses have implications for estimates of population-level parameters not only for dengue but also for other infectious diseases (Bartlett 1960; Keeling & Grenfell 1997; Bj\u00f8rnstad et al. 2002; Smith et al. 2002; Keeling & Eames 2005; Kiss et al. 2008) and possibly even more broadly in ecology.\nWe revealed significant differences in mixing components between urban and rural settings and found that a population-weighted urban accessibility metric was able to absorb differences in mixing between these settings indicating that this specific covariate accounts for aspects influencing mixing. Mixing is presumably influenced directly by human behavior and has been shown to be highly unpredictable, largely dependent on the local context and the spatial and temporal scale (Yang et al. 2014). In this study however we could show that the density-dependent covariate selected was able to capture the influence of these key encounters on a district level. Once differences in mixing were accounted for, estimated R0 values indicated considerably larger differences between transmission potential in Lahore versus all other districts. Synchronizing more accurate geo-referenced data would allow to assess the importance of spatial scale on the relationship between \u201cmixing parameters\u201d and urban accessibility (Perkins et al. 2013; Mills & Riley 2014). In the case of dengue this again has been limited by the availability of high resolution data (Ruberto et al. 2015). Complementing this analysis with measurement of direct social contact patterns could be important to explore this relationship in even more detail (Bauch & Galvani 2013; Vazquez-Prokopec et al. 2013; Heesterbeek et al. 2015) and could be informed by mathematical models that explored this relationship previously for other diseases (Bj\u00f8rnstad et al. 2002; Reiner et al. 2012). Another encouraging finding is that large-scale mosquito suitability surfaces help capture the environmental determinants of dengue transmission (Bhatt et al. 2013).\nIntervention strategies are contingent on both understanding key environmental drivers of transmission and the dynamics of ongoing human-to-human transmission, particularly in outbreaks situations (Perkins et al. 2015). Environmental drivers such as seasonal fluctuations in rainfall, temperature, vegetation coverage or mosquito abundance will help guide surveillance and control efforts targeted mostly towards the ecological aspects of mosquito dispersal (Johansson 2015). Once infection occurs much debate has been focused around optimizing intervention strategies to reduce disease incidence, which is largely determined by R0. The presented framework shows that the interaction between mixing parameters and force of infection has potentially large implications for optimizing targeted intervention, particularly in countries where resources are scarce (Cesare et al. 2015). This in fact is even more important in areas of low infection where transmission seems to be more focal (Salje et al. 2012). Again however importance needs to be focused on the spatial and temporal resolution of appropriate intervention strategies and the respective effect of the selected covariates and model parameters (Mills & Riley 2014). Empirical understanding, however, on which spatial resolution is most appropriate to carry out large-scale vector-borne disease interventions remains unknown.\nOnce transmission has occurred in one place, understanding not only spatial heterogeneities of transmission dynamics but their subsequent spread in mechanistic stochastic models as shown for measles would help to empirically determine the propagation of the disease (Grenfell et al. 2001). The spatial spread dynamics have been given considerable interest globally as the risk of importation of dengue into yet endemic areas continentally and internationally is increasing with travel and trade (Schaffner & Mathis 2014). Exploration of the case data in Pakistan suggests that spread happens along major transport routes from Lahore to Karachi and north to Rawalpindi. Using results presented here on mixing components and environmental drivers will help pinpoint areas of major risk of importation more accurately especially in the case of recurring epidemics. Using the fitted relationships of the environmental drivers of transmission and R0 will enable future analyses and comparisons between diseases and geographic regions. In this context it will be instrumental to integrate a variety of movement and social network models with the evidence presented here to infer more accurately how the geographical spread of dengue is determined.\nTo allow for comparison of these results in a broader context and across diseases, possibly even in outbreak situations and in real time, it is essential to make data widely available by open access (Heesterbeek et al. 2015). Moreover, the complexity of infectious disease dynamics is not fully understood and we are limited by computational capacities to fully account for stochasticity and nonlinearity.\n",
+        "Author contributions": "Conceived and designed the experiment: MUGK, RCR, TAP, DLS. Performed the experiments: RCR, TAP, MUGK. Analysed the data: RCR, MUGK. Edited the manuscript: DLS, SIH, DATC, ZR. Wrote the paper: MUGK, RCR, TAP.\n",
+        "Acknowledgements and funding": "The authors would like to thank the WHO Punjab office, Health Department Punjab, and PID for providing the epidemiological data, and all participants that helped collect the data. MUGK acknowledges funding from the German Academic Exchange Service (DAAD). TAP, SIH, RCR acknowledge the support from the RAPIDD program of the Science & Technology Directorate, Department of Homeland Security, and the Fogarty International Center, National Institutes of Health. SIH is funded by a Senior Research Fellowship from the Wellcome Trust (#095066) and a grant from the Bill & Melinda Gates Foundation (#OPP1093011). Funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.\n"
+    },
+    "tables": [
+        {
+            "id": "T1",
+            "label": "Table 1:",
+            "description": "Reported cases by year in Lahore and all other districts.\n",
+            "image": null
+        }
+    ],
+    "figures": [
+        {
+            "label": "Figure 1:",
+            "description": "Covariates used in this study to derive environmental drivers of transmission. Aedes aegypti probability of occurrence (a); Ae. albopictus probability of occurrence (b); Urbanicity (c); Weighted urban accessibility (d); Population density and study area (e); Precipitation (f); Enhanced Vegetation Index (EVI) mean (g).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2015/04/27/018481/F1.medium.gif"
+        },
+        {
+            "label": "Figure 2:",
+            "description": "Model outputs using a backwards model selection procedure in the model using climatological variables (a, A-D), and including the density dependent variables (b, A-D).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2015/04/27/018481/F2/graphic-6.medium.gif"
+        },
+        {
+            "label": "Figure 3:",
+            "description": "Average distribution of R0 with green representing Lahore versus red all other districts (A), their geographical distribution (B), and over time in which the green line again is representing Lahore versus the red line representing all other districts (C).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2015/04/27/018481/F3.medium.gif"
+        },
+        {
+            "label": "Figure 4:",
+            "description": "Ratio of betas (R0) assuming equal force of infection and a difference in \u03b12 \u2013 \u03b11 of 0.2, 0.15 (green), and 0.1, form top to bottom. The straight line indicates a ratio of 1.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2015/04/27/018481/F4.medium.gif"
+        },
+        {
+            "label": "Figure 5:",
+            "description": "Critical proportion of the population to control in population 2 as a function of R0 in population 1, the order of magnitude of the infectious numbers in each population, and a difference in \u03b12 \u2013 \u03b11 of 0.1, 0.15 (green), and 0.2. The straight line indicates the critical proportion assuming the \u03b1 in each population are equal.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2015/04/27/018481/F5.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "1.",
+            "authors": [
+                "Akram W.",
+                "Hafeez F.",
+                "Ullah U.N.",
+                "Kim Y.K.",
+                "Hussain A",
+                "Lee J.J."
+            ],
+            "date": "2009",
+            "title": "Seasonal distribution and species composition of daytime biting mosquitoes",
+            "links": []
+        },
+        {
+            "label": "2.",
+            "authors": [
+                "Allicock O.M.",
+                "Lemey P.",
+                "Tatem A.J.",
+                "Pybus O.G.",
+                "Bennett S.N.",
+                "Mueller B. a."
+            ],
+            "date": "2012",
+            "title": "Phylogeography and population dynamics of dengue viruses in the Americas",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/molbev/msr320&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22319149&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000304200600006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "3.",
+            "authors": [
+                "Anderson R.M.",
+                "May R.M."
+            ],
+            "date": "1991",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "4.",
+            "authors": [
+                "Bartlett M.S."
+            ],
+            "date": "1960",
+            "title": "The critical community size for measles in the U.S",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.2307/2343186&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1960XF73800004&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "5.",
+            "authors": [
+                "Bauch C.T.",
+                "Galvani A.P."
+            ],
+            "date": "2013",
+            "title": "Epidemiology. Social factors in epidemiology",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjExOiIzNDIvNjE1NC80NyI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE1LzA0LzI3LzAxODQ4MS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "6.",
+            "authors": [
+                "Bharti N.",
+                "Tatem a J.",
+                "Ferrari M.J.",
+                "Grais R.F.",
+                "Djibo A",
+                "Grenfell B.T."
+            ],
+            "date": "2011",
+            "title": "Explaining seasonal fluctuations of measles in Niger using nighttime lights imagery",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMzQvNjA2MS8xNDI0IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTUvMDQvMjcvMDE4NDgxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "7.",
+            "authors": [
+                "Bhatt S.",
+                "Gething P.W.",
+                "Brady O.J.",
+                "Messina J.P.",
+                "Farlow A.W.",
+                "Moyes C.L."
+            ],
+            "date": "2013",
+            "title": "The global distribution and burden of dengue",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature12060&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23563266&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000317984400041&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "8.",
+            "authors": [
+                "Bhoomiboonchoo P.",
+                "Gibbons R. V.",
+                "Huang A.",
+                "Yoon I.-K.",
+                "Buddhari D.",
+                "Nisalak A."
+            ],
+            "date": "2014",
+            "title": "The spatial dynamics of Dengue virus in Kamphaeng Phet, Thailand",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0003138&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25211127&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "9.",
+            "authors": [
+                "Bj\u00f8rnstad O.N.",
+                "Finkenst\u00e4dt B.F.",
+                "Grenfell B.T."
+            ],
+            "date": "2002",
+            "title": "Dynamics of measles epidemics: Estimating scaling of transmission rates using a Time Series SIR model",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1890/0012-9615(2002)072[0169:DOMEES]2.0.CO;2&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000175147800002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "10.",
+            "authors": [
+                "Brady O.J.",
+                "Gething P.W.",
+                "Bhatt S.",
+                "Messina J.P.",
+                "Brownstein J.S.",
+                "Hoen A.G."
+            ],
+            "date": "2012",
+            "title": "Refining the global spatial limits of dengue virus transmission by evidence-based consensus",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0001760&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22880140&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "11.",
+            "authors": [
+                "Brockmann D.",
+                "Helbing D."
+            ],
+            "date": "2013",
+            "title": "The hidden geometry of complex, network-driven contagion phenomena",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNDIvNjE2NC8xMzM3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTUvMDQvMjcvMDE4NDgxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "12.",
+            "authors": [
+                "Cauchemez S.",
+                "Bhattarai A.",
+                "Marchbanks T.L.",
+                "Fagan R.P.",
+                "Ostroff S.",
+                "Ferguson N.M."
+            ],
+            "date": "2011",
+            "title": "Role of social networks in shaping disease transmission during a community outbreak of 2009 H1N1 pandemic influenza",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTA4LzcvMjgyNSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE1LzA0LzI3LzAxODQ4MS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "13.",
+            "authors": [],
+            "date": "2010",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "14.",
+            "authors": [
+                "Cesare M. Di",
+                "Bhatti Z.",
+                "Soofi S.B.",
+                "Fortunato L.",
+                "Ezzati M",
+                "Bhutta Z."
+            ],
+            "date": "2015",
+            "title": "Geographical and socioeconomic inequalities in women and children\u2019s nutritional status in Pakistan in 2011: an analysis of data from a nationally representative survey",
+            "links": []
+        },
+        {
+            "label": "15.",
+            "authors": [
+                "Deville P.",
+                "Linard C.",
+                "Martin S.",
+                "Gilbert M.",
+                "Stevens F.R.",
+                "Gaughan a. E."
+            ],
+            "date": "2014",
+            "title": "Dynamic population mapping using mobile phone data",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTExLzQ1LzE1ODg4IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTUvMDQvMjcvMDE4NDgxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "16.",
+            "authors": [
+                "Dominici F.",
+                "McDermott A.",
+                "Zeger S.L.",
+                "Samet J.M."
+            ],
+            "date": "2002",
+            "title": "On the use of generalized additive models in time-series studies of air pollution and health",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/aje/kwf062&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12142253&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000177055400001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "17.",
+            "authors": [
+                "Eisen L.",
+                "Lozano-Fuentes S."
+            ],
+            "date": "2009",
+            "title": "Use of mapping and spatial and space-time modeling approaches in operational control of Aedes aegypti and dengue",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0000411&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=19399163&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "18.",
+            "authors": [
+                "Fenichel E.P.",
+                "Castillo-Chavez C.",
+                "Ceddia M.G.",
+                "Chowell G.",
+                "Parra P. a G.",
+                "Hickling G.J."
+            ],
+            "date": "2011",
+            "title": "Adaptive human behavior in epidemiological models",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA4LzE1LzYzMDYiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNS8wNC8yNy8wMTg0ODEuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "19.",
+            "authors": [
+                "Finkenst\u00e4dt B.F.",
+                "Grenfell B.T."
+            ],
+            "date": "2000",
+            "title": "Time series modelling of childhood diseases: a dynamical systems approach",
+            "links": []
+        },
+        {
+            "label": "20.",
+            "authors": [
+                "Gething P.W.",
+                "Patil A.P.",
+                "Smith D.L.",
+                "Guerra C. a",
+                "Elyazar I.R.F.",
+                "Johnston G.L."
+            ],
+            "date": "2011",
+            "title": "A new world malaria map: Plasmodium falciparum endemicity in",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1475-2875-10-378&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22185615&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "21.",
+            "authors": [
+                "Gilbert M.",
+                "Golding N.",
+                "Zhou H.",
+                "Wint G.R.W.",
+                "Robinson T.P.",
+                "Tatem A.J."
+            ],
+            "date": "2014",
+            "title": "Predicting the risk of avian influenza A H7N9 infection in live-poultry markets across Asia",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24937647&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "22.",
+            "authors": [
+                "Glass K.",
+                "Xia Y",
+                "Grenfell B.T."
+            ],
+            "date": "2003",
+            "title": "Interpreting time-series analyses for continuous-time biological models - Measles as a case study",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0022-5193(03)00031-6&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12782113&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000183564400002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "23.",
+            "authors": [
+                "Grenfell B.T.",
+                "Bj\u00f9rnstad O.N.",
+                "Kappey J."
+            ],
+            "date": "2001",
+            "title": "Travelling waves and spatial hierarchies in measles epidemics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/414716a&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11742391&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000172676200039&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "24.",
+            "authors": [
+                "Grenfell B.T.",
+                "Pybus O.G.",
+                "Gog J.R.",
+                "Wood J.L.N.",
+                "Daly J.M.",
+                "Mumford J. a"
+            ],
+            "date": "2004",
+            "title": "Unifying the epidemiological and evolutionary dynamics of pathogens",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzMDMvNTY1Ni8zMjciO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNS8wNC8yNy8wMTg0ODEuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "25.",
+            "authors": [
+                "Harrington L.C.",
+                "Scott T.W.",
+                "Lerdthusnee K.",
+                "Coleman R.C.",
+                "Costero A.",
+                "Clark G.G."
+            ],
+            "date": "2005",
+            "title": "Dispersal of the dengue vector Aedes aegypti within and between rural communities",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NzoidHJvcG1lZCI7czo1OiJyZXNpZCI7czo4OiI3Mi8yLzIwOSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE1LzA0LzI3LzAxODQ4MS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "26.",
+            "authors": [
+                "Hastie T.J.",
+                "Tibshirani R.J."
+            ],
+            "date": "1990",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "27.",
+            "authors": [
+                "Heesterbeek H.",
+                "Anderson R.M.",
+                "Andreasen V.",
+                "Bansal S.",
+                "De Angelis D.",
+                "Dye C."
+            ],
+            "date": "2015",
+            "title": "Modeling infectious disease dynamics in the complex landscape of global health",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjE2OiIzNDcvNjIyNy9hYWE0MzM5IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTUvMDQvMjcvMDE4NDgxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "28.",
+            "authors": [
+                "Hu H.",
+                "Nigmatulina K",
+                "Eckhoff P."
+            ],
+            "date": "2013",
+            "title": "The scaling of contact rates with population density for the infectious disease models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.mbs.2013.04.013&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23665296&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "29.",
+            "authors": [
+                "Johansson M.A."
+            ],
+            "date": "2015",
+            "title": "Chikungunya on the move",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.pt.2014.12.008&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25649340&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "30.",
+            "authors": [
+                "Keeling M.J.",
+                "Eames K.T."
+            ],
+            "date": "2005",
+            "title": "Networks and epidemic models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rsif.2005.0051&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16849187&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000234342000003&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "31.",
+            "authors": [
+                "Keeling M.J.",
+                "Grenfell B.T."
+            ],
+            "date": "1997",
+            "title": "Disease extinction and community size: modeling the persistence of measles",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjExOiIyNzUvNTI5Ni82NSI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE1LzA0LzI3LzAxODQ4MS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "32.",
+            "authors": [
+                "Kilpatrick A.M.",
+                "Daszak P.",
+                "Jones M.J.",
+                "Marra P.P.",
+                "Kramer L.D."
+            ],
+            "date": "2006",
+            "title": "Host heterogeneity dominates West Nile virus transmission",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rspb.2006.3575&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16928635&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000240400800010&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "33.",
+            "authors": [
+                "Kiss I.Z.",
+                "Green D.M.",
+                "Kao R.R."
+            ],
+            "date": "2008",
+            "title": "The effect of network mixing patterns on epidemic dynamics and the efficacy of disease contact tracing",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rsif.2007.1272&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18055417&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "34.",
+            "authors": [
+                "Koelle K.",
+                "Pascual M."
+            ],
+            "date": "2004",
+            "title": "Disentangling extrinsic from intrinsic factors in disease dynamics: A nonlinear time series approach with an application to Cholera",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1086/420798&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15266387&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000222268200012&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "35.",
+            "authors": [
+                "Lessler J.",
+                "Rodriguez I.",
+                "Derek B.",
+                "Tini A.T.C.",
+                "Kerkhove M.",
+                "Van, Mills H."
+            ],
+            "date": "2014",
+            "title": "Estimating potential incidence of MERS CoV associated with Hajj pilgrims to Saudi Arabia",
+            "links": []
+        },
+        {
+            "label": "36.",
+            "authors": [
+                "Liu W.M.",
+                "Hethcote H.W.",
+                "Levin S. a."
+            ],
+            "date": "1987",
+            "title": "Dynamical behavior of epidemiological models with nonlinear incidence rates",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1007/BF00277162&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=3668394&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1987K041700001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "37.",
+            "authors": [
+                "Maciel-de-Freitas R.",
+                "Marques W. a.",
+                "Peres R.C.",
+                "Cunha S.P.",
+                "De Oliveira R.L."
+            ],
+            "date": "2007",
+            "title": "Variation in Aedes aegypti (Diptera: Culicidae) container productivity in a slum and a suburban district of Rio de Janeiro during dry and wet seasons",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1590/S0074-02762007005000056&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17612770&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000247965800010&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "38.",
+            "authors": [
+                "Messina J.P.",
+                "Brady O.J.",
+                "Pigott D.M.",
+                "Golding N.",
+                "Kraemer M.U.G.",
+                "Scott T.W."
+            ],
+            "date": "2015",
+            "title": "The many projected futures of dengue",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nrmicro3430&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25730702&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "39.",
+            "authors": [
+                "Metcalf C.J.E.",
+                "Bjornstad O.N.",
+                "Ferrari M.J.",
+                "Klepac P.",
+                "Bharti N.",
+                "Lopez-Gatell H."
+            ],
+            "date": "2011",
+            "title": "The epidemiology of rubella in Mexico: seasonality, stochasticity and regional variation",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1017/S0950268810002165&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000291115200008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "40.",
+            "authors": [
+                "Mills H.L.",
+                "Riley S."
+            ],
+            "date": "2014",
+            "title": "The spatial resolution of epidemic peaks",
+            "links": []
+        },
+        {
+            "label": "41.",
+            "authors": [
+                "Morrison A.C.",
+                "Zielinski-Gutierrez E.",
+                "Scott T.W.",
+                "Rosenberg R."
+            ],
+            "date": "2008",
+            "title": "Defining challenges and proposing solutions for control of the virus vector Aedes aegypti",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pmed.0050068&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18351798&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "42.",
+            "authors": [
+                "Pascual M.",
+                "Levin S. a."
+            ],
+            "date": "1999",
+            "title": "From individuals to population densities: searching for the scale of intermediate determinism",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.2307/176905&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000083009400008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "43.",
+            "authors": [
+                "Patterson H.D.",
+                "Thompson R."
+            ],
+            "date": "1971",
+            "title": "Recovery of inter-block information when block sizes are unequal",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/biomet/58.3.545&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1971L054700013&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "44.",
+            "authors": [
+                "Perkins T.A.",
+                "Metcalf C.J.E.",
+                "Grenfell B.T.",
+                "Tatem A.J."
+            ],
+            "date": "2015",
+            "title": "Estimating Drivers of Autochthonous Transmission of Chikungunya Virus in its Invasion of the Americas",
+            "links": []
+        },
+        {
+            "label": "45.",
+            "authors": [
+                "Perkins T.A.",
+                "Scott T.W.",
+                "Le Menach A",
+                "Smith D.L."
+            ],
+            "date": "2013",
+            "title": "Heterogeneity, mixing, and the spatial scales of mosquito-borne Ppathogen transmission",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pcbi.1003327&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24348223&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "46.",
+            "authors": [
+                "Pigott D.M.",
+                "Kraemer M.U."
+            ],
+            "date": "2014",
+            "title": "Enhancing infectious disease mapping with open access resources",
+            "links": []
+        },
+        {
+            "label": "47.",
+            "authors": [],
+            "date": "2014",
+            "title": "R: A language and environment for computing. Vienna, Austria",
+            "links": []
+        },
+        {
+            "label": "48.",
+            "authors": [
+                "Read J.M.",
+                "Lessler J.",
+                "Riley S.",
+                "Wang S.",
+                "Tan L.J.",
+                "Kwok K.O."
+            ],
+            "date": "2014",
+            "title": "China social mixing patterns in rural and urban areas of southern China",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rspb.2014.0268&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24789897&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "49.",
+            "authors": [
+                "Reich N.G.",
+                "Shrestha S.",
+                "King A. a",
+                "Rohani P.",
+                "Lessler J.",
+                "Kalayanarooj S."
+            ],
+            "date": "2013",
+            "title": "Interactions between serotypes of dengue highlight epidemiological impact of cross-immunity",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1098/rsif.2013.0414&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23825116&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "50.",
+            "authors": [
+                "Reiner R.C.",
+                "King A. a",
+                "Emch M.",
+                "Yunus M.",
+                "Faruque S.G.",
+                "Pascual M."
+            ],
+            "date": "2012",
+            "title": "Highly localized sensitivity to climate forcing drives endemic cholera in a megacity",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMDoiMTA5LzYvMjAzMyI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE1LzA0LzI3LzAxODQ4MS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30="
+                ]
+            ]
+        },
+        {
+            "label": "51.",
+            "authors": [
+                "Reiner R.C.",
+                "Stoddard S.T.",
+                "Scott T.W."
+            ],
+            "date": "2014",
+            "title": "Socially structured human movement shapes dengue transmission despite the diffusive effect of mosquito dispersal",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.epidem.2013.12.003&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24593919&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "52.",
+            "authors": [
+                "Ruberto I.",
+                "Marques E.",
+                "Burke D.S.",
+                "Van Panhuis W.G."
+            ],
+            "date": "2015",
+            "title": "The availability and consistency of dengue surveillance data Pprovided online by the World Health Organization",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pntd.0003511&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25874804&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "53.",
+            "authors": [
+                "Salath\u00e9 M.",
+                "Kazandjieva M.",
+                "Woo J.",
+                "Levis P.",
+                "Feldman M.W.",
+                "Jones J.H."
+            ],
+            "date": "2010",
+            "title": "A high-resolution human contact network for infectious disease transmission",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMjoiMTA3LzUxLzIyMDIwIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTUvMDQvMjcvMDE4NDgxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "54.",
+            "authors": [
+                "Salje H.",
+                "Lessler J.",
+                "Endy T.P.",
+                "Curriero F.C.",
+                "Gibbons R. V.",
+                "Nisalak A."
+            ],
+            "date": "2012",
+            "title": "Revealing the microscale spatial signature of dengue transmission and immunity in an urban population",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czoxMToiMTA5LzI0Lzk1MzUiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNS8wNC8yNy8wMTg0ODEuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "55.",
+            "authors": [
+                "Schaffner F.",
+                "Mathis A."
+            ],
+            "date": "2014",
+            "title": "Dengue and dengue vectors in the WHO European region: past, present, and scenarios for the future",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S1473-3099(14)70834-5&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25172160&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "56.",
+            "authors": [
+                "Shaman J.",
+                "Pitzer V.E.",
+                "Viboud C.",
+                "Grenfell B.T.",
+                "Lipsitch M."
+            ],
+            "date": "2010",
+            "title": "Absolute humidity and the seasonal onset of influenza in the continental United States",
+            "links": []
+        },
+        {
+            "label": "57.",
+            "authors": [
+                "Simini F.",
+                "Gonz\u00e1lez M.C.",
+                "Maritan A.",
+                "Barab\u00e1si A.-L."
+            ],
+            "date": "2012",
+            "title": "A universal model for mobility and migration patterns",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature10856&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22367540&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000302343400041&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "58.",
+            "authors": [
+                "Sinka M.E.",
+                "Bangs M.J.",
+                "Manguin S.",
+                "Rubio-Palis Y.",
+                "Chareonviriyaphap T.",
+                "Coetzee M."
+            ],
+            "date": "2012",
+            "title": "A global map of dominant malaria vectors",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1756-3305-5-69&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22475528&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "59.",
+            "authors": [
+                "Smith D.L.",
+                "Lucey B.",
+                "Waller L. a",
+                "Childs J.E.",
+                "Real L."
+            ],
+            "date": "2002",
+            "title": "Predicting the spatial dynamics of rabies epidemics on heterogeneous landscapes",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czo5OiI5OS82LzM2NjgiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNS8wNC8yNy8wMTg0ODEuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "60.",
+            "authors": [
+                "Stoddard S.T.",
+                "Forshey B.M.",
+                "Morrison A.C.",
+                "Paz-Soldan V. a",
+                "Vazquez-Prokopec G.M.",
+                "Astete H."
+            ],
+            "date": "2013",
+            "title": "House-to-house human movement drives dengue virus transmission",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NDoicG5hcyI7czo1OiJyZXNpZCI7czo5OiIxMTAvMy85OTQiO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxNS8wNC8yNy8wMTg0ODEuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9"
+                ]
+            ]
+        },
+        {
+            "label": "61.",
+            "authors": [
+                "Stoddard S.T.",
+                "Morrison A.C.",
+                "Vazquez-Prokopec G.M.",
+                "Soldan Paz",
+                "Kochel T.J.",
+                "Kitron U."
+            ],
+            "date": "2009",
+            "title": "The role of human movement in the transmission of vector-borne pathogens",
+            "links": []
+        },
+        {
+            "label": "62.",
+            "authors": [
+                "Tatem A.J.",
+                "Hemelaar J.",
+                "Gray R.R.",
+                "Salemi M."
+            ],
+            "date": "2012",
+            "title": "Spatial accessibility and the spread of HIV-1 subtypes and recombinants",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1097/QAD.0b013e328359a904&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22951637&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "63.",
+            "authors": [
+                "Uchida H.",
+                "Nelson A."
+            ],
+            "date": "2008",
+            "title": "",
+            "links": []
+        },
+        {
+            "label": "64.",
+            "authors": [
+                "Vazquez-Prokopec G.M.",
+                "Bisanzio D.",
+                "Stoddard S.T.",
+                "Paz-Soldan V.",
+                "Morrison A.C.",
+                "Elder J.P."
+            ],
+            "date": "2013",
+            "title": "Using GPS technology to quantify human mobility, dynamic contacts and infectious disease dynamics in a resource-poor urban environment",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pone.0058802&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23577059&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "65.",
+            "authors": [
+                "Weiss D.J.",
+                "Atkinson P.M.",
+                "Bhatt S.",
+                "Mappin B.",
+                "Hay S.I.",
+                "Gething P.W."
+            ],
+            "date": "2014a",
+            "title": "An effective approach for gap-filling continental scale remotely sensed time-series",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.isprsjprs.2014.10.001&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25642100&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "66.",
+            "authors": [
+                "Weiss D.J.",
+                "Bhatt S.",
+                "Mappin B.",
+                "Van Boeckel T.P.",
+                "Smith D.L.",
+                "Hay S.I."
+            ],
+            "date": "2014b",
+            "title": "Air temperature suitability for Plasmodium falciparum malaria transmission in Africa 2000-2012: a high-resolution spatiotemporal prediction",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1475-2875-13-171&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24886586&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "67.",
+            "authors": [
+                "Weiss D.J.",
+                "Mappin B.",
+                "Dalrymple U.",
+                "Bhatt S.",
+                "Cameron E.",
+                "Hay S.I."
+            ],
+            "date": "2015",
+            "title": "Re-examining environmental correlates of Plasmodium falciparum malaria endemicity: a data-intensive variable selection approach",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1186/1475-2875-14-1&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25557741&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        },
+        {
+            "label": "68.",
+            "authors": [
+                "Wood S.N."
+            ],
+            "date": "2011",
+            "title": "Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1111/j.1467-9868.2010.00749.x&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "69.",
+            "authors": [
+                "Yang Y.",
+                "Herrera C.",
+                "Eagle N.",
+                "Gonz\u00e1lez M.C."
+            ],
+            "date": "2014",
+            "title": "Limits of predictability in commuting flows in the absence of data for calibration",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25012599&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2015%2F04%2F27%2F018481.atom"
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1119 @@
+{
+    "source": "biorxiv",
+    "id": "99dab788e984601ee4efcd1138926caf10c00dcf",
+    "url": "https://biorxiv.org/content/10.1101/048801v1.full",
+    "title": "Salt Effects on the Thermodynamics of a Frameshifting RNA Pseudoknot under Tension",
+    "authors": [
+        "Naoto Hori",
+        "Natalia A. Denesyuk",
+        "D. Thirumalai"
+    ],
+    "sections": {
+        "Abstract": "One of the key factors in -1 programmed ribosomal frameshifting (PRF) is a pseu-doknot (PK) RNA. A number of single molecule experiments have been performed on PKs to decipher the mechanism of PRF. Motivated by the experiments, we performed simulations to describe the response of a PK over a range of mechanical forces (\u0192s) and monovalent salt concentrations (Cs). The coarse-grained simulations quantitatively reproduces the multistep thermal melting. The free energy changes obtained in simulations are in excellent agreement with experiments, thus validating our model. The predicted phase diagram shows that a sequence of structural transitions, populating distinct intermediates, occur as \u0192 and C are changed. The stem-loop tertiary interactions rupture first followed by unfolding of the 3\u2032-end hairpin (U\u21ccI). Finally, the 5\u2032-end hairpin unravels producing a stretched state (I\u21ccF). A theoretical analysis of the phase boundaries shows that the critical force for rupture scales as (log Cm)\u03b1 with \u03b1 = 1 (0.5) for U\u21ccI (I\u21ccF) transition. This relation is used to obtain the ion-preferential coefficients, which shows that ion-RNA interactions can be quantitatively measured in single molecule experiments. Our simulations predict a plausible link between the stability of the 5\u2032 hairpin and efficiency of PRF.\n",
+        "INTRODUCTION": "The multifarious roles RNA molecules play in controlling a myriad of cellular functions1 have made it important to understand in quantitative terms their folding2\u20136 and how they respond to external stresses.7 Among them one of simplest structural motifs is the RNA pseudoknot (PK), which is involved in many biological functions. The simplest type, referred to as H-type PK, consists of two stems connected by two loops in which one of the stems forms base pairs with the loop of the other. The PK motif, found in many RNA molecules such as telomerase,8 mRNA,9 ribosomal RNA,10 transfer-messenger RNA, and viral RNA,11 are functionally important.12 For instance, a PK in the human telomerase RNA (hTR) is essential for the enzyme (a ribonucleoprotein complex) activity.13 Many pathogenic mutations in the hTR are found in the well-conserved PK region of the RNA further underscoring the importance of the PK.8,13 The presence of PKs are also important in ribozyme catalysis and inhibition of ribosome translation.\nRecently, there is heightened interest in the biophysics of PK folding because it plays a crucial role in affecting the efficiency of-1 programmed ribosomal frameshifting (-1 PRF). 14\u201316 Usually proteins are synthesized when the ribosome reads the mRNA code in three nucleotide steps until the stop codon is reached. In -1 PRF, the open reading frame of mRNA being translated within the ribosome is programmed to be shifted by one nucleotide, and consequently the mRNA becomes non-functional or produces an entirely different protein. 5,17\u201320 The apparent efficiency of -1 PRF depends on the presence of a seven nucleotide \u201cslippery\u201d sequence where frameshifting occurs. In addition, -1 PRF is also stimulated by a co-transcriptionally folded downstream structural motif, which is typically a PK. The downstream PK of the mRNA is a roadblock at the entrance to the mRNA channel on the ribosome, that impedes the translocation of the ribosome. The ribosome must unfold the PK, presumed to occur by exertion of mechanical force, to complete translocation. Because of the important role PK plays in -1 PRF and the observation that the frameshifting efficiency could depend on how the PK responds to force, a number of single molecule pulling experi-ments have focussed on PKs. 15,21,22 A few of these studies have suggested that frameshifting efficiency is correlated with the stability of the PK based in part on the observation that structural stability modulated through nucleotide mutations affects the -1 PRF efficiency.23,24 However, it has been also pointed out that the frameshifting efficiency cannot be explained solely based on thermodynamic or mechanical stability of PKs.14,15,25,26 In addition, transacting factors have been proposed as modulators of -1 PRF efficiency,27,28 and other, as yet unidentified, factors might also play a role. Nevertheless, given that ribosome translocation exerts mechanical force on the downstream mRNA, it is physically reasonable to assume that resistance of PK to force should at least be one factor determining the frameshifting efficiency.14,29\nThe considerations given above and the availability of both ensemble and single molecule pulling experimental data prompted us to focus on the effects of temperature, mechanical force, and salt concentration on a 28-nucleotide H-type RNA PK from the Beet Western Yellow Virus (BWYV).19 Because of its -1 PRF property, this PK has been the subject of several ensemble experiments, which have characterized the folding thermodynamics as a function of monovalent and divalent cations.30,31 The BWYV PK has two stems (S1 and S2) connected by two loops (L1 and L2) as shown in Figure 1. The crystal structure reveals that L1 forms triplex-type tertiary interactions with S1.32 In another context, it has been shown that such interactions and mutations affecting them dramatically changes the efficiency of frameshifting.21 In vitro and in vivo experiments on many mutants of BWYV suggest variations in the frameshift efficiency, which for some mutants is attributed to changes in the stem-loop interactions affecting the stability of PK. For others, direct involvement of the ribosome is invoked.23 In addition to mechanical force (\u0192), it is known from several ensemble experiments that the stability of BWYV PK, like other RNA molecules, depends on monovalent and divalent cations.33 Thus, in order to link the ability of PK to stimulate -1 PRF, it is important to understand in quantitative detail how this crucial structural motif respond to \u0192 as well as changes in ion concentration.\n(A) Sketch of the crystal structure32 colorcoded according to secondary structures. The black arrows indicate positions at which the external mechanical force is applied. (B) Schematic representation of the secondary structure. Unlike the typical H-type pseudoknot, the two helix stems (S1 and S2) are not coaxially stacked in the BWYV pseudoknot.23 Tertiary interactions are indicated by reddashed lines.\nAlthough single molecule pulling experiments suggest how force affects the stability of RNA,19 structural information obtained from such experiments is limited only to changes in molecular extensions. In order to provide a theoretical basis for the changes in the stability and structural transitions as \u0192 and monovalent ion concentration (C) are altered, we performed simulations using a coarse-grained three site interaction (TIS) model34 of the PK. After demonstrating that our simulations reproduce the temperature-induced structural transitions observed in ensemble experiments, we calculated the global phase diagrams in the [C, \u0192] plane. The simulations, performed in the same force range as used in Laser Optical Tweezer (LOT) experiments,19 quantitatively reproduce the experimental observations. By combining our simulations and a theory based on ion-RNA interactions expressed in terms of ion-preferential coefficient,31,35 we produce several key predictions. (1) The phase diagram in the [C, \u0192] plane shows that the folded state (F) ruptures in stages populating distinct intermediates as \u0192 increases. Structurally the low force intermediate is similar to the one populated during thermal melting. The sequence of \u0192-induced structural transitions can be described as F\u21ccI\u21ccE where E is an extended state. (2) The critical force, \u0192c, to rupture the PK scales as (log Cm)\u03b1 with \u03b1 = 1 for the I\u21ccU transition and \u03b1 = 0.5 for the I\u21ccF transition. This result is of general validity and is applicable to other PKs as well. The slope of the \u0192c versus log Cm is proportional to the changes in the ion-preferential coefficient between an intermediate and unfolded states. This prediction can be used in conjunction with single molecule experiments allowing for direct measurement of a key quantity in ion-RNA interactions. (3) To the extent the downstream PK is a road block for translation, our work suggests that the ribosome should exert a force ~ (10 \u2014 15) pN36 for unimpeded translocation along mRNA. Based in part on our work we propose that there should be a link between the stimulatory effect of frameshifting and the stability of the 5'-end of the PK. Our predictions are amenable to validations using single molecule experiments.\n",
+        "RESULTS AND DISCUSSION": "In order to validate our model, we first performed temperature replica-exchange molecular dynamics (REMD) simulations at C = 500 mM with \u0192 = 0. Formations of stems (S1 and S2) and tertiary (stem-loop) interactions (L1 and L2) are characterized by hydrogen-bond energies  and , respectively. Changes in the distributions of hydrogen bond energies as the temperature is increased are shown in Figure S1 in the Supporting Information (SI). Figure S1 shows that there are two minima corresponding to two distinct states. The minimum that dominates at T = 20\u00b0C corresponds to the folded state in which both S1 and S2 are formed ( \u2248 -45 kcal/mol). The minimum with  \u2248 -30 kcal/mol at 80\u00b0C corresponds to a state in which S1 is intact (Figure S1). The free energy profile of  shows only one possible minimum around  \u2248 -20 kcal/mol at T = 20\u00b0C, indicating that L1 and L2 fold/unfold cooperatively as temperature changes.\nWe calculated the free energy profiles G(R\u03b1) = -kBT log P(R\u03b1) (R\u03b1 = Ree, end-to-end distance, or Rg, radius of gyration) from the distributions of P(R\u03b1), which are given in Figure S2 in the SI. The locations and the number of minima report on the thermodynamic transitions between the states (Figure 2). (1) At a low temperature, T = 20\u00b0C, the PK is completely folded (F state) including all the structural motifs, S1, S2, L1 and L2. The existence of F state is also confirmed by the presence of a minimum at Ree \u2248 3 nm (Figure 2A) and at Rg \u2248 1.3 nm (Figure 2B). These values are similar to those obtained directly from the crystal structure. (2) At T = 60\u00b0C, the free energy profile for  shows that the tertiary interactions, L1 and L2, are no longer stably formed (Figure S1B). On the other hand, G(Rg) shows two stable minima, indicating that there are two possible states (Figure 2B). In one state, both stems S1 and S2 are formed but tertiary interactions are absent, corresponding to the I1 state identified using UV absorbance and differential scanning calorimetry experiments.30,31 The other conformation, in which only S2 is formed, has been also observed in experiments and is referred to as the I2 state. It should be noted that the distribution of  also has two minima at 60\u00b0C (Figure S1A) whereas G(Ree) has only one minimum (Figure 2A). (3) At a still higher temperature T = 80\u00b0C, G(Ree) and G(Rg) each have a minimum with S1 stably formed. This is also reflected in Figure S1, which shows a minimum at  \u21cc -30 kcal/mol, and a minimum at  \u2248 0. Thus, completely unfolded conformations, U state, and the I2 state are populated. (4) At T = 110\u00b0C, both  and  are 0, indicating that only the U state exists. This is also reflected in G(Ree) and G(Rg), which show that the PK is completely unfolded. In both profiles (Figures 2A and 2B), the center of minimum is located at larger values than in the F state (Ree \u2248 5 nm and Rg \u2248 2 nm).\nCharacteristics of the thermally-induced folding-unfolding transition of BWYV PK simulated using the temperature-REMD method at C = 500 mM and \u0192 = 0. (A, B) Free energy profiles of the molecular extension (A; Ree) and radius of gyration (B; Rg) at 20, 60, 80, and 110\u00b0C. Each curve is normalized to G = 0 at its probability P(R) maximum. (C) Temperature dependence of the fraction of the four prominent states, which are explicitly labeled.\nThe simulations results in Figure 2 and Figure S1 show that melting of BWYV PK undergoes through sequential transitions, F\u21ccII1\u21ccI2U where I1 has the topology of the F state without significant tertiary interactions (Figure 3). The range of melting temperatures for the three transitions can be obtained from the temperature dependence of the various states \u0192\u03b1(T) (\u03b1 =F, I1, I2 or U) given in Figure 2C. The I1 state has a maximum population around T \u2248 50\u00b0C. We equate this with the melting temperature Tm1 associated with the F\u21ccI1 transition. Similarly, Tm2 for the I1\u21ccI2 transition is \u2248 70\u00b0C. The Tm3 for the I2\u21ccU transition occurs around 90\u00b0C (\u0192I2(Tm3) = \u0192U(Tm3)). The values of the three melting temperatures obtained in our simulations are in remarkable agreement with experiments (compare the simulation results with the values at pH = 7 in Table 1 of Nixon and Giedroc30).\nSchematic of the thermodynamic assembly of BWYV pseudoknot inferred from simulations at zero force. Besides folded (F) and unfolded (U) states, there are two intermediate state, I1 and I2. The topology of the I1 state is the same as F except tertiary interactions are absent.\nThe dependence of the stability of the F state with respect to the U state, \u0394GUF(T) is calculated using a procedure that does not rely on any order parameter.37 The value of \u0394GUF(T = 37\u00b0C) is -14.3 kcal/mol from simulations which is in excellent agreement with experiments. The experimental value reported by Nixon and Giedroc for \u0394GUF(T = 37\u00b0C) = -13.3 kcal/mol whereas Soto et al. estimated that \u0394GUF(T = 37\u00b0C) = -15.1 kcal/mol.30,31 We also predict that \u0394GUF(T = 25\u00b0C) is -19.0 kcal/mol. The excellent agreement between simulations and experiments for the temperature-induced structural transitions and the \u0394GUF(T) validates the model allowing us to predict the effect of \u0192 on BWYV PK.\nIn order to obtain the phase diagram in the [C, \u0192] plane of the BWYV PK, we performed a series of low friction Langevin dynamics simulations by varying the salt concentration from 5 to 1200 mM and mechanical force from 0 to 20 pN, at a constant temperature of 50\u00b0C. We varied C by changing the Debye length in the simulations and the mechanical force was externally applied to the terminal nucleotides (Figure 1A).\nDetermination of the phase diagram in the [C, \u0192] plane requires an appropriate order parameter that can distinguish between the various states. In single molecule pulling experiments the variable that can be measured is the molecular extension, Ree, which is conjugate to the applied force. The overall size of the RNA molecule is assessed using the radius of gyration, Rg. Therefore, we characterized the states of the RNA using both Rg and Ree as order parameters. The values of the predicted Rg at \u0192 = 0 can be measured using scattering experiments. Using these two parameters, we obtained the [C, \u0192] phase diagram (Figure 4). Comparison of the diagram of states in Figures 4D and 4E reveal common features as well as some differences. From Figures 4D and 4E, we infer that at \u0192 > 12.5 pN, extended (E) conformations are dominant at all values of C. As the force decreases, the PK forms compact structures. The boundary separating the extended and relatively compact phases depends on the salt concentration as well as the value of the mechanical force. The critical force to rupture the compact structures increases linearly as a function of salt concentration (Figure 4D; boundary between red and green regions). At low forces (\u0192 < 2.5 pN), the diagram of states based on Ree shows that the extension is relatively small as C changes from a low to a high value. From this finding one might be tempted to infer that the PK is always folded, which is not physical especially at low (C \u2248 10 mM) ion concentrations. In contrast, Figure 4E shows that below 5 pN there is a transition from compact structures (Rg \u2248 1.3 nm in the blue region) at high C to an intermediate state (Rg > 2.2 nm in the green region) at C \u2248 100 mM. The differences between the diagrams of states in the [C, \u0192] plane using Ree and Rg as order parameters are more vividly illustrated in terms of the free energy profiles G(R\u03b1) = \u2014kBT log(R\u03b1) where R\u03b1 is Ree or Rg (Figure 5) The profiles G(Ree), at three values of C and different \u0192 values, show at most two minima. At \u0192 = 0, there is only one discernible minimum at Ree \u2248 4.2 nm at C = 10 mM. The minimum moves to Ree \u2248 3 nm at C = 1200 mM corresponding to a folded PK. At \u0192 = 5 pN there are two minima at C = 10 mM corresponding to a compact structure and a stretched conformation (see the cyan profile in Figure 5A). As \u0192 exceeds 5 pN, there is essentially one minimum whose position increases as \u0192 increases. In the force regime (\u0192 > 5 pN) only the E state is visible at all C.\n(A-C) Representative snapshots corresponding to the three distinct states from simulations. (D) Diagram of states in the [C, \u0192] plane obtained using extension Ree as the order parameter. (E) Same as D except Rg is used to distinguish the states. The three crosses in D and E correspond to conditions from which the snapshots (A-C) are sampled. The scale for Ree and Rg are given on the right.\nFree energy profiles as a function of Ree (A-C) and Rg (D-E) at three different salt concentrations and a range of forces. The locations of the minima change as C and \u0192 vary indicating transitions between distinct states of the BWYV PK.\nA much richer diagram of states emerges when the G(Rg) = \u2014kBT log P(Rg) is examined. The G(Rg) profile at C = 10 mM is similar to G(Ree). However, at higher concentrations there is clear signature of three states (especially at \u0192 = 12.5 pN) corresponding to the folded PK, an intermediate state, and the E state. The free energy profiles show that under force there are minimally three states, which are F, I, and E. Because Ree cannot capture the complexity of the states populated as C and \u0192 are varied, it is important to consider Rg as well to fully capture the phase diagram of the PK.\nIn order to highlight the structural changes that occur as C and \u0192 are varied, we used, Q, the fraction of native hydrogen-bond interactions as an order parameter. The [C, \u0192] phase diagram (Figure 6A) calculated using the average Q is similar to the Rg-phase diagram (Figure 4E), indicating the presence of three states (Figure 6A). Using Q we can also quantitatively assess the contributions from different structural elements to the stability of the PK, and correctly infer the order in which the structural elements of the PK rupture as \u0192 is increased. In order to determine the structural details of each state, we calculated the individual Qs for the two stems (QS1, QS2) and the two loops (QL1 QL2) (Figure 6B). The dependence of \u3008QS1\u3009 as a function of C and \u0192 shows that Stem 1 (S1) is extremely stable and remains intact at all salt concentration, rupturing only at \u0192 \u2248 10 pN (see upper left panel in Figure 6B). In contrast, the upper right panel in Figure 6B shows that Stem 2 (S2) is only stably folded above a moderate salt concentration (C \u2248 80 mM) and low \u0192. The stability difference between S1 and S2 can be explained by the number of canonical G-C base pairs; S1 has five G-C base pairs whereas only three such pairs are in S2. Consequently, S1 cannot be destabilized even at low C, but its rupture to produce extended states requires the use of mechanical force. Above C > 100 mM, the fraction of contacts associated with S2 and the two loops (QS2, QL1 and QL2) simultaneously increase. All the interactions are, however, still not completely formed (Q \u2248 0.8) even at the highest salt concentration, C = 1200 mM. In particular, the contacts involving L2, QL2 \u2248 0.6, implying that tertiary interactions are only marginally stable at T = 50\u00b0C.\n(A) The diagram of states determined using an average of the total Q for the PK. The scale is given on the right. (B) Decomposition of Q into stems and loops: S1, stem 1; S2, stem 2; L1, loop 1; L2, loop 2.\nThe results in Figure 6 provide a structural explanation of the transitions that take place as C and \u0192 are changed. (1) In the high force regime, the two stems are fully ruptured and native interactions are absent creating the E state. (2) Below C \u2248 100 mM and \u0192 \u2272 10 pN (left bottom on the [C, \u0192] plane), only S1 is intact, and thus a hairpin conformation is dominant. This is the intermediate state, I2, identified by Soto et al.31 (3) Above C \u2273 100 mM and \u0192 \u2272 10 pN (right bottom), both S1 and S2 stems are formed and the tertiary interactions involving the two loops are at least partly formed, ensuring that the topology of the PK is native-like. At \u0192 = 0 and temperature as a perturbation, it has been shown that another intermediate state, I1, exist between I2 and folded states.30,31 The I1 state may correspond to two stems fully folded with the entire topology of the native conformation intact, but one in which tertiary interactions between stems and loops are incomplete. Although we have accounted for the presence of such a state in our simulations (see Figure 2) from here on we do not distinguish between I1 and the completely folded state in the phase diagram since the increases in QS2, QL1 and QL2 on the [C, \u0192] plane almost overlap. Therefore, we classify the right-bottom region in the [C, \u0192] phase diagram as (I1+F) state.\nThe [C, \u0192] phase diagrams provide a thermodynamic basis for predicting the structural changes that occur as \u0192 and C are varied. However, they capture only the average property of the ensemble within each state without the benefit of providing a molecular picture of the distinct states, which can only be described using simulations done at force values close to those used in laser optical tweezer (LOT) experiments. Therefore, we investigated the distribution of interactions to ascertain the factors that stabilize the three states as C and \u0192 are varied. Our analysis is based on the hydrogen bond (HB) energy, UHB. The energy function for HB captures the formation of base pairs and loop-stem tertiary interactions, taking into account both distance and angular positions of the donor and the accepter.37\nFigure 7 shows that the probability densities of the total HB energy have three peaks at UHB \u2248 0, \u201330, and \u201360 kcal/mol. In the high-force regime (\u0192 > 12.5 pN), there is only one population at all C around UHB \u2248 0, which obviously corresponds to the fully extended state. The total HB energy can be decomposed into contributions arising from four distinct structural motifs in the PK (Figures S3A-D). The peak at UHB \u2248 \u201330 kcal/mol (Figure 7) arises due to the formation of S1 (compare Figure 7 and S3A). The broad peak at UHB \u2248 \u201360 kcal/mol (Figure 7A) is due to the sum of contributions from S2 and the tertiary interactions.\nProbability distributions of the total hydrogen bond energy as a function of C and \u0192, which are labeled. The distinct peaks are fingerprints of the states that are populated at a specified C and \u0192.\nParsing the UHB due to contributions from interactions among S1, S2, L1, and L2 produces a picture of thermodynamic ordering as C (\u0192) is increased (decreased) from low (high) value to high (low) value. Low C and high \u0192 correspond to the top left region in the phase diagrams (Figures 4 and 6). In all conditions, S1 is the first to form as indicated by the presence of distinct peaks at C > 100 mM and \u0192 \u2272 10 pN in Figure S3A. Under more favorable conditions (\u0192 < 10 pN; C \u2248 300 mM or greater) S2 and tertiary interactions involving L1 are established (Figures S3 B and C). Only at the highest value of C and \u0192 \u2272 5 pN, tertiary interactions involving L2 emerge. Interestingly, the order of formation of the various structural elements en route to the formation of their folded state follows the stabilities of the individual elements with the most stable motif forming first. The PK tertiary interactions are consolidated only after assembly of the stable structural elements. This finding follows from our earlier work establishing that the hierarchical assembly of RNA PKs is determined by the stabilities of individual structural elements. 38\nWe did not find any condition in which S1 and S2 are completely folded but there are no tertiary interactions,  \u2248 0 (i.e. isolated I1 state). Our simulations show that the tertiary interactions contribute to the loop energy only after the stems are formed. Thus, the actual population is distributed between I1 and F, and the tertiary interactions are only marginally stable in the conditions examined here. Soto et al. suggested that diffuse Mg2+ ions play an important role in stabilizing such tertiary interactions.31 Because Mg2+ is not considered here, we cannot determine the precise interactions stabilizing the I1 state, especially at \u0192 \u2260 0. In the discussion hereafter, for simplicity, we refer to (I1+F) state as F.\nIn order to delineate the phase boundaries quantitatively, we calculated the free energy differences between the three major states in the [C, \u0192] plane using \u0394GUI(C, \u0192) = -kBT , where the classification of the states, U, I (=I2), or F, is based on the hydrogen-bond interaction energies of stems,  and  (Figure 8). A similar equation is used to calculate \u0394GIF. Based on the distribution of UHB, we determined the threshold values for S1 formation as  < -15 kcal/mol (Figure S3A). Similarly, S2 formation is deemed to occur if  < -10 kcal/mol (Figure S3B). We classified each structure depending on whether both stems are formed (F) with both  < -15 kcal/mol and  < -10 kcal/mol, only S1 is formed (I(=I2)), or unfolded (U).\nFree energy differences between U and I, and I and F calculated from REMD simulations. The definition of states, U, I, and F, is based on the hydrogen-bond interaction energies associated with each structural element (see main text for details). The I state is analogous to I2 in Figure 3. (A, B) Salt concentration dependences of \u0394G is plotted for different force values. (Symbols are explained in A and B, respectively.) (C) \u0394GUI is shown on the [C, \u0192] plane and phase boundary is quantitatively described (white zone between red and green regions). The blue dashed line is the theoretical prediction where \u0192c \u03b1 log Cm (Eq.4). Circles (\u2218) indicate conditions with \u0394GUI = 0 extracted from linear dependence of \u0394G on log C in (A). It should be noted that the U state is under tension, and hence is different from the unfolded state upon thermal melting at \u0192 = 0. (D) Same as (C) except the results describe I\u21ccF transition. Here the critical force describing the phase boundary is a non-linear function of log Cm (Eq.6).\nThe classification of the diagram of states based on the calculation of \u0394GUI and \u0394GIF is consistent with the Rg and Q phase diagrams (Figures 8C and 8D). At all values of \u0192, \u0394G depends linearly on log C over a broad range of C as shown in Figures 8A and 8B. The midpoints of salt concentration, Cms, at each \u0192, determined using  and  leads to  and , respectively, for the U\u21ccI and I\u21ccF transitions. The forces  and  are the critical forces needed to rupture the I and F states, respectively. The locus of points  and  are shown as circles in Figures 8C and 8D, respectively. It is clear that  is linear in  along the phase boundary. In contrast, the dependence of  is non-linear. In what follows we provide a theoretical interpretation of these results, which automatically shows that the difference in ion preferential coefficients between states can be directly measured in LOT experiments.\nThe salt-concentration dependence of RNA stability can be determined using the preferential interaction coefficient, defined as , where CRNA is the concentration of RNA, and the chemical potential of the ions, \u03bc, is a constant.35,39 The free energy difference, \u0394G\u03b1\u03b2(=G\u03b2 \u2014 G\u03b1), between two states \u03b1 and \u03b2 (such as U and I or I and F) can be expressed as,\n\nwhere C0 is an arbitrary reference value of the salt concentration.40 Note that we consider only 1:1 monovalent salt such as KCl or NaCl for which ion activity can be related to salt concentration C. The factor of 2 in Eq. (1) arises from charge neutrality. The difference, \u0394\u0393\u03b1\u03b2 (=\u0393\u03b2 \u2014 \u0393\u03b1), is interpreted as an effective number of bound cations or excluded anions when the RNA molecule changes its conformation between the two states.35,39 The free energy change upon application of an external force \u0192 is  where  Thus,\n\nIn the [C, \u0192] phase diagram, \u0394G\u03b1\u03b2 = 0 along the phase boundaries. Since the reference salt concentration C0 is arbitrary, we determine its value using \u0394G\u03b1\u03b2(C0, \u0192 = 0) = 0. Thus,  is the salt concentration at the midpoint of the transition at zero force. With this choice of C0, Eq.(2) can be adopted to obtain the phase boundary at \u0192 \u2260 0 using,\n\nwhere  is the midpoint of salt concentration, and  is the critical force associated with the transition between states \u03b1 and \u03b2. A relation that is closely related to Eq. (3) was derived recently by Saleh and coworkers 41 who also discussed the applicability of their approach based on Clausius-Clapeyron equation away from the phase boundary (\u0394G\u03b1\u03b2 = 0). It follows from Eq.(3) that the critical force,\n\nleading to the prediction that there should be a linear-dependence between  and the logarithm of the midpoint of the salt concentration if  is a constant value along the phase boundary. In accord with the prediction in Eq.(4), we find that  varies linearly with  along the phase boundary separating U and I (Figure 8C) where  over a broad range of \u0192c (Figures 9A and 9C).\n(A, B) Probability distributions of the extensions for states U and I (A), and I and F (B). All the conditions shown here are near the phase boundaries in the [C, \u0192] plane (\u0394GUI and \u0394GIF between the two states are close to 0). Distances between peaks of the two distributions are shown. In the U\u21ccI transition (A), the mean distances are almost constant around 4.9 nm. On the other hand, in the I\u21ccF transition (B), the mean distance becomes smaller as the mechanical force weakens. (C) Dependence of \u21ccRee on \u0192c along the phase boundaries. In the I\u21ccF transition, the dependence can be fit using  where a = 0.14 nm/pN and b = 0.27 nm (solid line).\nThe observed non-linearity of the phase boundary separating I and F over the entire concentration range (Figure 8D) arises because  is not a constant, but varies linearly with  (Figures 9B and 9C). Thus, using  and Eq.(4), we find that  satisfies,\n\nNote that if a is zero then Eq.(5) reduces to Eq.(4) with  const. Solving Eq.(5), the nonlinear dependence of  is expressed as,\n\nThe simulation data can be quantitatively fit using Eq.(6) (Figure 8D). In general, we expect  depends on , and hence . It is worth noting that estimation of \u0394\u0393\u03b1\u03b2 requires only knowledge of how the critical force varies with salt concentrations (\u0394G = 0). For any given salt concentration the best statistics are obtained at the critical force because at \u0192c multiple transitions between the two states can be observed.\nFrom the coefficients in the dependence of \u0192c on log Cm, we can estimate \u0394\u0393 which provides a quantitative estimation of the extent of ion-RNA interactions.40 For the UF\u21ccI transition, \u3008\u0394Ree\u3009 \u21cc 4.9 nm and the slope of the linear function is 1.7 pN which leads to \u0394\u0393UI = 0.96 (Figure 8C). This indicates that, upon the conformational change from unfolded to the intermediate state, one cation (anion) is effectively bound (excluded) to the PK. For the transition between I and F, fitting the dependence of  on  with a = 0.14 nm/pN and b = 0.27 nm (Figure 9C), we estimate \u0394\u0393IF = 1.8 using Eq.(6) (Figure 8D). Consequently, the total number of excess cations effectively bound to folded RNA is expected to be around 2.8, a value that is in rough accord with experimental estimate of 2.2.30 More importantly, \u0394\u0393\u03b1\u03b2 can be measured using LOT experiments as shown recently, thus expanding the scope of such experiments to measure ion-RNA interactions.\n",
+        "MODEL AND METHODS": "We employed a variant of the three-interaction-site (TIS) model, a coarse-grained model first introduced by Hyeon and Thirumalai for simulating nucleic acids.34 The TIS model has been previously used to make several quantitative predictions for RNA molecules ranging from hairpins to ribozymes with particular focus on folding and response to \u0192.34,38,42-44 More recently, we have incorporated the consequences of counter ion condensation into the TIS model, allowing us to predict thermodynamic properties of RNA hairpins and PK that are in remarkable agreement with experiments.37 In the TIS model, each nucleotide is represented by three coarse-grained spherical beads corresponding to phosphate (P), ribose sugar (S), and a base (B). Briefly, the effective po-tential energy (for details see Denesyuk and Thirumalai37) of a given RNA conformation is UTIS = UL + UEV + UST + UHB + UEL, where UL accounts for chain connectivity and angular rotation of the polynucleic acids, UEV accounts for excluded volume interactions of each chemical group, UST and UHB are the base-stacking and hydrogen-bond interactions, respectively. Finally, the term UEL corresponds to electrostatic interactions between phosphate groups.\nThe repulsive electrostatic interactions between the phosphate groups is taken into account through the Debye-H\u00fcckel theory, , where the Debye length is . In the simulations, salt concentration can be varied by changing the ionic strength  where q>n is the charge of ion of type n and \u03c1n is its number density. Following our earlier study,37 we use an experimentally fitted function for the temperature-dependent dielectric constant \u03b5(T).45 The renormalized charge on the phosphate group is \u2014q*e(q* < 1). Because of the highly charged nature of the polyanion, counterions condense onto the RNA, thus effectively reducing the effective charge per phosphate. The extent of charge reduction can be calculated using the Oosawa-Manning theory. Charge renormaliza-tion, first used in the context of RNA folding by Heilman-Miller et al.46 and more recently incorporated into CG models for RNA by us37 and others,47,48 is needed to predict accurately the thermodynamics and kinetics of RNA folding.49 The renormalized value of the charge on the P group is approximately given by , where the Bjerrum length is  and b is the mean distance between the charges on the phosphate groups.50 The mean distance (b) between charges on RNA is difficult to estimate (except for rod-like polyelectrolytes) because of its shape fluctuations. Therefore, it should be treated as an adjustable parameter. In our previous study we showed that b = 4.4 \u00c5 provides an excellent fit of the thermodynamics of RNA hairpins and the MMTV pseudoknot.37 We use the same value in the present study of BWYV as well. Thus, the force-field used in this study is the same as in our previous study attesting to its transferability for simulating small RNA molecules.\nThe native structure of the BWYV PK is taken from the PDB (437D).32 The structure contains 28 nucleotides. We added an additional guanosine monophosphate to both the 5\u2032 and 3\u2032 terminus. Thus, the simulated PK has 30 nucleotides. The mechanical force is applied to the ribose sugars of both the 5\u2032- and 3\u2032- terminus (Figure 1A).\nWe performed Langevin dynamics simulations by solving the equation of motion, , where m is mass, \u03b3, the friction coefficient, depends on the size of the particle type (P, S, or B), and R is a Gaussian random force which satisfies the fluctuation-dissipation relation. The [C, \u0192] phase diagrm is calculated at a somewhat elevated temperature, T = 50\u00b0C, in order to observe multiple folding-unfolding transitions when the monovalent salt concentration is varied over a wide range, from 5 to 1200 mM. The numerical integration is performed using the leap-frog algorithm with time step length \u03b4tL = 0.05\u03c4 where \u03c4 is the unit of time. We performed low friction Langevin dynamics simulations to enhance the rate of conformational sampling.51 For each condition (salt concentration (C) and mechanical force (\u0192)), we performed 50 independent simulations for 6 \u00d7 108 time steps and the last two third of trajectories are used for data analyses. In addition, we also performed a set of simulations using the replica-exchange molecular dynamics (REMD) to confirm the validity of the results obtained by the low friction Langevin dynamics simulations.52 In the REMD simulations, both C and \u0192 are treated as replica variables and are exchanged between 256 replicas, by covering C from 1 to 1200 mM and \u0192 from 0 to 20 pN. The replicas are distributed over 16 \u00d7 16 grid. The combined set of simulations using different protocols assures us that the simulations are converged at all conditions.\nTo analyze the structural transitions from which the phase diagrams are determined we stored snapshots every 104 time steps from all the trajectories. We computed the radius of gyration (Rg), and the end-to-end distance (Ree) using the stored snapshots. The fraction of native contacts, Q, is calculated by counting the number of hydrogen-bond (HB) interaction pairs. The assessment of HB formation is based on the instantaneous value of the HB interaction energy, UHB. In our model, each HB interaction pair contributes up to  towards stability, where  is -2.43 kcal/mol corresponding to the stability of one hydrogen bond and n represents number of hydrogen bond associated in the interaction.37 A cut-off value  is defined to pick out contacts that are established. We use a value,  = -1.15 kcal/mol to obtain the diagram using Q as an order parameter (see below). Modest changes in  do not affect the results qualitatively.\n",
+        "CONCLUDING REMARKS": "Motivated by the relevance of force-induced transitions in PK to programmed ribosomal frameshifting, we have conducted extensive simulations of BWYV PK using a model of RNA, which predicts with near quantitative accuracy the thermodynamics at \u0192 = 0. The phase diagram in the [C, \u0192] plane, which can be measured using single molecule LOT pulling experiments, shows that the thermodynamics of rupture as \u0192 is increased or the assembly of the PK as \u0192 is decreased, involve transitions between the extended, intermediate, and the folded states. The predicted linear relationship between \u0192c and log Cm (Eq.4) or \u0192c ~  (Eq.6) show that \u0394\u0393 can be directly measured in LOT experiments. The theoretical arguments leading to Eqs.(4) and (6) are general. Thus, \u0192 can be used as a perturbant to probe ion-RNA interactions through direct measurement of \u0394\u0393.\n",
+        "ACKNOWLEDGEMENTS": "This work was completed when the authors were at the University of Maryland. We are grateful to Jon Dinman, Xin Li, Pavel Zhuravlev, Huong Vu, and Mauro Mugnai for comments on the manuscript. This work was supported in part by a grant from the National Science Foundation (CHE-1361946).\n",
+        "Footnotes": "E-mail: dave.thirumalai{at}gmail.com\n"
+    },
+    "tables": [],
+    "figures": [
+        {
+            "description": "",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F1.medium.gif"
+        },
+        {
+            "label": "Figure 1:",
+            "title": "Structure of the BWYV pseudoknot.",
+            "description": "(A) Sketch of the crystal structure32 colorcoded according to secondary structures. The black arrows indicate positions at which the external mechanical force is applied. (B) Schematic representation of the secondary structure. Unlike the typical H-type pseudoknot, the two helix stems (S1 and S2) are not coaxially stacked in the BWYV pseudoknot.23 Tertiary interactions are indicated by reddashed lines.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F2.medium.gif"
+        },
+        {
+            "label": "Figure 2:",
+            "description": "Characteristics of the thermally-induced folding-unfolding transition of BWYV PK simulated using the temperature-REMD method at C = 500 mM and \u0192 = 0. (A, B) Free energy profiles of the molecular extension (A; Ree) and radius of gyration (B; Rg) at 20, 60, 80, and 110\u00b0C. Each curve is normalized to G = 0 at its probability P(R) maximum. (C) Temperature dependence of the fraction of the four prominent states, which are explicitly labeled.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F3.medium.gif"
+        },
+        {
+            "label": "Figure 3:",
+            "description": "Schematic of the thermodynamic assembly of BWYV pseudoknot inferred from simulations at zero force. Besides folded (F) and unfolded (U) states, there are two intermediate state, I1 and I2. The topology of the I1 state is the same as F except tertiary interactions are absent.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F4.medium.gif"
+        },
+        {
+            "label": "Figure 4:",
+            "description": "(A-C) Representative snapshots corresponding to the three distinct states from simulations. (D) Diagram of states in the [C, \u0192] plane obtained using extension Ree as the order parameter. (E) Same as D except Rg is used to distinguish the states. The three crosses in D and E correspond to conditions from which the snapshots (A-C) are sampled. The scale for Ree and Rg are given on the right.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F5.medium.gif"
+        },
+        {
+            "label": "Figure 5:",
+            "description": "Free energy profiles as a function of Ree (A-C) and Rg (D-E) at three different salt concentrations and a range of forces. The locations of the minima change as C and \u0192 vary indicating transitions between distinct states of the BWYV PK.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F6.medium.gif"
+        },
+        {
+            "label": "Figure 6:",
+            "title": "[C, \u0192] phase diagram using the fraction of native contacts as the order parameter.",
+            "description": "(A) The diagram of states determined using an average of the total Q for the PK. The scale is given on the right. (B) Decomposition of Q into stems and loops: S1, stem 1; S2, stem 2; L1, loop 1; L2, loop 2.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F7.medium.gif"
+        },
+        {
+            "label": "Figure 7:",
+            "description": "Probability distributions of the total hydrogen bond energy as a function of C and \u0192, which are labeled. The distinct peaks are fingerprints of the states that are populated at a specified C and \u0192.\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F8.medium.gif"
+        },
+        {
+            "label": "Figure 8:",
+            "description": "Free energy differences between U and I, and I and F calculated from REMD simulations. The definition of states, U, I, and F, is based on the hydrogen-bond interaction energies associated with each structural element (see main text for details). The I state is analogous to I2 in Figure 3. (A, B) Salt concentration dependences of \u0394G is plotted for different force values. (Symbols are explained in A and B, respectively.) (C) \u0394GUI is shown on the [C, \u0192] plane and phase boundary is quantitatively described (white zone between red and green regions). The blue dashed line is the theoretical prediction where \u0192c \u03b1 log Cm (Eq.4). Circles (\u2218) indicate conditions with \u0394GUI = 0 extracted from linear dependence of \u0394G on log C in (A). It should be noted that the U state is under tension, and hence is different from the unfolded state upon thermal melting at \u0192 = 0. (D) Same as (C) except the results describe I\u21ccF transition. Here the critical force describing the phase boundary is a non-linear function of log Cm (Eq.6).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F9.medium.gif"
+        },
+        {
+            "label": "Figure 9:",
+            "description": "(A, B) Probability distributions of the extensions for states U and I (A), and I and F (B). All the conditions shown here are near the phase boundaries in the [C, \u0192] plane (\u0394GUI and \u0394GIF between the two states are close to 0). Distances between peaks of the two distributions are shown. In the U\u21ccI transition (A), the mean distances are almost constant around 4.9 nm. On the other hand, in the I\u21ccF transition (B), the mean distance becomes smaller as the mechanical force weakens. (C) Dependence of \u21ccRee on \u0192c along the phase boundaries. In the I\u21ccF transition, the dependence can be fit using  where a = 0.14 nm/pN and b = 0.27 nm (solid line).\n",
+            "img": "https://www.biorxiv.org/content/biorxiv/early/2016/04/15/048801/F10.medium.gif"
+        }
+    ],
+    "references": [
+        {
+            "label": "(1).",
+            "authors": [
+                "Cech T. R.",
+                "Steitz J. A."
+            ],
+            "date": "2014",
+            "title": "The noncoding RNA revolution\u2014trashing old rules to forge new ones",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.cell.2014.03.008&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24679528&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000333968900009&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(2).",
+            "authors": [
+                "Tinoco I.",
+                "Bustamante C."
+            ],
+            "date": "1999",
+            "title": "How RNA folds",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1006/jmbi.1999.3001&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10550208&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000083284300012&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(3).",
+            "authors": [
+                "Woodson S. A."
+            ],
+            "date": "2005",
+            "title": "Structure and assembly of group I introns",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.sbi.2005.05.007&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15922592&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000230381600012&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(4).",
+            "authors": [
+                "Thirumalai D.",
+                "Hyeon C."
+            ],
+            "date": "2005",
+            "title": "RNA and protein folding: common themes and variations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/bi047314+&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15794634&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000228099000001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(5).",
+            "authors": [
+                "Chen S.-J."
+            ],
+            "date": "2008",
+            "title": "RNA folding: conformational statistics, folding kinetics, and ion electrostatics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1146/annurev.biophys.37.032807.125957&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18573079&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000258107500011&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(6).",
+            "authors": [
+                "Woodson S. A."
+            ],
+            "date": "2011",
+            "title": "RNA folding pathways and the self-assembly of ribosomes",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/ar2000474&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21714483&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000298575400008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(7).",
+            "authors": [
+                "Tinoco I.",
+                "TX Li P.",
+                "Bustamante C."
+            ],
+            "date": "2006",
+            "title": "Determination of thermodynamics and kinetics of RNA reactions by force",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1017/S0033583506004446&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17040613&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000243367500001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(8).",
+            "authors": [
+                "Theimer C. A.",
+                "Feigon J."
+            ],
+            "date": "2006",
+            "title": "Structure and function of telomerase RNA",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.sbi.2006.05.005&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=16713250&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000239082100006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(9).",
+            "authors": [
+                "Brierley I.",
+                "Digard P.",
+                "Inglis S. C."
+            ],
+            "date": "1989",
+            "title": "Characterization of an efficient coronavirus riboso-mal frameshifting signal: requirement for an RNA pseudoknot",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/0092-8674(89)90124-4&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=2720781&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1989U743600007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(10).",
+            "authors": [
+                "Powers T.",
+                "Noller H. F."
+            ],
+            "date": "1991",
+            "title": "A functional pseudoknot in 16S ribosomal RNA",
+            "links": [
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=1712293&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1991FW47300031&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(11).",
+            "authors": [
+                "Ten Dam E.",
+                "Pleij K.",
+                "Draper D."
+            ],
+            "date": "1992",
+            "title": "Structural and functional aspects of RNA pseudo-knots",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/bi00162a001&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=1280160&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1992KA48300001&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(12).",
+            "authors": [
+                "Staple D. W.",
+                "Butcher S. E."
+            ],
+            "date": "2005",
+            "title": "Pseudoknots: RNA structures with diverse functions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1371/journal.pbio.0030213&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=15941360&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(13).",
+            "authors": [
+                "Gilley D.",
+                "Blackburn E. H."
+            ],
+            "date": "1999",
+            "title": "The telomerase RNA pseudoknot is critical for the stable assembly of a catalytically active ribonucleoprotein",
+            "links": []
+        },
+        {
+            "label": "(14).",
+            "authors": [
+                "Green L.",
+                "Kim C.-H.",
+                "Bustamante C.",
+                "Tinoco I."
+            ],
+            "date": "2008",
+            "title": "Characterization of the mechanical unfolding of RNA pseudoknots",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.jmb.2007.05.058&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18021801&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000252103700016&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(15).",
+            "authors": [
+                "Ritchie D. B.",
+                "Foster D. A. N.",
+                "Woodside M. T."
+            ],
+            "date": "2012",
+            "title": "Programmed -1 frameshifting efficiency correlates with RNA pseudoknot conformational plasticity, not resistance to mechanical unfolding",
+            "links": []
+        },
+        {
+            "label": "(16).",
+            "authors": [
+                "Kim H.-K.",
+                "Liu F.",
+                "Fei J.",
+                "Bustamante C.",
+                "Gonzalez R. L.",
+                "Tinoco I."
+            ],
+            "date": "2014",
+            "title": "A frameshifting stimulatory stem loop destabilizes the hybrid state and impedes ribosomal transloca-tion",
+            "links": []
+        },
+        {
+            "label": "(17).",
+            "authors": [
+                "Chen G.",
+                "Wen J.-D.",
+                "Tinoco I."
+            ],
+            "date": "2007",
+            "title": "Single-molecule mechanical unfolding and folding of a pseudoknot in human telomerase RNA",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoicm5hIjtzOjU6InJlc2lkIjtzOjEwOiIxMy8xMi8yMTc1IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDQvMTUvMDQ4ODAxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "(18).",
+            "authors": [
+                "Giedroc D. P.",
+                "Cornish P. V."
+            ],
+            "date": "2009",
+            "title": "Frameshifting RNA pseudoknots: structure and mechanism",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.virusres.2008.06.008&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=18621088&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000264329300008&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(19).",
+            "authors": [
+                "White K. H.",
+                "Orzechowski M.",
+                "Fourmy D.",
+                "Visscher K."
+            ],
+            "date": "2011",
+            "title": "Mechanical unfolding of the beet western yellow virus -1 frameshift signal",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/ja111281f&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21598975&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000292439700034&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(20).",
+            "authors": [
+                "Dinman J. D."
+            ],
+            "date": "2012",
+            "title": "Mechanisms and implications of programmed translational frameshifting",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/wrna.1126&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22715123&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(21).",
+            "authors": [
+                "Chen G.",
+                "Chang K.-Y.",
+                "Chou M.-Y.",
+                "Bustamante C.",
+                "Tinoco I."
+            ],
+            "date": "2009",
+            "title": "Triplex structures in an RNA pseudoknot enhance mechanical stability and increase efficiency of -1 ribosomal frameshifting",
+            "links": []
+        },
+        {
+            "label": "(22).",
+            "authors": [
+                "de Messieres M.",
+                "Chang J.-C",
+                "Belew A. T.",
+                "Meskauskas A.",
+                "Dinman J. D.",
+                "La Porta A."
+            ],
+            "date": "2014",
+            "title": "Single-molecule measurements of the CCR5 mRNA unfolding pathways",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bpj.2013.09.036&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24411256&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(23).",
+            "authors": [
+                "Kim Y.-G.",
+                "Su L.",
+                "Maas S.",
+                "O\u2019Neill A.",
+                "Rich A."
+            ],
+            "date": "1999",
+            "title": "Specific mutations in a viral RNA pseudoknot drastically change ribosomal frameshifting efficiency",
+            "links": []
+        },
+        {
+            "label": "(24).",
+            "authors": [
+                "Mouzakis K. D.",
+                "Lang A. L.",
+                "Vander Meulen K. A.",
+                "Easterday P. D.",
+                "Butcher S. E."
+            ],
+            "date": "2013",
+            "title": "HIV-1 frameshift efficiency is primarily determined by the stability of base pairs positioned at the mRNA entrance channel of the ribosome",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1093/nar/gks1254&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=23248007&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000316351800050&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(25).",
+            "authors": [
+                "Napthine S.",
+                "Liphardt J.",
+                "Bloys A.",
+                "Routledge S.",
+                "Brierley I."
+            ],
+            "date": "1999",
+            "title": "The role of RNA pseudoknot stem 1 length in the promotion of efficient -1 ribosomal frameshifting",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1006/jmbi.1999.2688&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10329144&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000080204600002&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(26).",
+            "authors": [
+                "Kontos H.",
+                "Napthine S.",
+                "Brierley I."
+            ],
+            "date": "2001",
+            "title": "Ribosomal pausing at a frameshifter RNA pseudo-knot is sensitive to reading phase but shows little correlation with frameshift efficiency",
+            "links": [
+                [
+                    "Abstract/FREE Full Text",
+                    "/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6MzoibWNiIjtzOjU6InJlc2lkIjtzOjEwOiIyMS8yNC84NjU3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTYvMDQvMTUvMDQ4ODAxLmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+                ]
+            ]
+        },
+        {
+            "label": "(27).",
+            "authors": [
+                "Belew A. T.",
+                "Meskauskas A.",
+                "Musalgaonkar S.",
+                "Advani V. M.",
+                "Sulima S. O.",
+                "Kasprzak W. K.",
+                "Shapiro B. A.",
+                "Dinman J. D."
+            ],
+            "date": "2014",
+            "title": "Ribosomal frameshifting in the CCR5 mRNA is regulated by miRNAs and the NMD pathway",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1038/nature13429&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25043019&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000340508200025&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(28).",
+            "authors": [
+                "Li Y.",
+                "Treffers E. E.",
+                "Napthine S.",
+                "Tas A.",
+                "Zhu L.",
+                "Sun Z.",
+                "Bell S.",
+                "Mark B. L.",
+                "van Veelen P. A.",
+                "van Hemert M. J.",
+                "Firthe A. E.",
+                "Brierleye I.",
+                "Snijderc E. J.",
+                "Fang Y."
+            ],
+            "date": "2014",
+            "title": "Transactivation of programmed ribosomal frameshifting by a viral protein",
+            "links": []
+        },
+        {
+            "label": "(29).",
+            "authors": [
+                "Tionoco I.",
+                "Bustamante C."
+            ],
+            "date": "2002",
+            "title": "The effect of force on thermodynamics and kinetics of single molecule reactions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0301-4622(02)00177-1&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=12488024&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(30).",
+            "authors": [
+                "Nixon P. L.",
+                "Giedroc D. P."
+            ],
+            "date": "2000",
+            "title": "Energetics of a strongly pH dependent RNA tertiary structure in a frameshifting pseudoknot",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1006/jmbi.1999.3464&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=10669615&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000085698900026&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(31).",
+            "authors": [
+                "Soto A. M.",
+                "Misra V.",
+                "Draper D. E."
+            ],
+            "date": "2007",
+            "title": "Tertiary structure of an RNA pseudoknot is stabilized by \u201cdiffuse\u201d Mg2+ ions",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/bi0616753&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=17315982&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000244854800007&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(32).",
+            "authors": [
+                "Su L.",
+                "Chen L.",
+                "Egli M.",
+                "Berger J. M.",
+                "Rich A."
+            ],
+            "date": "1999",
+            "title": "Minor groove RNA triplex in the crystal structure of a ribosomal frameshifting viral pseudoknot",
+            "links": []
+        },
+        {
+            "label": "(33).",
+            "authors": [
+                "Tan Z.-J.",
+                "Chen S.-J."
+            ],
+            "date": "2011",
+            "title": "Salt contribution to RNA tertiary structure folding stability",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bpj.2011.05.050&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=21723828&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000292571700021&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(34).",
+            "authors": [
+                "Hyeon C",
+                "Thirumalai D."
+            ],
+            "date": "2005",
+            "title": "Mechanical unfolding of RNA hairpins",
+            "links": []
+        },
+        {
+            "label": "(35).",
+            "authors": [
+                "Anderson C. F.",
+                "Record M. T."
+            ],
+            "date": "1993",
+            "title": "Salt dependence of oligoion-polyion binding: a thermodynamic description based on preferential interaction coefficients",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/j100129a032&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1993LV57800032&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(36).",
+            "authors": [
+                "Liu T.",
+                "Kaplan A.",
+                "Alexander L.",
+                "Yan S.",
+                "Wen J.-D.",
+                "Lancaster L.",
+                "Wicker-sham C. E.",
+                "Fredrick K.",
+                "Noller H.",
+                "Tinoco I.",
+                "Bustamante C. J."
+            ],
+            "date": "2014",
+            "title": "Direct measurement of the mechanical work during translocation by the ribosome",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.7554/eLife.03406&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=25114092&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(37).",
+            "authors": [
+                "Denesyuk N. A.",
+                "Thirumalai D."
+            ],
+            "date": "2013",
+            "title": "Coarse-grained model for predicting RNA folding thermodynamics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/jp401087x&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "(38).",
+            "authors": [
+                "Cho S. S.",
+                "Pincus D. L.",
+                "Thirumalai D."
+            ],
+            "date": "2009",
+            "title": "Assembly mechanisms of RNA pseudoknots are determined by the stabilities of constituent secondary structures",
+            "links": []
+        },
+        {
+            "label": "(39).",
+            "authors": [
+                "Bond J. P.",
+                "Anderson C. F.",
+                "Record M. T."
+            ],
+            "date": "1994",
+            "title": "Conformational transitions of duplex and triplex nucleic acid helices: thermodynamic analysis of effects of salt concentration on stability using preferential interaction coefficients",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0006-3495(94)80542-9&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=7948695&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1994NY82300035&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(40).",
+            "authors": [
+                "Record M. T.",
+                "Zhang W.",
+                "Anderson C. F."
+            ],
+            "date": "1998",
+            "title": "Analysis of effects of salts and uncharged solutes on protein and nucleic acid equilibria and processes: a practical guide to recognizing and interpreting polyelectrolyte effects, Hofmeister effects, and osmotic effects of salts",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0065-3233(08)60655-5&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=9615173&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000074625600006&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(41).",
+            "authors": [
+                "Dittmore A.",
+                "Landy J.",
+                "Molzon A. A.",
+                "Saleh O. A."
+            ],
+            "date": "2014",
+            "title": "Single-Molecule Methods for Ligand Counting: Linking Ion Uptake to DNA Hairpin Folding",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/ja500094z&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24694039&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(42).",
+            "authors": [
+                "Biyun S.",
+                "Cho S. S.",
+                "Thirumalai D."
+            ],
+            "date": "2011",
+            "title": "Folding of human telomerase RNA pseudoknot using ion-jump and temperature-quench simulations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/ja2092823&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=22082261&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000298713600086&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(43).",
+            "authors": [
+                "Lin J.-C",
+                "Thirumalai D."
+            ],
+            "date": "2013",
+            "title": "Kinetics of allosteric transitions in S-adenosylmethionine riboswitch are accurately predicted from the folding landscape",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1021/ja408595e&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=24087850&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ]
+            ]
+        },
+        {
+            "label": "(44).",
+            "authors": [
+                "Denesyuk N. A.",
+                "Thirumalai D."
+            ],
+            "date": "2015",
+            "title": "How do metal ions direct ribozyme folding",
+            "links": []
+        },
+        {
+            "label": "(45).",
+            "authors": [
+                "Malmberg C. G.",
+                "Maryott A. A."
+            ],
+            "date": "1956",
+            "title": "Dielectric Constant of Water from 0\u00b0 to 100\u00b0",
+            "links": []
+        },
+        {
+            "label": "(46).",
+            "authors": [
+                "Heilman-Miller S. L.",
+                "Thirumalai D.",
+                "Woodson S. A."
+            ],
+            "date": "2001",
+            "title": "Role of counterion condensation in folding of the Tetrahymena ribozyme. I. Equilibrium stabilization by cations",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1006/jmbi.2001.4437&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11237624&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000167502500018&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(47).",
+            "authors": [
+                "Hayes R. L.",
+                "Noel J. K.",
+                "Whitford P. C",
+                "Mohanty U.",
+                "Sanbonmatsu K. Y.",
+                "Onuchic J. N."
+            ],
+            "date": "2014",
+            "title": "Reduced model captures Mg2+\u2013RNA interaction free energy of ri-boswitches",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/j.bpj.2014.01.042&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "(48).",
+            "authors": [
+                "Hayes R. L.",
+                "Noel J. K.",
+                "Mandic A.",
+                "Whitford P. C.",
+                "Sanbonmatsu K. Y.",
+                "Mo-hanty U.",
+                "Onuchic J. N."
+            ],
+            "date": "2015",
+            "title": "Generalized Manning condensation model captures the RNA ion atmosphere",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1103/PhysRevLett.114.258105&link_type=DOI"
+                ]
+            ]
+        },
+        {
+            "label": "(49).",
+            "authors": [
+                "Heilman-Miller S. L.",
+                "Pan J.",
+                "Thirumalai D.",
+                "Woodson S. A."
+            ],
+            "date": "2001",
+            "title": "Role of counterion condensation in folding of the Tetrahymena ribozyme II. Counterion-dependence of folding kinetics",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1006/jmbi.2001.4660&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=11491301&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000169034800005&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(50).",
+            "authors": [
+                "Manning G."
+            ],
+            "date": "1969",
+            "title": "Limiting Laws and Counterion Condensation in Polyelectrolyte Solutions I. Colligative Properties",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1063/1.1672157&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1969E072600009&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(51).",
+            "authors": [
+                "Honeycutt J. D.",
+                "Thirumalai D."
+            ],
+            "date": "1992",
+            "title": "The nature of folded states of globular proteins",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1002/bip.360320610&link_type=DOI"
+                ],
+                [
+                    "PubMed",
+                    "/lookup/external-ref?access_num=1643270&link_type=MED&atom=%2Fbiorxiv%2Fearly%2F2016%2F04%2F15%2F048801.atom"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=A1992HU92400009&link_type=ISI"
+                ]
+            ]
+        },
+        {
+            "label": "(52).",
+            "authors": [
+                "Sugita Y.",
+                "Okamoto Y."
+            ],
+            "date": "1999",
+            "title": "Replica-exchange molecular dynamics method for protein folding",
+            "links": [
+                [
+                    "CrossRef",
+                    "/lookup/external-ref?access_num=10.1016/S0009-2614(99)01123-9&link_type=DOI"
+                ],
+                [
+                    "Web of Science",
+                    "/lookup/external-ref?access_num=000083955300022&link_type=ISI"
+                ]
+            ]
+        }
+    ]
+}

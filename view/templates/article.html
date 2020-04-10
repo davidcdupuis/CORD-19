@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <style type="text/css">
+      .article {
+        width: 100%;
+      }
+      .section {
+        border-top: 3px solid black;
+        width: 100%;
+      }
+      #title {
+        text-align: center;
+      }
+      #id{
+        text-align: center;
+        font-style: italic;
+      }
+
+      .section td {
+        text-align: left;
+      }
+
+      .subtitle {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="article">
+      <tr>
+        <td id="title"> <h1> {{ title }} </h1> </td>
+      </tr>
+      <tr>
+        <td id="date"> {{ date }} </td>
+      </tr>
+      <tr>
+        <td> {{ %include 'authors.html' }} </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="section">
+            <tr>
+              <td> <h2>Table Section Title <h2> </td>
+            </tr>
+            <tr>
+              <td> Paragraph 1 </td>
+            </tr>
+            <tr>
+              <td> Paragraph 2 </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="section">
+            <tr>
+              <td> <h2> Table Section Title </h2></td>
+            </tr>
+            <tr>
+              <td> Paragraph 1 </td>
+            </tr>
+            <tr>
+              <td class="subtitle"> Subsection Title </td>
+            </tr>
+            <tr>
+              <td> sub-Paragraph 1 </td>
+            </tr>
+            <tr>
+              <td> sub-paragraph 2 </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="section">
+            <tr>
+              <td> <h2> Table Section Title </h2> </td>
+            </tr>
+            <tr>
+              <td> Paragraph 1 </td>
+            </tr>
+            <tr>
+              <td> Paragraph 2 </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="section">
+            <tr>
+              <td> <h2> Table Section Title </h2< </td>
+            </tr>
+            <tr>
+              <td> Paragraph 1 </td>
+            </tr>
+            <tr>
+              <td> Paragraph 2 </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td> </td>
+      </tr>
+  </body>
+</html>

@@ -16,39 +16,65 @@ def scrape_biorxiv(paper):
     paper = dict(chain(paper.items(),paper_webdata.items()))
     return paper
 
-def biorxiv_html_paper_data_extractor(soup):
+def get_biorxiv_authors(authors_html):
+    ''' HTML list of authors
     '''
-        Extract paper information from html webpage of biorxiv
-    '''
-    paper = {}
-    paper['title'] = soup.h1.text
-
-    # paper authors
     authors = []
-    for author in soup.find('span',attrs={'class':'highwire-citation-authors'}).find_all('span',attrs={'class':'highwire-citation-author'}):
-        author = author.find('span',attrs={'class':'nlm-given-names'}).text + ' ' + author.find('span',attrs={'class':'nlm-surname'}).text
-        authors.append(author)
-    #print(authors)
-    paper['authors'] = authors
+    for author in authors_html:
+        try:
+            given_name = author.find('span',attrs={'class':'nlm-given-names'}).text
+        except:
+            given_name = ''
+        try:
+            surname = author.find('span',attrs={'class':'nlm-surname'}).text
+        except:
+            surname = ''
+        authors.append(given_name + ' ' + surname)
+    return authors
 
-    sections = {}
-    for section in soup.find_all('div',attrs={'class':'section'}):
-        section_header = section.find('h2')
-        if section_header:
-            section_name = section_header.text
+def process_paragraph(paragraph):
+    ''' Removes and modifies html tags in paragraphs
+    '''
+    for anchor in paragraph.find_all('a'):
+        anchor.replace_with('[' + anchor['href'].strip('#') + ',' + anchor.text + ']')
+    return paragraph.text
 
-        if section_header and section_name != 'References' and section_name != 'Acknowledgments':
-            #print(section_name)
-            sections[section_name] = ''
-            for p in section.find_all('p'):
-                sections[section_name] += p.text + '\n'
-            #print(sections[section_name])
-            #print()
-    paper['sections'] = sections
+def explore_section(root_tag):
+    '''Recursively explore section and all subsections for content
+    '''
+    content = {}
+    content['title'] = ''
+    content['content'] = []
+    for child in root_tag.findChildren(recursive=False):
+        if child.name == 'h2' or child.name == 'h3' or child.name == 'h4':
+            content['title'] = child.text
+        elif child.name == 'p':
+            content['content'].append(process_paragraph(child))
+        if child.name == 'div':
+            if 'class' in child.attrs:
+                if 'subsection' in child['class']:
+                    # if subsection explore recursively
+                    content['content'].append(explore_section(child))
+            elif 'id' in child.attrs.keys():
+                if 'T' in child['id']:
+                    content.append({'id':child['id'],'type':'table'})
+                elif 'F' in child['id']:
+                    content.append({'id':child['id'],'type':'figure'})
+    else:
+        return content
 
-    # get tables
+def get_biorxiv_sections(sections_html):
+    '''
+    '''
+    sections = []
+    for section in sections_html:
+        # ignore references
+        if 'ref-list' not in section.attrs['class'] :
+            sections.append(explore_section(section))
+    return sections
+
+def get_biorxiv_tables(html_tables):
     tables = []
-    html_tables = soup.find_all('div',attrs={'class':'table'})
     for html_table in html_tables:
         table = {}
         table['id'] = html_table['id']
@@ -66,13 +92,11 @@ def biorxiv_html_paper_data_extractor(soup):
             table['description'] += p.text + '\n'
         table['image'] = None
         tables.append(table)
+    return tables
 
-    paper['tables'] = tables
-
-    # get figures
+def get_biorxiv_figures(figures_html):
     figures = []
-    html_figures = soup.find_all('div',attrs={'class':'fig'})
-    for html_figure in html_figures:
+    for html_figure in figures_html:
         figure = {}
 
         figure_label = html_figure.find('span',attrs={'class':'fig-label'})
@@ -91,12 +115,14 @@ def biorxiv_html_paper_data_extractor(soup):
         figure_img = html_figure.find('img')
         if figure_img:
             figure['img'] = figure_img['data-src']
+    return figures
 
-    paper['figures'] = figures
-
-    # getting references data
+def get_biorxiv_references(references_html):
+    ''' HTML list of references
+    soup.find('div',attrs={'class':'section ref-list'}).find_all('li')
+    '''
     references = []
-    for ref in soup.find('div',attrs={'class':'section ref-list'}).find_all('li'):
+    for ref in references_html:
         reference = {}
         # label
         try:
@@ -142,10 +168,36 @@ def biorxiv_html_paper_data_extractor(soup):
         except:
             reference['links'] = ref_links
         references.append(reference)
-    paper['references'] = references
-    #print(references)
-    return paper
+    return references
 
+def biorxiv_html_paper_data_extractor(soup):
+    '''
+        Extract paper information from html webpage of biorxiv
+    '''
+    paper = {}
+    paper['title'] = soup.h1.text
+
+    authors_html = soup.find('span',attrs={'class':'highwire-citation-authors'}) \
+                       .find_all('span',attrs={'class':'highwire-citation-author'})
+    paper['authors'] = get_biorxiv_authors(authors_html)
+
+    sections_html = soup.find_all('div',attrs={'class':'section'})
+    paper['sections'] = get_biorxiv_sections(sections_html)
+
+    tables_html = soup.find_all('div',attrs={'class':'table'})
+    paper['tables'] = get_biorxiv_tables(tables_html)
+
+    # get figures
+    figures_html = soup.find_all('div',attrs={'class':'fig'})
+
+
+    paper['figures'] = get_biorxiv_figures(figures_html)
+
+    # get references
+    references_html = soup.find('div',attrs={'class':'section ref-list'}).find_all('li')
+    paper['references'] = get_biorxiv_references(references_html)
+
+    return paper
 
 if __name__ == "__main__":
     source = 'biorxiv'
